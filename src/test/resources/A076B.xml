@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Row >
+	    <userName>T45</userName>
+        <passWord>T45</passWord>
+        <currencyCode>DAJ</currencyCode>
+        <currencyCode>DAI</currencyCode>
+        
+        <documentCodeRR>RR</documentCodeRR>
+        <documentCodeRR>Stock Replen.Req. Auto Type 6</documentCodeRR>
+        <documentCodeRR>Requisition</documentCodeRR>
+        <documentCodeRR>REPL</documentCodeRR>
+        <documentCodeRR>REPL</documentCodeRR>
+        <documentCodeRR>REPL</documentCodeRR>
+        <documentCodeRR>0</documentCodeRR>
+        <documentCodeRR>0</documentCodeRR>
+        <documentCodeRR>0</documentCodeRR>
+        <documentCodeRR>0</documentCodeRR>
+        <documentCodeRR>RQ</documentCodeRR>
+        <documentCodeRR>Optional</documentCodeRR>
+        <documentCodeRR>Company</documentCodeRR>
+        <documentCodeRR>9999999999999.99</documentCodeRR>
+        <documentCodeRR>0</documentCodeRR>
+        <documentCodeRR>Generated Repl Req</documentCodeRR>
+        <documentCodeRR>0</documentCodeRR>
+        <documentCodeRR>0</documentCodeRR>
+        <documentCodeRR>NILL</documentCodeRR>
+        <documentCodeRR>NILL</documentCodeRR>
+        
+        <documentCodeRi>RI</documentCodeRi>
+        <documentCodeRi>Requisition RI Type '0'</documentCodeRi>
+        <documentCodeRi>Requisition</documentCodeRi>
+        <documentCodeRi>NILL</documentCodeRi>
+        <documentCodeRi>NILL</documentCodeRi>
+        <documentCodeRi>NILL</documentCodeRi>
+        <documentCodeRi>0</documentCodeRi>
+        <documentCodeRi>0</documentCodeRi>
+        <documentCodeRi>2</documentCodeRi>
+        <documentCodeRi>0</documentCodeRi>
+        <documentCodeRi>RQ</documentCodeRi>
+        <documentCodeRi>Optional</documentCodeRi>
+        <documentCodeRi>Company</documentCodeRi>
+        <documentCodeRi>9999999999999.99</documentCodeRi>
+        <documentCodeRi>0</documentCodeRi>
+        <documentCodeRi>Non Stock Req</documentCodeRi>
+        <documentCodeRi>0</documentCodeRi>
+        <documentCodeRi>0</documentCodeRi>
+        <documentCodeRi>NILL</documentCodeRi>
+        <documentCodeRi>NILL</documentCodeRi>
+               
+        <documentCodeRT>RT</documentCodeRT>
+        <documentCodeRT>Requisition RI Type '0'</documentCodeRT>
+        <documentCodeRT>Requisition</documentCodeRT>
+        <documentCodeRT>NILL</documentCodeRT>
+        <documentCodeRT>NILL</documentCodeRT>
+        <documentCodeRT>NILL</documentCodeRT>
+        <documentCodeRT>0</documentCodeRT>
+        <documentCodeRT>0</documentCodeRT>
+        <documentCodeRT>0</documentCodeRT>
+        <documentCodeRT>0</documentCodeRT>
+        <documentCodeRT>RQ</documentCodeRT>
+        <documentCodeRT>Optional</documentCodeRT>
+        <documentCodeRT>Company</documentCodeRT>
+        <documentCodeRT>9999999999999.99</documentCodeRT>
+        <documentCodeRT>0</documentCodeRT>
+        <documentCodeRT>Purchase Req</documentCodeRT>
+        <documentCodeRT>0</documentCodeRT>
+        <documentCodeRT>0</documentCodeRT>
+        <documentCodeRT>NILL</documentCodeRT>
+        <documentCodeRT>NILL</documentCodeRT>
+          
+        <documentCodeSR>SR</documentCodeSR>
+        <documentCodeSR>Stock Purchase Req. Type 4 Auto</documentCodeSR>
+        <documentCodeSR>Requisition</documentCodeSR>
+        <documentCodeSR>STOCK</documentCodeSR>
+        <documentCodeSR>STOCK</documentCodeSR>
+        <documentCodeSR>STOCK</documentCodeSR>
+        <documentCodeSR>0</documentCodeSR>
+        <documentCodeSR>0</documentCodeSR>
+        <documentCodeSR>0</documentCodeSR>
+        <documentCodeSR>0</documentCodeSR>
+        <documentCodeSR>RQ</documentCodeSR>
+        <documentCodeSR>Optional</documentCodeSR>
+        <documentCodeSR>Company</documentCodeSR>
+        <documentCodeSR>9999999999999.99</documentCodeSR>
+        <documentCodeSR>0</documentCodeSR>
+        <documentCodeSR>System Generated</documentCodeSR>
+        <documentCodeSR>0</documentCodeSR>
+        <documentCodeSR>0</documentCodeSR>
+        <documentCodeSR>NILL</documentCodeSR>
+        <documentCodeSR>NILL</documentCodeSR>
+        
+        <documentCodeTR>TR</documentCodeTR>
+        <documentCodeTR>Stores Req. Type 2</documentCodeTR>
+        <documentCodeTR>Requisition</documentCodeTR>
+        <documentCodeTR>STOCK</documentCodeTR>
+        <documentCodeTR>STOCK</documentCodeTR>
+        <documentCodeTR>STOCK</documentCodeTR>
+        <documentCodeTR>0</documentCodeTR>
+        <documentCodeTR>0</documentCodeTR>
+        <documentCodeTR>0</documentCodeTR>
+        <documentCodeTR>0</documentCodeTR>
+        <documentCodeTR>RQ</documentCodeTR>
+        <documentCodeTR>Optional</documentCodeTR>
+        <documentCodeTR>Company</documentCodeTR>
+        <documentCodeTR>9999999999999.99</documentCodeTR>
+        <documentCodeTR>0</documentCodeTR>
+        <documentCodeTR>Demand on Store</documentCodeTR>
+        <documentCodeTR>0</documentCodeTR>
+        <documentCodeTR>0</documentCodeTR>
+        <documentCodeTR>NILL</documentCodeTR>
+        <documentCodeTR>NILL</documentCodeTR>
+    
+    </Row>
+	
+</Root>

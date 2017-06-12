@@ -1,0 +1,287 @@
+<html>
+<head>
+<title>TestNG:  suite5</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>suite5</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 05 10:24:41 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>567 seconds (567967 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A014_Account_Code_DefinitionTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A014_Account_Code_DefinitionTest<br>Parameters: [DataUnit [userName = T84], DataUnit [passWord = T84], DataUnit [code = AKA], DataUnit [accountDefinition = A], DataUnit [accountCodeList = A], DataUnit [accountCodeList = 8], DataUnit [accountCodeList = Account Code], DataUnit [accountCodeList = ], DataUnit [accountCodeList = ], DataUnit [accountCodeList = ], DataUnit [accountCodeList = Account], DataUnit [accountCodeList = 7], DataUnit [costList = B], DataUnit [costList = 4], DataUnit [costList = Costcentre], DataUnit [costList = A], DataUnit [costList = ], DataUnit [costList = Y], DataUnit [costList = Cost], DataUnit [costList = 4], DataUnit [location = C], DataUnit [location = 4], DataUnit [location = Location], DataUnit [location = A], DataUnit [location = ], DataUnit [location = ], DataUnit [location = Locn], DataUnit [location = 4], DataUnit [product = 0], DataUnit [product = 12], DataUnit [product = Product], DataUnit [product = ], DataUnit [product = Y], DataUnit [product = Y], DataUnit [product = Product], DataUnit [product = 8]]</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//html//body//div[2]//div[2]/div/div[2]/div/div[2]&quot;}
+Command duration or timeout: 64.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;AI-LT500&apos;, ip: &apos;192.168.30.181&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: f19c04e5-5974-4e94-a8be-bb5e914fe16b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0.1}]
+Command duration or timeout: 66.35 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;Draxayani-PC&apos;, ip: &apos;192.168.30.61&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: 8db7ee45-7fbe-4cfb-996e-389b7850c450
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=8db7ee45-7fbe-4cfb-996e-389b7850c450, version=27.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.getSecondHeader(CurrencyPage.java:130)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.getTableHeader(CurrencyPage.java:140)
+	at com.adv.qa.selenium.tests.currency.A014_Account_Code_DefinitionTest.verify(A014_Account_Code_DefinitionTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;Draxayani-PC&apos;, ip: &apos;192.168.30.61&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:125)
+	... 26 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//html//body//div[2]//div[2]/div/div[2]/div/div[2]&quot;}
+Command duration or timeout: 64.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;AI-LT500&apos;, ip: &apos;192.168.30.181&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: f19c04e5-5974-4e94-a8be-bb5e914fe16b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0.1}]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;Draxayani-PC&apos;, ip: &apos;192.168.30.61&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	... 3 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace856504429", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace856504429'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//html//body//div[2]//div[2]/div/div[2]/div/div[2]&quot;}
+Command duration or timeout: 64.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;AI-LT500&apos;, ip: &apos;192.168.30.181&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: f19c04e5-5974-4e94-a8be-bb5e914fe16b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0.1}]
+Command duration or timeout: 66.35 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;Draxayani-PC&apos;, ip: &apos;192.168.30.61&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: 8db7ee45-7fbe-4cfb-996e-389b7850c450
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=8db7ee45-7fbe-4cfb-996e-389b7850c450, version=27.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.getSecondHeader(CurrencyPage.java:130)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.getTableHeader(CurrencyPage.java:140)
+	at com.adv.qa.selenium.tests.currency.A014_Account_Code_DefinitionTest.verify(A014_Account_Code_DefinitionTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;Draxayani-PC&apos;, ip: &apos;192.168.30.61&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:125)
+	... 26 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//html//body//div[2]//div[2]/div/div[2]/div/div[2]&quot;}
+Command duration or timeout: 64.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;AI-LT500&apos;, ip: &apos;192.168.30.181&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: f19c04e5-5974-4e94-a8be-bb5e914fe16b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0.1}]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;Draxayani-PC&apos;, ip: &apos;192.168.30.61&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	... 3 more
+</pre></div></td>
+<td>81</td>
+<td>com.adv.qa.selenium.tests.currency.A014_Account_Code_DefinitionTest@4348853d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A013_Fiscal_CalendarTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A013_Fiscal_CalendarTest<br>Parameters: [DataUnit [userName = T84], DataUnit [passWord = T84], DataUnit [code = API], DataUnit [calendar = HCFISCAL], DataUnit [calendar = AC FISCAL CALENDAR], DataUnit [calendar = 02], DataUnit [calendar = Sunday], DataUnit [calendar = LEVEL 0], DataUnit [calendar = level 0], DataUnit [calendar = IMMNTH], DataUnit [year96 = 1996], DataUnit [year96 = 96], DataUnit [year96 = 01-Jan-1996], DataUnit [year96 = 31-Dec-1996], DataUnit [year97 = 1997], DataUnit [year97 = 97], DataUnit [year97 = 01-Jan-1997], DataUnit [year97 = 31-Dec-1997], DataUnit [year98 = 1998], DataUnit [year98 = 98], DataUnit [year98 = 01-Jan-1998], DataUnit [year98 = 31-Dec-1998], DataUnit [year99 = 1999], DataUnit [year99 = 99], DataUnit [year99 = 01-Jan-1999], DataUnit [year99 = 31-Dec-1999], DataUnit [year2000 = 2000], DataUnit [year2000 = 2000], DataUnit [year2000 = 01-Jan-2000], DataUnit [year2000 = 31-Dec-2000], DataUnit [year2001 = 2001], DataUnit [year2001 = 2001], DataUnit [year2001 = 01-Jan-2001], DataUnit [year2001 = 31-Dec-2001], DataUnit [year2002 = 2002], DataUnit [year2002 = 2002], DataUnit [year2002 = 01-Jan-2002], DataUnit [year2002 = 31-Dec-2002], DataUnit [year2003 = 2003], DataUnit [year2003 = 2003], DataUnit [year2003 = 01-Jan-2003], DataUnit [year2003 = 31-Dec-2003], DataUnit [year2004 = 2004], DataUnit [year2004 = 2004], DataUnit [year2004 = 01-Jan-2004], DataUnit [year2004 = 31-Dec-2004], DataUnit [year2005 = 2005], DataUnit [year2005 = 2005], DataUnit [year2005 = 01-Jan-2005], DataUnit [year2005 = 31-Dec-2005], DataUnit [year2006 = 2006], DataUnit [year2006 = 2006], DataUnit [year2006 = 01-Jan-2006], DataUnit [year2006 = 31-Dec-2006], DataUnit [year2007 = 2007], DataUnit [year2007 = 2007], DataUnit [year2007 = 01-Jan-2007], DataUnit [year2007 = 31-Dec-2007], DataUnit [year2008 = 2008], DataUnit [year2008 = 2008], DataUnit [year2008 = 01-Jan-2008], DataUnit [year2008 = 31-Dec-2008], DataUnit [year2009 = 2009], DataUnit [year2009 = 2009], DataUnit [year2009 = 01-Jan-2009], DataUnit [year2009 = 31-Dec-2009], DataUnit [year2010 = 2010], DataUnit [year2010 = 2010], DataUnit [year2010 = 01-Jan-2010], DataUnit [year2010 = 31-Dec-2010], DataUnit [year2011 = 2011], DataUnit [year2011 = 2011], DataUnit [year2011 = 01-Jan-2011], DataUnit [year2011 = 31-Dec-2011], DataUnit [year2012 = 2012], DataUnit [year2012 = 2012], DataUnit [year2012 = 01-Jan-2012], DataUnit [year2012 = 31-Dec-2012], DataUnit [year2013 = 2013], DataUnit [year2013 = 2013], DataUnit [year2013 = 01-Jan-2013], DataUnit [year2013 = 31-Dec-2013], DataUnit [year2014 = 2014], DataUnit [year2014 = 2014], DataUnit [year2014 = 01-Jan-2014], DataUnit [year2014 = 31-Dec-2014], DataUnit [year2015 = 2015], DataUnit [year2015 = 2015], DataUnit [year2015 = 01-Jan-2015], DataUnit [year2015 = 31-Dec-2015]]</td>
+<td></td>
+<td>59</td>
+<td>com.adv.qa.selenium.tests.currency.A013_Fiscal_CalendarTest@136fdd2d</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A012_CalendarsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A012_CalendarsTest<br>Parameters: [DataUnit [userName = T82], DataUnit [passWord = T82], DataUnit [code = APC], DataUnit [calendarActivity = DCDAY], DataUnit [calendarActivity = CO IM DAILY], DataUnit [calendarActivity = Daily], DataUnit [calendarActivity = 1], DataUnit [calendarActivity = 2], DataUnit [calendarActivity = day], DataUnit [calendarActivity = 3], DataUnit [calendarActivity = 4], DataUnit [calendarActivity = 5], DataUnit [calendarActivity = 6], DataUnit [calendarActivity = 7], DataUnit [calendarMonthActivity = DCMONTH], DataUnit [calendarMonthActivity = CO IM MONTHLY], DataUnit [calendarMonthActivity = Monthly], DataUnit [calendarMonthActivity = 31], DataUnit [calendarMonthActivity = Monday], DataUnit [calendarMonthActivity = month]]</td>
+<td></td>
+<td>98</td>
+<td>com.adv.qa.selenium.tests.currency.A012_CalendarsTest@7f4ced4e</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A015_BalanceSheetTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A015_BalanceSheetTest<br>Parameters: [DataUnit [userName = T85], DataUnit [passWord = T85], DataUnit [code = EAT], DataUnit [balanceSheetControl = N], DataUnit [balanceSheetControl = Normal B/S (N)]]</td>
+<td></td>
+<td>95</td>
+<td>com.adv.qa.selenium.tests.currency.A015_BalanceSheetTest@4e238a4d</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A011_UsersTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A011_UsersTest<br>Parameters: [DataUnit [userName = T91], DataUnit [passWord = T91], DataUnit [code = AFC], DataUnit [firstUser = QUERY], DataUnit [firstUser = QUERY], DataUnit [firstUser = QMAIN], DataUnit [firstUser = T8], DataUnit [firstUser = STD], DataUnit [firstUser = STD], DataUnit [firstUser = STD], DataUnit [firstUser = STD], DataUnit [firstUser = STD], DataUnit [firstUser = A1], DataUnit [firstUser = 00], DataUnit [secondUser = ADMIN], DataUnit [secondUser = QUERY], DataUnit [secondUser = Admin User], DataUnit [secondUser = T8], DataUnit [secondUser = STD], DataUnit [secondUser = STD], DataUnit [secondUser = STD], DataUnit [secondUser = STD], DataUnit [secondUser = STD], DataUnit [secondUser = A1], DataUnit [secondUser = 00], DataUnit [thirdUser = MANAGER], DataUnit [thirdUser = MANAGER], DataUnit [thirdUser = QMAIN], DataUnit [thirdUser = T8], DataUnit [thirdUser = STD], DataUnit [thirdUser = STD], DataUnit [thirdUser = STD], DataUnit [thirdUser = STD], DataUnit [thirdUser = STD], DataUnit [thirdUser = A1], DataUnit [thirdUser = 00], DataUnit [fourthUser = EMPLOYEE], DataUnit [fourthUser = Employee], DataUnit [fourthUser = QMAIN], DataUnit [fourthUser = T8], DataUnit [fourthUser = STD], DataUnit [fourthUser = STD], DataUnit [fourthUser = STD], DataUnit [fourthUser = STD], DataUnit [fourthUser = STD], DataUnit [fourthUser = A1], DataUnit [fourthUser = 00], DataUnit [fifthUser = BM], DataUnit [fifthUser = BM TEST], DataUnit [fifthUser = QMAIN], DataUnit [fifthUser = T8], DataUnit [fifthUser = STD], DataUnit [fifthUser = STD], DataUnit [fifthUser = STD], DataUnit [fifthUser = STD], DataUnit [fifthUser = STD], DataUnit [fifthUser = A1], DataUnit [fifthUser = 00], DataUnit [sixthUser = BM1], DataUnit [sixthUser = BM1 TEST], DataUnit [sixthUser = QMAIN], DataUnit [sixthUser = T8], DataUnit [sixthUser = STD], DataUnit [sixthUser = STD], DataUnit [sixthUser = STD], DataUnit [sixthUser = STD], DataUnit [sixthUser = STD], DataUnit [sixthUser = A1], DataUnit [sixthUser = 00], DataUnit [userBuyer = BUYER], DataUnit [userBuyer = BUYER], DataUnit [userBuyer = QMAIN], DataUnit [userBuyer = T8], DataUnit [userBuyer = STD], DataUnit [userBuyer = STD], DataUnit [userBuyer = STD], DataUnit [userBuyer = STD], DataUnit [userBuyer = STD], DataUnit [userBuyer = A1], DataUnit [userBuyer = 00], DataUnit [userEXPED = EXPED], DataUnit [userEXPED = EXPED], DataUnit [userEXPED = QMAIN], DataUnit [userEXPED = T8], DataUnit [userEXPED = STD], DataUnit [userEXPED = STD], DataUnit [userEXPED = STD], DataUnit [userEXPED = STD], DataUnit [userEXPED = STD], DataUnit [userEXPED = A1], DataUnit [userEXPED = 00], DataUnit [userGREC = GREE], DataUnit [userGREC = GREC], DataUnit [userGREC = QMAIN], DataUnit [userGREC = T8], DataUnit [userGREC = STD], DataUnit [userGREC = STD], DataUnit [userGREC = STD], DataUnit [userGREC = STD], DataUnit [userGREC = STD], DataUnit [userGREC = A1], DataUnit [userGREC = 00]]</td>
+<td></td>
+<td>533</td>
+<td>com.adv.qa.selenium.tests.currency.A011_UsersTest@64e05280</td></tr>
+</table><p>
+</body>
+</html>

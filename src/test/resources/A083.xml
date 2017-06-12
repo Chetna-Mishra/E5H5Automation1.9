@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+		<Row>
+	    <userName>T86</userName>
+        <passWord>T86</passWord>
+        <currencyCode>GOS</currencyCode>      
+        
+        <values>S1</values>
+        
+		<apStructureForQuery>S1</apStructureForQuery>
+		<apStructureForQuery>QUERY</apStructureForQuery>
+		<apStructureForQuery>NILL</apStructureForQuery>
+		<apStructureForQuery>9999</apStructureForQuery>
+        
+		<apStructureForManager>S1</apStructureForManager>
+		<apStructureForManager>MANAGER</apStructureForManager>
+		<apStructureForManager>QUERY</apStructureForManager>
+		<apStructureForManager>9000</apStructureForManager>
+		
+		<apStructureForAdmin>S1</apStructureForAdmin>
+		<apStructureForAdmin>ADMIN</apStructureForAdmin>
+		<apStructureForAdmin>MANAGER</apStructureForAdmin>
+		<apStructureForAdmin>7000</apStructureForAdmin>
+		
+		<apStructureForEmployee>S1</apStructureForEmployee>
+		<apStructureForEmployee>EMPLOYEE</apStructureForEmployee>
+		<apStructureForEmployee>ADMIN</apStructureForEmployee>
+		<apStructureForEmployee>1000</apStructureForEmployee>
+		
+		<apStructureForUser>S1</apStructureForUser>
+		<apStructureForUser>T63</apStructureForUser>
+		<apStructureForUser>MANAGER</apStructureForUser>
+		<apStructureForUser>8000</apStructureForUser>			
+	</Row>
+</Root>

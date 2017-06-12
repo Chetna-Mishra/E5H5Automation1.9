@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T84</userName>
+          	<passWord>T84</passWord>
+            <code>AKS</code>
+            
+         	<firstBalanceClass>S,1</firstBalanceClass>
+         	<firstBalanceClass>Statistical Default</firstBalanceClass>
+         	<firstBalanceClass>1</firstBalanceClass>
+         	<firstBalanceClass>0</firstBalanceClass>
+         	<firstBalanceClass>0</firstBalanceClass>
+         	<firstBalanceClass>0</firstBalanceClass>
+         	<firstBalanceClass>0</firstBalanceClass>
+         	<firstBalanceClass>0</firstBalanceClass>
+         	<firstBalanceClass>0</firstBalanceClass>
+         	<firstBalanceClass>0</firstBalanceClass>
+         	<firstBalanceClass>Not Active</firstBalanceClass>
+  	       	
+         	<secondBalanceClass>I,C</secondBalanceClass>
+         	<secondBalanceClass>ICA Balance Class</secondBalanceClass>
+         	<secondBalanceClass>0</secondBalanceClass>
+         	<secondBalanceClass>1</secondBalanceClass>
+         	<secondBalanceClass>0</secondBalanceClass>
+         	<secondBalanceClass>0</secondBalanceClass>
+         	<secondBalanceClass>0</secondBalanceClass>
+         	<secondBalanceClass>0</secondBalanceClass>
+         	<secondBalanceClass>0</secondBalanceClass>
+         	<secondBalanceClass>0</secondBalanceClass>
+         	<secondBalanceClass>Not Active</secondBalanceClass>
+         	
+         	<thirdBalanceClass>B,1</thirdBalanceClass>
+         	<thirdBalanceClass>Annual Budget</thirdBalanceClass>
+         	<thirdBalanceClass>0</thirdBalanceClass>
+         	<thirdBalanceClass>1</thirdBalanceClass>
+         	<thirdBalanceClass>0</thirdBalanceClass>
+         	<thirdBalanceClass>0</thirdBalanceClass>
+         	<thirdBalanceClass>0</thirdBalanceClass>
+         	<thirdBalanceClass>1</thirdBalanceClass>
+         	<thirdBalanceClass>0</thirdBalanceClass>
+         	<thirdBalanceClass>0</thirdBalanceClass>
+         	<thirdBalanceClass>Not Active</thirdBalanceClass>
+         	
+         	<fourthBalanceClass>V,1</fourthBalanceClass>
+         	<fourthBalanceClass>VAT  Analysis</fourthBalanceClass>
+         	<fourthBalanceClass>0</fourthBalanceClass>
+         	<fourthBalanceClass>0</fourthBalanceClass>
+         	<fourthBalanceClass>0</fourthBalanceClass>
+         	<fourthBalanceClass>0</fourthBalanceClass>
+         	<fourthBalanceClass>0</fourthBalanceClass>
+         	<fourthBalanceClass>0</fourthBalanceClass>
+         	<fourthBalanceClass>0</fourthBalanceClass>
+         	<fourthBalanceClass>1</fourthBalanceClass>
+         	<fourthBalanceClass>1</fourthBalanceClass>
+         	<fourthBalanceClass>Not Active</fourthBalanceClass>
+         	
+         	<BalanceClassForRS>R,S</BalanceClassForRS>
+         	<BalanceClassForRS>RS</BalanceClassForRS>
+         	<BalanceClassForRS>0</BalanceClassForRS>
+         	<BalanceClassForRS>1</BalanceClassForRS>
+         	<BalanceClassForRS>0</BalanceClassForRS>
+         	<BalanceClassForRS>0</BalanceClassForRS>
+         	<BalanceClassForRS>0</BalanceClassForRS>
+         	<BalanceClassForRS>1</BalanceClassForRS>
+         	<BalanceClassForRS>1</BalanceClassForRS>
+         	<BalanceClassForRS>1</BalanceClassForRS>
+         	<BalanceClassForRS>1</BalanceClassForRS>
+         	<BalanceClassForRS>Not Active</BalanceClassForRS>
+         	
+         	<BalanceClassForBR>B,S</BalanceClassForBR>
+         	<BalanceClassForBR>BR</BalanceClassForBR>
+         	<BalanceClassForBR>0</BalanceClassForBR>
+         	<BalanceClassForBR>1</BalanceClassForBR>
+         	<BalanceClassForBR>0</BalanceClassForBR>
+         	<BalanceClassForBR>0</BalanceClassForBR>
+         	<BalanceClassForBR>0</BalanceClassForBR>
+         	<BalanceClassForBR>1</BalanceClassForBR>
+         	<BalanceClassForBR>1</BalanceClassForBR>
+         	<BalanceClassForBR>1</BalanceClassForBR>
+         	<BalanceClassForBR>1</BalanceClassForBR>
+         	<BalanceClassForBR>Not Active</BalanceClassForBR>
+      </Row>
+</Root>

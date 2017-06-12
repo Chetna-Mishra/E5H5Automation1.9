@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row >
+	    <userName>T65</userName>
+        <passWord>T65</passWord>
+        <currencyCode>GOA</currencyCode>
+        
+		<authorisationCodeL0>L0</authorisationCodeL0>
+		<authorisationCodeL0>Level 0 - None</authorisationCodeL0>
+		<authorisationCodeL0>None</authorisationCodeL0>
+		<authorisationCodeL0>None</authorisationCodeL0>
+		<authorisationCodeL0>0</authorisationCodeL0>
+		<authorisationCodeL0>0.00</authorisationCodeL0>
+		<authorisationCodeL0>QUERY</authorisationCodeL0>
+		<authorisationCodeL0>0</authorisationCodeL0>
+		
+		<authorisationCodeL1>L1</authorisationCodeL1>
+		<authorisationCodeL1>Level 1 - Optional</authorisationCodeL1>
+		<authorisationCodeL1>Optional</authorisationCodeL1>
+		<authorisationCodeL1>Value</authorisationCodeL1>
+		<authorisationCodeL1>1</authorisationCodeL1>
+		<authorisationCodeL1>0.00</authorisationCodeL1>
+		<authorisationCodeL1>QUERY</authorisationCodeL1>
+		<authorisationCodeL1>0</authorisationCodeL1>
+		
+		<authorisationCodeL2>L2</authorisationCodeL2>
+		<authorisationCodeL2>Level 2 – Mandatory System</authorisationCodeL2>
+		<authorisationCodeL2>Fixed</authorisationCodeL2>
+		<authorisationCodeL2>GL Responsibility</authorisationCodeL2>
+		<authorisationCodeL2>2</authorisationCodeL2>
+		<authorisationCodeL2>0.00</authorisationCodeL2>
+		<authorisationCodeL2>QUERY</authorisationCodeL2>
+		<authorisationCodeL2>0</authorisationCodeL2>
+
+    </Row>
+	
+</Root>

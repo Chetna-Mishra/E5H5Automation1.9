@@ -1,0 +1,192 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" verbose="2" time-out="8000000" thread-count="1"  preserve-test-order="true">
+<!-- 
+	 @author : Draxayani
+	 Purpose : Batch execution of testcases from A043 - A091
+ -->    
+  
+ <test name="suite1" preserve-order="true" time-out="800000">
+    	<classes>
+       		  <class name="com.adv.qa.selenium.tests.currency.phase2.A043_Insert_Tax_CodesTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A044_TAX_Rates_by_Tax_CodesTest"/>
+   	 </classes>
+  </test>   
+  <test name="suite2" preserve-order="true" time-out="800000" parallel="classes" thread-count="4">
+    	<classes>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A045_BACS_CalendarTest"/>   
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A046_Bank_Account_Names_for_PurchasingTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A047_Accounts_Payable_Batch_TypesTest"/>          
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A048_UOMTest"/>            	 
+   	 	</classes>
+  </test>
+ 
+  <test name="suite3" preserve-order="true" time-out="800000">
+    	<classes>
+    	    <class name="com.adv.qa.selenium.tests.currency.phase2.A049_Common_Purchasing_Company_ControlsTest"/>
+    	</classes>
+  </test>   
+  
+  <test name="suite4" preserve-order="true" time-out="800000" parallel="classes" thread-count="2">
+    	<classes>  	    
+    	    <class name="com.adv.qa.selenium.tests.currency.phase2.A050_Accounts_Payable_Control_AccountsTest"/>
+    	   	<class name="com.adv.qa.selenium.tests.currency.phase2.A051A_Purchase_Ledger_Bank_CodesTest"/>         	 
+    	</classes>
+  </test> 
+  
+  <test name="suite5" preserve-order="true" time-out="800000" parallel="classes" thread-count="5">
+    	<classes>
+    	     <class name="com.adv.qa.selenium.tests.currency.phase2.A051_Purchase_Ledger_Bank_CodesTest"/>       	    
+		     <class name="com.adv.qa.selenium.tests.currency.phase2.A052_Tax_AccountsTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A053_Category_CodeTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A054_Discount_TermsTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A055_Settlement_TermsTest"/>             	    
+    	</classes>
+  </test> 
+     
+  <test name="suite6" preserve-order="true" time-out="800000">
+    	<classes>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A056_AP_Ledger_ControlsTest"/>             	  
+    	</classes>
+  </test> 
+  
+    <test name="suite7" preserve-order="true" time-out="800000" parallel="classes" thread-count="3">
+    	<classes>
+    	     <class name="com.adv.qa.selenium.tests.currency.phase2.A056A_System_Assigned_Batch_Numbers_In_AP"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A057_Legend_ControlsTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A058_Payment_MethodsTest"/>
+    	</classes>
+  </test>
+  
+   <test name="suite8" preserve-order="true" time-out="800000">
+    	<classes>  	     	                 	     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A059_Bank_Payment_MethodTest"/>
+    	</classes>
+  </test> 
+         
+  <test name="suite9" preserve-order="true" time-out="800000"  parallel="classes" thread-count="3">
+    	<classes>  	              	     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A060_Payment_CodesTest"/>      
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A061_Purchasing_Management_LocationsTest"/>     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A062_Tax_Handling_CodesTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A063_Standard_TextTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A064_PPV_Control_AccountTest"/>         	 
+    	</classes>
+  </test> 
+  
+  <test name="suite10" preserve-order="true" time-out="800000" parallel="classes" thread-count="2">
+    	<classes>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A065_CP_Company_ControlsTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A066_Accrual_Control_CodeTest"/>        
+    	</classes>
+  </test> 
+  
+    <test name="suite11" preserve-order="true" time-out="800000" >
+    	<classes>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A067_Purchasing_Management_Company_ControlsTest"/>         
+    	</classes>
+  </test>
+  
+  <test name="suite12" preserve-order="true" time-out="800000"  parallel="classes" thread-count="3">
+    	<classes>			 
+			 <class name="com.adv.qa.selenium.tests.currency.phase2.A068_Inspection_CodesTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A069_Disposal_CodeTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A070_Reason_CodesTest"/> 			
+    	</classes>
+  </test> 
+      
+  <test name="suite13" preserve-order="true" time-out="800000"  parallel="classes" thread-count="3">
+    	<classes>
+		 	<class name="com.adv.qa.selenium.tests.currency.phase2.A071_Document_PrefixCodesTest"/> 
+			<class name="com.adv.qa.selenium.tests.currency.phase2.A072_Common_Purchasing_UsersTest"/>   
+       		<class name="com.adv.qa.selenium.tests.currency.phase2.A073_Receipt_ControlTest"/> 
+        	<class name="com.adv.qa.selenium.tests.currency.phase2.A074_Automatic_Banking_CodeTest"/>       
+        	<class name="com.adv.qa.selenium.tests.currency.phase2.A075_Circulation_CodeTest"/>       			
+    	</classes>
+  </test> 
+    
+  <test name="suite14" preserve-order="true" time-out="800000"  parallel="classes" thread-count="2">
+    	<classes>       	     
+        	<class name="com.adv.qa.selenium.tests.currency.phase2.A075A_Circulation_CodeTest"/> 
+        	<class name="com.adv.qa.selenium.tests.currency.phase2.A075B_Circulation_CodeTest"/>     	    
+    	</classes>
+  </test>  
+   
+  <test name="suite15" preserve-order="true" time-out="800000"  parallel="classes" thread-count="2">
+    	<classes>
+	        <class name="com.adv.qa.selenium.tests.currency.phase2.A076_Document_CodesTest"/>     
+        	<class name="com.adv.qa.selenium.tests.currency.phase2.A076A_Document_CodesTest"/>   
+        	<class name="com.adv.qa.selenium.tests.currency.phase2.A076B_Document_CodesTest"/>         
+    	</classes>
+  </test> 
+  
+  <test name="suite16" preserve-order="true" time-out="800000">
+    	<classes>
+        	<class name="com.adv.qa.selenium.tests.currency.phase2.A077_CP_Company_ControlsTest"/>  
+    	</classes>
+  </test>
+  
+  <test name="suite17" preserve-order="true" time-out="800000" parallel="classes" thread-count="2">
+    	<classes>        	 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A078_Authorisation_Control_Codes_For_APTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A078A_Authorisation_Control_Codes_For_APTest"/> 
+    	</classes>
+  </test>
+  
+  <test name="suite18" preserve-order="true" time-out="800000" parallel="classes" thread-count="2">
+    	<classes>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A079_Authorisation_GroupsTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A080_Authorisation_Control_Codes_For_PMTest"/>
+    	</classes>
+  </test>
+  
+  <test name="suite19" preserve-order="true" time-out="800000"   parallel="classes" thread-count="3">
+    	<classes> 	     
+		  	 <class name="com.adv.qa.selenium.tests.currency.phase2.A081_Authorisation_Groupings_For_PMTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A081A_Authorisation_Groupings_For_PMTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A082_Authorisation_StructuresTest"/>                   
+    	</classes>
+  </test> 
+    
+  <test name="suite20" preserve-order="true" time-out="800000"   parallel="classes" thread-count="2">
+    	<classes>    	    
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A083_Structure_AuthorisersTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A083A_Structure_AuthorisersTest"/>        
+    	</classes>
+  </test> 
+  
+  <test name="suite21" preserve-order="true" time-out="800000">
+    	<classes>
+     	     <class name="com.adv.qa.selenium.tests.currency.phase2.A089_Amend_AP_Company_Controls_For_AuthorisationTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A084_Authorisation_Value_Levels_DefinitionTest"/>           	 
+    	</classes>
+  </test> 
+  
+  <test name="suite22" preserve-order="true" time-out="800000" parallel="classes" thread-count="2">
+    	<classes>
+    	    <class name="com.adv.qa.selenium.tests.currency.phase2.A085_Authorisation_By_Value_LevelTest"/> 
+        	<class name="com.adv.qa.selenium.tests.currency.phase2.A086_Authorisation_By_GL_ResponsibilityTest"/>  
+     	</classes>
+  </test> 
+   
+  <test name="suite23" preserve-order="true" time-out="800000">
+    	<classes>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A087_Authorisation_By_Level_Or_GL_ResponsibilityTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A087A_Authorisation_By_Level_Or_GL_ResponsibilityTest"/>
+    	</classes>
+  </test> 
+  
+  <test name="suite24" preserve-order="true" time-out="800000" parallel="classes" thread-count="2">
+    	<classes>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase2.A088_Authorisation_By_Val_Or_GL_ResponsibilityTest"/> 
+         	 <class name="com.adv.qa.selenium.tests.currency.phase2.A090_PM_Company_Controls_For_AuthorisationTest"/> 
+         	 
+    	</classes>
+  </test>   
+    <test name="suite25" preserve-order="true" time-out="800000" >
+    	<classes>
+         	 <class name="com.adv.qa.selenium.tests.currency.phase2.A091_SuppliersTest"/>  
+    	</classes>
+  </test>
+  
+</suite>
+

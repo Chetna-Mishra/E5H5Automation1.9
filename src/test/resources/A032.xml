@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T67</userName>
+          	<passWord>T67</passWord>
+            <code>EBD</code> 
+			
+			<values>B</values>
+            
+			<n1ManagementCode>N1</n1ManagementCode>
+			<n1ManagementCode>Newcastle</n1ManagementCode>
+			<n1ManagementCode>N1</n1ManagementCode>
+			<n1ManagementCode>00</n1ManagementCode>
+			<n1ManagementCode>NORTH</n1ManagementCode>
+			
+			<n2ManagementCode>N2</n2ManagementCode>
+			<n2ManagementCode>Sunderland</n2ManagementCode>
+			<n2ManagementCode>N2</n2ManagementCode>
+			<n2ManagementCode>00</n2ManagementCode>
+			<n2ManagementCode>NORTH</n2ManagementCode>
+			
+			<s1ManagementCode>S1</s1ManagementCode>
+			<s1ManagementCode>London</s1ManagementCode>
+			<s1ManagementCode>S1</s1ManagementCode>
+			<s1ManagementCode>00</s1ManagementCode>
+			<s1ManagementCode>SOUTH</s1ManagementCode>
+			
+			<e1ManagementCode>E1</e1ManagementCode>
+			<e1ManagementCode>Norwich</e1ManagementCode>
+			<e1ManagementCode>E1</e1ManagementCode>
+			<e1ManagementCode>00</e1ManagementCode>
+			<e1ManagementCode>EAST</e1ManagementCode>
+			
+			<w1ManagementCode>W1</w1ManagementCode>
+			<w1ManagementCode>Devon</w1ManagementCode>
+			<w1ManagementCode>W1</w1ManagementCode>
+			<w1ManagementCode>00</w1ManagementCode>
+			<w1ManagementCode>WEST</w1ManagementCode>
+			
+			<nbtzManagementCode>NBTZ</nbtzManagementCode>
+			<nbtzManagementCode>NBTZ</nbtzManagementCode>
+			<nbtzManagementCode>NBTZ</nbtzManagementCode>
+			<nbtzManagementCode>00</nbtzManagementCode>
+			<nbtzManagementCode>NORTH</nbtzManagementCode>
+			
+			<sbtzManagementCode>SBTZ</sbtzManagementCode>
+			<sbtzManagementCode>SBTZ</sbtzManagementCode>
+			<sbtzManagementCode>SBTZ</sbtzManagementCode>
+			<sbtzManagementCode>00</sbtzManagementCode>
+			<sbtzManagementCode>SOUTH</sbtzManagementCode>
+			
+			<ebtzManagementCode>EBTZ</ebtzManagementCode>
+			<ebtzManagementCode>EBTZ</ebtzManagementCode>
+			<ebtzManagementCode>EBTZ</ebtzManagementCode>
+			<ebtzManagementCode>00</ebtzManagementCode>
+			<ebtzManagementCode>EAST</ebtzManagementCode>
+			
+			<wbtzManagementCode>WBTZ</wbtzManagementCode>
+			<wbtzManagementCode>WBTZ</wbtzManagementCode>
+			<wbtzManagementCode>WBTZ</wbtzManagementCode>
+			<wbtzManagementCode>00</wbtzManagementCode>
+			<wbtzManagementCode>WEST</wbtzManagementCode>
+					
+      </Row>
+</Root>

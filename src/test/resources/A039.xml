@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T82</userName>
+          	<passWord>T82</passWord>
+            <code>EJI</code> 
+            <company>AC</company>
+              
+            <aGroup>LAY1</aGroup>
+			<aGroup>A</aGroup>
+			<aGroup>B/S Group A</aGroup>
+			<aGroup>02 Category A02</aGroup>
+			<aGroup>B/S Group A Expenses     Total</aGroup>
+			<aGroup>Running Total</aGroup>
+			<aGroup>0.00</aGroup>	
+			<aGroup>0.00</aGroup>
+			<aGroup>0.00</aGroup>
+			<aGroup>0.00</aGroup>
+			<aGroup>0.00</aGroup>
+			<aGroup>0.00</aGroup>
+		
+			<bGroup>LAY1</bGroup>
+			<bGroup>B</bGroup>
+			<bGroup>B/S Group B Purchasing</bGroup>
+			<bGroup>01 Purchasing Assets</bGroup>
+			<bGroup>02 PL Creditors</bGroup>
+			<bGroup>03 Purchasing CTLS</bGroup>
+			<bGroup>04 POP Accruals</bGroup>
+			<bGroup>08 Category B08</bGroup>
+			<bGroup>B/S Group B Purchasing   Total</bGroup>
+			<bGroup>Running Total</bGroup>
+			<bGroup>0.00</bGroup>
+			<bGroup>0.00</bGroup>
+			<bGroup>0.00</bGroup>
+			<bGroup>0.00</bGroup>
+			<bGroup>0.00</bGroup>
+			<bGroup>0.00</bGroup>           
+      </Row>
+</Root>

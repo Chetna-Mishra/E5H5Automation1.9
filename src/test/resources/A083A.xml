@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    	<Row>
+	    <userName>T84</userName>
+        <passWord>T84</passWord>
+        <currencyCode>DBS</currencyCode>
+        
+        <values>S1</values>
+        
+ 		<pmStructureForUser>S1</pmStructureForUser>
+		<pmStructureForUser>T63</pmStructureForUser>
+		<pmStructureForUser>NILL</pmStructureForUser>
+		<pmStructureForUser>9999</pmStructureForUser>
+		
+		<pmStructureForManager>S1</pmStructureForManager>
+		<pmStructureForManager>MANAGER</pmStructureForManager>
+		<pmStructureForManager>T63</pmStructureForManager>
+		<pmStructureForManager>NILL</pmStructureForManager>
+		
+		<pmStructureForAdmin>S1</pmStructureForAdmin>
+		<pmStructureForAdmin>ADMIN</pmStructureForAdmin>
+		<pmStructureForAdmin>MANAGER</pmStructureForAdmin>
+		<pmStructureForAdmin>7000</pmStructureForAdmin>
+		
+		<pmStructureForQuery>S1</pmStructureForQuery>
+		<pmStructureForQuery>QUERY</pmStructureForQuery>
+		<pmStructureForQuery>T63</pmStructureForQuery>
+		<pmStructureForQuery>9000</pmStructureForQuery>
+		
+		<pmStructureForEmployee>S1</pmStructureForEmployee>
+		<pmStructureForEmployee>EMPLOYEE</pmStructureForEmployee>
+		<pmStructureForEmployee>ADMIN</pmStructureForEmployee>
+		<pmStructureForEmployee>1000</pmStructureForEmployee>		
+	</Row>
+    
+</Root>

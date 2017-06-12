@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	    <userName>T55</userName>
+        <passWord>T55</passWord>
+        <currencyCode>RAI</currencyCode>
+        <currencyCode>RAH</currencyCode>
+        <currencyCode>RAJ</currencyCode>
+        <company>09</company>
+        
+	    <eType>PE</eType>
+	    <eType>Exempt</eType>
+	    <eType>0.00</eType>
+	    <eType>0.00</eType>
+	    <eType>1</eType>
+	   
+	    <sType>PS</sType>
+	    <sType>Standard</sType>
+	    <sType>1.00</sType>
+	    <sType>1.00</sType>
+	    <sType>0</sType>
+	    
+	    <vType>PV</vType>
+	    <vType>VAT Variance</vType>
+	    <vType>1.00</vType>
+	    <vType>1.00</vType>
+	    <vType>0</vType>
+	    
+	    <zType>PZ</zType>
+	    <zType>Zero Rated</zType>
+	    <zType>0.00</zType>
+	    <zType>0.00</zType>
+	    <zType>0</zType>
+	    
+	    <uksTaxCode>UKS</uksTaxCode>
+	    <uksTaxCode>UK Standard</uksTaxCode>
+	    <uksTaxCode>UK</uksTaxCode>
+	    <uksTaxCode>PS</uksTaxCode>
+	    
+	    <ukeTaxCode>UKE</ukeTaxCode>
+	    <ukeTaxCode>UK Exempt</ukeTaxCode>
+	    <ukeTaxCode>UK</ukeTaxCode>
+	    <ukeTaxCode>PE</ukeTaxCode>
+	    
+	    <ukzTaxCode>UKZ</ukzTaxCode>
+	    <ukzTaxCode>UK Zero Rated</ukzTaxCode>
+	    <ukzTaxCode>UK</ukzTaxCode>
+	    <ukzTaxCode>PZ</ukzTaxCode>
+	    
+	    <ukvTaxCode>UKV</ukvTaxCode>
+	    <ukvTaxCode>UK VAT Variance</ukvTaxCode>
+	    <ukvTaxCode>UK</ukvTaxCode>
+	    <ukvTaxCode>PV</ukvTaxCode>
+	</Row>
+</Root>

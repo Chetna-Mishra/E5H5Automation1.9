@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row >
+	    <userName>T55</userName>
+        <passWord>T55</passWord>
+        <currencyCode>GOA</currencyCode>
+					
+		<authorisationCodeL3>L3</authorisationCodeL3>
+		<authorisationCodeL3>Level 3 – Mandatory User </authorisationCodeL3>
+		<authorisationCodeL3>Deselect</authorisationCodeL3>
+		<authorisationCodeL3>Val Within GL Resp</authorisationCodeL3>
+		<authorisationCodeL3>1</authorisationCodeL3>
+		<authorisationCodeL3>0.00</authorisationCodeL3>
+		<authorisationCodeL3>QUERY</authorisationCodeL3>
+		<authorisationCodeL3>0</authorisationCodeL3>
+		
+		<authorisationCodeL4>L4</authorisationCodeL4>
+		<authorisationCodeL4>Level 4 - Mandatory Automatic Off System</authorisationCodeL4>
+		<authorisationCodeL4>Entered</authorisationCodeL4>
+		<authorisationCodeL4>Value</authorisationCodeL4>
+		<authorisationCodeL4>1</authorisationCodeL4>
+		<authorisationCodeL4>1000.00</authorisationCodeL4>
+		<authorisationCodeL4>QUERY</authorisationCodeL4>
+		<authorisationCodeL4>1</authorisationCodeL4>
+		
+		<authorisationCodeL5>L5</authorisationCodeL5>
+		<authorisationCodeL5>Level 5 – Automatic For Logged On User</authorisationCodeL5>
+		<authorisationCodeL5>Desel/Entered</authorisationCodeL5>
+		<authorisationCodeL5>Value</authorisationCodeL5>
+		<authorisationCodeL5>1</authorisationCodeL5>
+		<authorisationCodeL5>0.00</authorisationCodeL5>
+		<authorisationCodeL5>QUERY</authorisationCodeL5>
+		<authorisationCodeL5>0</authorisationCodeL5>
+	
+    </Row>
+	
+</Root>

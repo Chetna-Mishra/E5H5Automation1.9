@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	    <userName>T75</userName>
+        <passWord>T75</passWord>
+        <currencyCode>QSA</currencyCode>
+        <currencyCode>QMA</currencyCode>
+        
+        <companyControl>T66</companyControl>
+        <companyControl>AAS</companyControl>
+        <companyControl>12</companyControl>
+        
+        <mappingsOrder>POP_ORDER_1</mappingsOrder>
+        <mappingsOrder>POP_ORDER_1</mappingsOrder>
+        
+        <mappingsReq>POP_REQUISITION_1</mappingsReq>
+        <mappingsReq>POP_REQUISITION_1</mappingsReq>
+        
+        <mappingAdj>IM_STOCK_ADJ</mappingAdj>
+        <mappingAdj>IM_STOCK_ADJ</mappingAdj>
+        
+        <mappingTrans>IM_BIN_TRANS</mappingTrans>
+        <mappingTrans>IM_BIN_TRANS</mappingTrans>
+        
+        <mappingDisp>IM_STOCK_DISP</mappingDisp>
+        <mappingDisp>IM_STOCK_DISP</mappingDisp>
+        
+        <mappingStock>IM_STOCK_TAKE</mappingStock>
+        <mappingStock>IM_STOCK_TAKE</mappingStock>
+        
+        <mappingMtIssue>IM_MATERIAL_ISSUE</mappingMtIssue>
+        <mappingMtIssue>IM_MATERIAL_ISSUE</mappingMtIssue>
+        
+        <mappingPickList>IM_PICK_LIST</mappingPickList>
+        <mappingPickList>IM_PICK_LIST</mappingPickList>
+        
+        <mappingStoreTran>IM_STORE_TRANS</mappingStoreTran>
+        <mappingStoreTran>IM_STORE_TRANS</mappingStoreTran>
+        
+        <mappingRet>IM_STORE_RET</mappingRet>
+        <mappingRet>IM_STORE_RET</mappingRet>
+	</Row>
+</Root>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T87</userName>
+          	<passWord>T87</passWord>
+            <code>EBA</code> 
+              				
+			<nominal2160>2160</nominal2160>
+			<nominal2160>VAT Variance</nominal2160>
+			<nominal2160>B</nominal2160>
+			<nominal2160>03</nominal2160>
+			<nominal2160>Balance Sheet</nominal2160>
+			<nominal2160>Both</nominal2160>
+			<nominal2160>A</nominal2160>
+			<nominal2160>***</nominal2160>
+			<nominal2160>Both</nominal2160>
+			<nominal2160>0</nominal2160>
+	    						
+			<nominal1660>1660</nominal1660>
+			<nominal1660>PrePayments</nominal1660>
+			<nominal1660>B</nominal1660>
+			<nominal1660>01</nominal1660>
+			<nominal1660>Balance Sheet</nominal1660>
+			<nominal1660>Both</nominal1660>
+			<nominal1660>A</nominal1660>
+			<nominal1660>***</nominal1660>
+			<nominal1660>Both</nominal1660>
+			<nominal1660>0</nominal1660>
+	    						
+			<nominal5100>5100</nominal5100>
+			<nominal5100>Detail Variance</nominal5100>
+			<nominal5100>T</nominal5100>
+			<nominal5100>04</nominal5100>
+			<nominal5100>Profit &amp; Loss</nominal5100>
+			<nominal5100>Both</nominal5100>
+			<nominal5100>A</nominal5100>
+			<nominal5100>***</nominal5100>
+			<nominal5100>Both</nominal5100>
+			<nominal5100>0</nominal5100>
+	    						
+			<nominal2051>2051</nominal2051>
+			<nominal2051>Self Assess.Tax A/C</nominal2051>
+			<nominal2051>C</nominal2051>
+			<nominal2051>01</nominal2051>
+			<nominal2051>Balance Sheet</nominal2051>
+			<nominal2051>Both</nominal2051>
+			<nominal2051>A</nominal2051>
+			<nominal2051>***</nominal2051>
+			<nominal2051>Both</nominal2051>
+			<nominal2051>0</nominal2051>
+
+			<nominal6200>6200</nominal6200>
+			<nominal6200>Account 6200</nominal6200>
+			<nominal6200>P</nominal6200>
+			<nominal6200>04</nominal6200>
+			<nominal6200>Profit &amp; Loss</nominal6200>
+			<nominal6200>Both</nominal6200>
+			<nominal6200>A</nominal6200>
+			<nominal6200>***</nominal6200>
+			<nominal6200>Both</nominal6200>
+			<nominal6200>0</nominal6200>
+	    						
+			<nominal5900>5900</nominal5900>
+			<nominal5900>POP Accrual Account</nominal5900>
+			<nominal5900>B</nominal5900>
+			<nominal5900>04</nominal5900>
+			<nominal5900>Balance Sheet</nominal5900>
+			<nominal5900>Both</nominal5900>
+			<nominal5900>A</nominal5900>
+			<nominal5900>***</nominal5900>
+			<nominal5900>Both</nominal5900>
+			<nominal5900>0</nominal5900>
+	    						
+			<nominal7000>7000</nominal7000>
+			<nominal7000>Account 7000</nominal7000>
+			<nominal7000>B</nominal7000>
+			<nominal7000>08</nominal7000>
+			<nominal7000>Balance Sheet</nominal7000>
+			<nominal7000>Both</nominal7000>
+			<nominal7000>A</nominal7000>
+			<nominal7000>***</nominal7000>
+			<nominal7000>Both</nominal7000>
+			<nominal7000>0</nominal7000>
+	    						
+			<nominal7001>7001</nominal7001>
+			<nominal7001>AP/AR Netting OFF</nominal7001>
+			<nominal7001>B</nominal7001>
+			<nominal7001>08</nominal7001>
+			<nominal7001>Balance Sheet</nominal7001>
+			<nominal7001>Both</nominal7001>
+			<nominal7001>A</nominal7001>
+			<nominal7001>***</nominal7001>
+			<nominal7001>Both</nominal7001>
+			<nominal7001>0</nominal7001>
+			
+			<nominalSALC>SALC</nominalSALC>
+			<nominalSALC>SALC</nominalSALC>
+			<nominalSALC>A</nominalSALC>
+			<nominalSALC>02</nominalSALC>
+			<nominalSALC>Balance Sheet</nominalSALC>
+			<nominalSALC>Both</nominalSALC>
+			<nominalSALC>A</nominalSALC>
+			<nominalSALC>***</nominalSALC>
+			<nominalSALC>Both</nominalSALC>
+			<nominalSALC>0</nominalSALC>
+			
+			<nominalSLDE>SLDE</nominalSLDE>
+			<nominalSLDE>SLDE</nominalSLDE>
+			<nominalSLDE>A</nominalSLDE>
+			<nominalSLDE>02</nominalSLDE>
+			<nominalSLDE>Balance Sheet</nominalSLDE>
+			<nominalSLDE>Both</nominalSLDE>
+			<nominalSLDE>A</nominalSLDE>
+			<nominalSLDE>***</nominalSLDE>
+			<nominalSLDE>Both</nominalSLDE>
+			<nominalSLDE>0</nominalSLDE>
+      </Row>
+</Root>

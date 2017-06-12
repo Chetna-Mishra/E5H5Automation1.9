@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A002_Currency_DescriptionTest>
+<Verification1>24/07/2014 01:22:20 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:22:24 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:22:35 | Pass : Search page displayed</Verification3>
+<Verification4>24/07/2014 01:22:53 | Pass : Currency EUR displayed in the list</Verification4>
+<Verification5>24/07/2014 01:23:02 | Pass : Currency DEM displayed in the list</Verification5>
+<Verification6>24/07/2014 01:23:10 | Pass : Currency UKP displayed in the list</Verification6>
+<Verification7>24/07/2014 01:23:20 | Pass : Currency USD displayed in the list</Verification7>
+<Verification8>24/07/2014 01:23:29 | Pass : Currency FRF displayed in the list</Verification8>
+<Verification9>24/07/2014 01:23:51 | Pass : Currency EUR displayed in the list</Verification9>
+<Verification10>24/07/2014 01:24:06 | Pass : Currency DEM displayed in the list</Verification10>
+<Verification11>24/07/2014 01:24:20 | Pass : Currency UKP displayed in the list</Verification11>
+<Verification12>24/07/2014 01:24:34 | Pass : Currency USD displayed in the list</Verification12>
+<Verification13>24/07/2014 01:24:48 | Pass : Currency FRF displayed in the list</Verification13>
+</A002_Currency_DescriptionTest>
+<A001A_On_line_AuditingTest>
+<Verification1>24/07/2014 01:22:44 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:22:50 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:23:02 | Pass : Search page displayed</Verification3>
+<Verification4>24/07/2014 01:23:16 | Pass : Entity TPBSUPP found</Verification4>
+<Verification5>24/07/2014 01:23:33 | Pass : Column definition displayed</Verification5>
+<Verification6>24/07/2014 01:23:34 | Pass : Column definition def displayed</Verification6>
+<Verification7>24/07/2014 01:24:17 | Pass : Login page displayed</Verification7>
+<Verification8>24/07/2014 01:24:23 | Pass : Command line displayed</Verification8>
+<Verification9>24/07/2014 01:24:33 | Pass : Search page displayed</Verification9>
+<Verification10>24/07/2014 01:24:41 | Pass : Entity TPBADDR found</Verification10>
+<Verification11>24/07/2014 01:24:54 | Pass : Column definition displayed</Verification11>
+<Verification12>24/07/2014 01:24:55 | Pass : Column definition def displayed</Verification12>
+</A001A_On_line_AuditingTest>
+<A003_Currency_Base_NonBase_RelationshipsTest>
+<Verification1>24/07/2014 01:22:57 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:23:02 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:23:16 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:23:34 | Pass : Currency UKP displayed in the list</Verification4>
+<Verification5>24/07/2014 01:23:44 | Pass : Currency EUR displayed in the list</Verification5>
+<Verification6>24/07/2014 01:23:55 | Pass : Currency UKP displayed in the list</Verification6>
+<Verification7>24/07/2014 01:24:06 | Pass : Currency UKP displayed in the list</Verification7>
+<Verification8>24/07/2014 01:24:19 | Pass : Currency UKP displayed in the list</Verification8>
+<Verification9>24/07/2014 01:24:29 | Pass : Currency FRF displayed in the list</Verification9>
+<Verification10>24/07/2014 01:24:40 | Pass : Currency DEM displayed in the list</Verification10>
+<Verification11>24/07/2014 01:25:04 | Pass : Currency UKP Base to Non-Base displayed in the list</Verification11>
+<Verification12>24/07/2014 01:25:20 | Pass : Currency EUR Base to Non-Base displayed in the list</Verification12>
+<Verification13>24/07/2014 01:25:36 | Pass : Currency UKP NoneBase-Base displayed in the list</Verification13>
+<Verification14>24/07/2014 01:25:52 | Pass : Currency UKP NoneBase-Base displayed in the list</Verification14>
+<Verification15>24/07/2014 01:26:08 | Pass : Currency UKP NoneBase-Base displayed in the list</Verification15>
+<Verification16>24/07/2014 01:26:24 | Pass : Currency FRF Base to Non-Base displayed in the list</Verification16>
+<Verification17>24/07/2014 01:26:40 | Pass : Currency DEM Base to Non-Base displayed in the list</Verification17>
+</A003_Currency_Base_NonBase_RelationshipsTest>
+<A007_DevicesTest>
+<Verification1>24/07/2014 01:27:47 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:27:52 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:28:02 | Pass : Search page displayed</Verification3>
+<Verification4>24/07/2014 01:28:14 | Pass : New device CMSE5H5 displayed in the list</Verification4>
+</A007_DevicesTest>
+<A008_DestinationsTest>
+<Verification1>24/07/2014 01:28:59 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:29:04 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:29:14 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:29:26 | Pass : New destination CMS111 displayed in the list</Verification4>
+<Verification5>24/07/2014 01:29:40 | Pass : New destination CMS222 displayed in the list</Verification5>
+</A008_DestinationsTest>
+<A005_Currency_Exchange_RatesTest>
+<Verification1>24/07/2014 01:27:41 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:27:45 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:27:57 | Pass : Currency search page displayed</Verification3>
+</A005_Currency_Exchange_RatesTest>
+<A004_Currency_Exchange_Rate_TypesTest>
+<Verification1>24/07/2014 01:27:29 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:27:34 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:27:45 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:28:04 | Pass : Currency USD displayed in the list</Verification4>
+<Verification5>24/07/2014 01:28:17 | Pass : Currency FRF displayed in the list</Verification5>
+<Verification6>24/07/2014 01:28:28 | Pass : Currency DEM displayed in the list</Verification6>
+<Verification7>24/07/2014 01:28:41 | Pass : Currency EUR displayed in the list</Verification7>
+<Verification8>24/07/2014 01:28:53 | Pass : Currency UKP displayed in the list</Verification8>
+<Verification9>24/07/2014 01:29:05 | Pass : Currency UKP displayed in the list</Verification9>
+<Verification10>24/07/2014 01:29:17 | Pass : Currency UKP displayed in the list</Verification10>
+<Verification11>24/07/2014 01:29:42 | Pass : Currency USD displayed in the list</Verification11>
+<Verification12>24/07/2014 01:29:59 | Pass : Currency FRF displayed in the list</Verification12>
+<Verification13>24/07/2014 01:30:16 | Pass : Currency DEM displayed in the list</Verification13>
+<Verification14>24/07/2014 01:30:33 | Pass : Currency EUR displayed in the list</Verification14>
+<Verification15>24/07/2014 01:30:49 | Pass : Currency UKP displayed in the list</Verification15>
+<Verification16>24/07/2014 01:31:05 | Pass : Currency UKP displayed in the list</Verification16>
+<Verification17>24/07/2014 01:31:21 | Pass : Currency UKP displayed in the list</Verification17>
+</A004_Currency_Exchange_Rate_TypesTest>
+<A009_Distribution_ProfileTest>
+<Verification1>24/07/2014 01:30:25 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:30:29 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:30:39 | Pass : Search page displayed</Verification3>
+<Verification4>24/07/2014 01:31:04 | Pass : Distribution profile CMS111 displayed in the list</Verification4>
+<Verification5>24/07/2014 01:31:12 | Pass : Distribution profile CMS222 displayed in the list</Verification5>
+<Verification6>24/07/2014 01:31:37 | Pass : Distribution profile CMS111 displayed in the list</Verification6>
+<Verification7>24/07/2014 01:31:50 | Pass : Distribution profile CMS222 displayed in the list</Verification7>
+</A009_Distribution_ProfileTest>
+<A010_Environment_Groups_Test>
+<Verification1>24/07/2014 01:31:57 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:32:01 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:32:11 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:32:26 | Pass : New environment group CMS333 displayed in the list</Verification4>
+<Verification5>24/07/2014 01:32:33 | Pass : New environment group CMS222 displayed in the list</Verification5>
+<Verification6>24/07/2014 01:33:04 | Pass : New environment group CMS333 displayed in the list</Verification6>
+<Verification7>24/07/2014 01:33:18 | Pass : New environment group CMS222 displayed in the list</Verification7>
+</A010_Environment_Groups_Test>
+<A006_Company_DefinitionTest>
+<Verification1>24/07/2014 01:34:03 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:34:08 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:34:17 | Pass : Search page displayed</Verification3>
+<Verification4>24/07/2014 01:34:34 | Pass : Primary Details Tab displayed</Verification4>
+<Verification5>24/07/2014 01:35:08 | Pass : Currency Intrastat Tab displayed</Verification5>
+<Verification6>24/07/2014 01:35:34 | Pass : New company id 09 displayed in the list</Verification6>
+</A006_Company_DefinitionTest>
+<A011_UsersTest>
+<Verification1>24/07/2014 01:34:08 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:34:13 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:34:22 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:34:38 | Pass : New user QUERY displayed in the list</Verification4>
+<Verification5>24/07/2014 01:34:46 | Pass : New user ADMIN displayed in the list</Verification5>
+<Verification6>24/07/2014 01:34:55 | Pass : New user MANAGER displayed in the list</Verification6>
+<Verification7>24/07/2014 01:35:04 | Pass : New user EMPLOYEE displayed in the list</Verification7>
+<Verification8>24/07/2014 01:35:11 | Pass : New user BM displayed in the list</Verification8>
+<Verification9>24/07/2014 01:35:19 | Pass : New user BM1 displayed in the list</Verification9>
+<Verification10>24/07/2014 01:35:27 | Pass : New user BUYER displayed in the list</Verification10>
+<Verification11>24/07/2014 01:35:36 | Pass : New user EXPED displayed in the list</Verification11>
+<Verification12>24/07/2014 01:35:44 | Pass : New user GREC displayed in the list</Verification12>
+<Verification13>24/07/2014 01:36:12 | Pass : New user QUERY displayed in the list</Verification13>
+<Verification14>24/07/2014 01:36:23 | Pass : New user ADMIN displayed in the list</Verification14>
+<Verification15>24/07/2014 01:36:33 | Pass : New user MANAGER displayed in the list</Verification15>
+<Verification16>24/07/2014 01:36:44 | Pass : New user EMPLOYEE displayed in the list</Verification16>
+<Verification17>24/07/2014 01:36:54 | Pass : New user BM displayed in the list</Verification17>
+<Verification18>24/07/2014 01:37:04 | Pass : New user BM1 displayed in the list</Verification18>
+<Verification19>24/07/2014 01:37:15 | Pass : New user BUYER displayed in the list</Verification19>
+<Verification20>24/07/2014 01:37:26 | Pass : New user EXPED displayed in the list</Verification20>
+<Verification21>24/07/2014 01:37:37 | Pass : New user GREC displayed in the list</Verification21>
+</A011_UsersTest>
+<A013_Fiscal_CalendarTest>
+<Verification1>24/07/2014 01:38:24 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:38:29 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:38:40 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:38:57 | Pass : New fiscal calendar displayed in the list</Verification4>
+</A013_Fiscal_CalendarTest>
+<A012_CalendarsTest>
+<Verification1>24/07/2014 01:38:37 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:38:42 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:38:56 | Pass : Search page displayed</Verification3>
+<Verification4>24/07/2014 01:39:09 | Pass : New calendar activity ACDAY displayed in the list</Verification4>
+<Verification5>24/07/2014 01:39:27 | Pass : New calendar activity ACMONTH displayed in the list</Verification5>
+</A012_CalendarsTest>
+<A015_BalanceSheetTest>
+<Verification1>24/07/2014 01:38:46 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:38:54 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:39:07 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:39:56 | Pass : New balance activity N displayed in the list</Verification4>
+</A015_BalanceSheetTest>
+<A014_Account_Code_DefinitionTest>
+<Verification1>24/07/2014 01:38:59 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:39:05 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:39:14 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:41:29 | Pass : New account 09 displayed in the list</Verification4>
+</A014_Account_Code_DefinitionTest>
+<A016A_Normal_Balance_Sheet_GroupsTest>
+<Verification1>24/07/2014 01:42:21 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:42:25 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:42:35 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:44:10 | Pass : New balance group G displayed in the list</Verification4>
+<Verification5>24/07/2014 01:44:12 | Pass : New balance group P displayed in the list</Verification5>
+<Verification6>24/07/2014 01:44:15 | Pass : New balance group I displayed in the list</Verification6>
+</A016A_Normal_Balance_Sheet_GroupsTest>
+<A016_Normal_Balance_Sheet_GroupsTest>
+<Verification1>24/07/2014 01:42:14 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:42:19 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:42:28 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:44:26 | Pass : New balance group A displayed in the list</Verification4>
+<Verification5>24/07/2014 01:44:28 | Pass : New balance group B displayed in the list</Verification5>
+<Verification6>24/07/2014 01:44:31 | Pass : New balance group C displayed in the list</Verification6>
+<Verification7>24/07/2014 01:44:33 | Pass : New balance group T displayed in the list</Verification7>
+</A016_Normal_Balance_Sheet_GroupsTest>
+<A017A_Normal_Balance_Sheet_CategoriesTest>
+<Verification1>24/07/2014 01:45:21 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:45:26 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:45:35 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:50:29 | Pass : New balance sheet category 09 displayed in the list</Verification4>
+<Verification5>24/07/2014 01:50:47 | Pass : New balance sheet category 01 displayed in the list</Verification5>
+<Verification6>24/07/2014 01:51:05 | Pass : New balance sheet category 01 displayed in the list</Verification6>
+<Verification7>24/07/2014 01:51:23 | Pass : New balance sheet category 02 displayed in the list</Verification7>
+<Verification8>24/07/2014 01:51:41 | Pass : New balance sheet category 04 displayed in the list</Verification8>
+<Verification9>24/07/2014 01:51:59 | Pass : New balance sheet category 05 displayed in the list</Verification9>
+<Verification10>24/07/2014 01:52:17 | Pass : New balance sheet category 03 displayed in the list</Verification10>
+<Verification11>24/07/2014 01:52:35 | Pass : New balance sheet category 04 displayed in the list</Verification11>
+</A017A_Normal_Balance_Sheet_CategoriesTest>
+<A017_Normal_Balance_Sheet_CategoriesTest>
+<Verification1>24/07/2014 01:45:25 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:45:30 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:45:39 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:50:34 | Pass : New balance sheet category 02 displayed in the list</Verification4>
+<Verification5>24/07/2014 01:50:51 | Pass : New balance sheet category 08 displayed in the list</Verification5>
+<Verification6>24/07/2014 01:51:09 | Pass : New balance sheet category 01 displayed in the list</Verification6>
+<Verification7>24/07/2014 01:51:27 | Pass : New balance sheet category 02 displayed in the list</Verification7>
+<Verification8>24/07/2014 01:51:45 | Pass : New balance sheet category 03 displayed in the list</Verification8>
+<Verification9>24/07/2014 01:52:03 | Pass : New balance sheet category 04 displayed in the list</Verification9>
+<Verification10>24/07/2014 01:52:21 | Pass : New balance sheet category 01 displayed in the list</Verification10>
+<Verification11>24/07/2014 01:52:39 | Pass : New balance sheet category 02 displayed in the list</Verification11>
+</A017_Normal_Balance_Sheet_CategoriesTest>
+<A019_Ledger_Control_Management_CodeTest>
+<Verification1>24/07/2014 01:53:47 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:53:47 | Pass : Login page displayed</Verification2>
+<Verification3>24/07/2014 01:53:52 | Pass : Command line displayed</Verification3>
+<Verification4>24/07/2014 01:54:05 | Pass : Currency search page displayed</Verification4>
+<Verification5>24/07/2014 01:55:15 | Pass : management code Dummy Costcentre displayed in the list</Verification5>
+</A019_Ledger_Control_Management_CodeTest>
+<A018_Ledger_Control_Nominals>
+<Verification1>24/07/2014 01:53:29 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:53:34 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:53:48 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:54:54 | Pass : New ledger control 2500 displayed in the list</Verification4>
+<Verification5>24/07/2014 01:55:38 | Pass : New ledger control 2600 displayed in the list</Verification5>
+<Verification6>24/07/2014 01:56:20 | Pass : New ledger control 3000 displayed in the list</Verification6>
+<Verification7>24/07/2014 01:57:03 | Pass : New ledger control 1500 displayed in the list</Verification7>
+<Verification8>24/07/2014 01:57:48 | Pass : New ledger control GLICA displayed in the list</Verification8>
+<Verification9>24/07/2014 01:58:33 | Pass : New ledger control 1550 displayed in the list</Verification9>
+<Verification10>24/07/2014 01:59:17 | Pass : New ledger control 6300 displayed in the list</Verification10>
+<Verification11>24/07/2014 02:00:02 | Pass : New ledger control 6400 displayed in the list</Verification11>
+</A018_Ledger_Control_Nominals>
+<A018A_Ledger_Control_Nominals>
+<Verification1>24/07/2014 01:53:41 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:53:46 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:53:57 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:55:04 | Pass : New ledger control 2000 displayed in the list</Verification4>
+<Verification5>24/07/2014 01:55:48 | Pass : New ledger control 5000 displayed in the list</Verification5>
+<Verification6>24/07/2014 01:56:30 | Pass : New ledger control 5050 displayed in the list</Verification6>
+<Verification7>24/07/2014 01:57:13 | Pass : New ledger control 2150 displayed in the list</Verification7>
+<Verification8>24/07/2014 01:57:57 | Pass : New ledger control 6500 displayed in the list</Verification8>
+<Verification9>24/07/2014 01:58:41 | Pass : New ledger control BANKR displayed in the list</Verification9>
+<Verification10>24/07/2014 01:59:26 | Pass : New ledger control BANKR1 displayed in the list</Verification10>
+<Verification11>24/07/2014 02:00:10 | Pass : New ledger control BANKR2 displayed in the list</Verification11>
+</A018A_Ledger_Control_Nominals>
+<A018B_Ledger_Control_Nominals>
+<Verification1>24/07/2014 01:53:35 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 01:53:40 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 01:53:52 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 01:54:59 | Pass : New ledger control 2160 displayed in the list</Verification4>
+<Verification5>24/07/2014 01:55:43 | Pass : New ledger control 1660 displayed in the list</Verification5>
+<Verification6>24/07/2014 01:56:26 | Pass : New ledger control 5100 displayed in the list</Verification6>
+<Verification7>24/07/2014 01:57:09 | Pass : New ledger control 2051 displayed in the list</Verification7>
+<Verification8>24/07/2014 01:57:52 | Pass : New ledger control 6200 displayed in the list</Verification8>
+<Verification9>24/07/2014 01:58:36 | Pass : New ledger control 5900 displayed in the list</Verification9>
+<Verification10>24/07/2014 01:59:20 | Pass : New ledger control 7000 displayed in the list</Verification10>
+<Verification11>24/07/2014 02:00:07 | Pass : New ledger control 7001 displayed in the list</Verification11>
+<Verification12>24/07/2014 02:00:53 | Pass : New ledger control SALC displayed in the list</Verification12>
+<Verification13>24/07/2014 02:01:37 | Pass : New ledger control SLDE displayed in the list</Verification13>
+</A018B_Ledger_Control_Nominals>
+<A020_Ledger_Control_AccountsTest>
+<Verification1>24/07/2014 02:02:42 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:02:47 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:02:56 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:03:56 | Pass : Ledger control account IM displayed in the list</Verification4>
+</A020_Ledger_Control_AccountsTest>
+<A021_Batch_TypesTest>
+<Verification1>24/07/2014 02:04:40 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:04:45 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:04:54 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:06:43 | Pass : New batch type Revaluation displayed in the list</Verification4>
+<Verification5>24/07/2014 02:06:46 | Pass : New batch type Transfer displayed in the list</Verification5>
+<Verification6>24/07/2014 02:06:48 | Pass : New batch type Summarisation displayed in the list</Verification6>
+</A021_Batch_TypesTest>
+<A022_Balance_ClassesTest>
+<Verification1>24/07/2014 02:07:33 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:07:38 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:07:49 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:12:06 | Pass : New balance class S,1 displayed in the list</Verification4>
+<Verification5>24/07/2014 02:12:10 | Pass : New balance class I,C displayed in the list</Verification5>
+<Verification6>24/07/2014 02:12:14 | Pass : New balance class B,1 displayed in the list</Verification6>
+<Verification7>24/07/2014 02:12:18 | Pass : New balance class V,1 displayed in the list</Verification7>
+<Verification8>24/07/2014 02:12:22 | Pass : New balance class R,S displayed in the list</Verification8>
+<Verification9>24/07/2014 02:12:27 | Pass : New balance class B,S displayed in the list</Verification9>
+</A022_Balance_ClassesTest>
+<A023_Company_ControlsTest>
+<Verification1>24/07/2014 02:13:19 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:13:24 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:13:33 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:15:25 | Pass : Company controls for new company 09 completed</Verification4>
+</A023_Company_ControlsTest>
+<A025_FormulaTest>
+<Verification1>24/07/2014 02:16:16 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:16:21 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:16:32 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:19:00 | Pass : New formula CAL1 displayed in the list</Verification4>
+<Verification5>24/07/2014 02:19:02 | Pass : New formula CAL2 displayed in the list</Verification5>
+<Verification6>24/07/2014 02:19:05 | Pass : New formula BS1 displayed in the list</Verification6>
+<Verification7>24/07/2014 02:19:08 | Pass : New formula MS1 displayed in the list</Verification7>
+</A025_FormulaTest>
+<A024_Batch_TypesTest>
+<Verification1>24/07/2014 02:16:27 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:16:31 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:16:42 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:17:32 | Pass : New batch type  TRN displayed in the list</Verification4>
+<Verification5>24/07/2014 02:18:05 | Pass : New batch type  REVV displayed in the list</Verification5>
+<Verification6>24/07/2014 02:18:39 | Pass : New batch type  BASE displayed in the list</Verification6>
+<Verification7>24/07/2014 02:19:12 | Pass : New batch type  ACCR displayed in the list</Verification7>
+<Verification8>24/07/2014 02:19:45 | Pass : New batch type  FORN displayed in the list</Verification8>
+<Verification9>24/07/2014 02:20:19 | Pass : New batch type  FRNB displayed in the list</Verification9>
+<Verification10>24/07/2014 02:20:54 | Pass : New batch type  PLAN displayed in the list</Verification10>
+<Verification11>24/07/2014 02:21:28 | Pass : New batch type  RECC displayed in the list</Verification11>
+<Verification12>24/07/2014 02:22:03 | Pass : New batch type  BR1 displayed in the list</Verification12>
+<Verification13>24/07/2014 02:22:38 | Pass : New batch type  BR2 displayed in the list</Verification13>
+<Verification14>24/07/2014 02:23:14 | Pass : New batch type  BR3 displayed in the list</Verification14>
+</A024_Batch_TypesTest>
+<A024A_Batch_TypesTest>
+<Verification1>24/07/2014 02:16:30 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:16:35 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:16:46 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:17:37 | Pass : New batch type  ACC displayed in the list</Verification4>
+<Verification5>24/07/2014 02:18:11 | Pass : New batch type  IMGL displayed in the list</Verification5>
+<Verification6>24/07/2014 02:18:46 | Pass : New batch type  IMG1 displayed in the list</Verification6>
+<Verification7>24/07/2014 02:19:21 | Pass : New batch type  IMG2 displayed in the list</Verification7>
+<Verification8>24/07/2014 02:19:56 | Pass : New batch type  IMRT displayed in the list</Verification8>
+<Verification9>24/07/2014 02:20:30 | Pass : New batch type  IMMI displayed in the list</Verification9>
+<Verification10>24/07/2014 02:21:05 | Pass : New batch type  IMAD displayed in the list</Verification10>
+<Verification11>24/07/2014 02:21:39 | Pass : New batch type  IMAO displayed in the list</Verification11>
+<Verification12>24/07/2014 02:22:14 | Pass : New batch type  IMVA displayed in the list</Verification12>
+<Verification13>24/07/2014 02:22:49 | Pass : New batch type  IMDI displayed in the list</Verification13>
+<Verification14>24/07/2014 02:23:24 | Pass : New batch type  IMTR displayed in the list</Verification14>
+<Verification15>24/07/2014 02:24:00 | Pass : New batch type  IMRS displayed in the list</Verification15>
+<Verification16>24/07/2014 02:24:35 | Pass : New batch type  IMRU displayed in the list</Verification16>
+<Verification17>24/07/2014 02:26:10 | Pass : New batch type  IMRC displayed in the list</Verification17>
+<Verification18>24/07/2014 02:27:39 | Pass : New batch type  IMSC displayed in the list</Verification18>
+</A024A_Batch_TypesTest>
+<A026_Layout_CodesTest>
+<Verification1>24/07/2014 02:28:44 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:28:48 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:28:57 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:32:13 | Pass : Layout code LAY1 displayed in the list</Verification4>
+</A026_Layout_CodesTest>
+<A027_Default_StructureTest>
+<Verification1>24/07/2014 02:32:57 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:33:02 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:33:11 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:34:13 | Pass : Structure 00 displayed in the list</Verification4>
+</A027_Default_StructureTest>
+<A028_Default_Structure_ControlsTest>
+<Verification1>24/07/2014 02:34:58 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:35:03 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:35:12 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:36:32 | Pass : Default control structure 2 displayed in the list</Verification4>
+</A028_Default_Structure_ControlsTest>
+<A029_Default_Structure_ElementsTest>
+<Verification1>24/07/2014 02:37:15 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:37:20 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:37:29 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:40:38 | Pass : New structure element  SUSP displayed in the list</Verification4>
+<Verification5>24/07/2014 02:40:51 | Pass : New structure element HQ displayed in the list</Verification5>
+<Verification6>24/07/2014 02:40:53 | Pass : New structure element NORTH displayed in the list</Verification6>
+<Verification7>24/07/2014 02:40:56 | Pass : New structure element SOUTH displayed in the list</Verification7>
+<Verification8>24/07/2014 02:40:59 | Pass : New structure element EAST displayed in the list</Verification8>
+<Verification9>24/07/2014 02:41:02 | Pass : New structure element WEST displayed in the list</Verification9>
+<Verification10>24/07/2014 02:41:05 | Pass : New structure element SUSP displayed in the list</Verification10>
+</A029_Default_Structure_ElementsTest>
+<A031_Company_ControlsTest>
+<Verification1>24/07/2014 02:43:06 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:43:10 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:43:21 | Pass : Structure Rebuild page displayed</Verification3>
+<Verification4>24/07/2014 02:44:34 | Pass : Company controls are as expected</Verification4>
+</A031_Company_ControlsTest>
+<A030_Security_ElementsTest>
+<Verification1>24/07/2014 02:43:02 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:43:06 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:43:18 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:44:07 | Pass : Security element HQ displayed in the list</Verification4>
+<Verification5>24/07/2014 02:44:57 | Pass : User does have access to Element HQ</Verification5>
+<Verification6>24/07/2014 02:45:07 | Pass : Command line displayed</Verification6>
+</A030_Security_ElementsTest>
+<A032_Management_CodesTest>
+<Verification1>24/07/2014 02:43:09 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:43:14 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:43:24 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:44:22 | Pass : New management code N1 displayed in the list</Verification4>
+<Verification5>24/07/2014 02:44:56 | Pass : New management code N2 displayed in the list</Verification5>
+<Verification6>24/07/2014 02:45:31 | Pass : New management code S1 displayed in the list</Verification6>
+<Verification7>24/07/2014 02:46:08 | Pass : New management code E1 displayed in the list</Verification7>
+<Verification8>24/07/2014 02:46:43 | Pass : New management code W1 displayed in the list</Verification8>
+<Verification9>24/07/2014 02:47:18 | Pass : New management code NBTZ displayed in the list</Verification9>
+<Verification10>24/07/2014 02:47:53 | Pass : New management code SBTZ displayed in the list</Verification10>
+<Verification11>24/07/2014 02:48:29 | Pass : New management code EBTZ displayed in the list</Verification11>
+<Verification12>24/07/2014 02:49:05 | Pass : New management code WBTZ displayed in the list</Verification12>
+</A032_Management_CodesTest>
+<A032A_Management_CodesTest>
+<Verification1>24/07/2014 02:50:11 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:50:15 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:50:25 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/07/2014 02:51:25 | Pass : Management code NORTH updated successfully</Verification4>
+<Verification5>24/07/2014 02:52:18 | Pass : Management code SOUTH updated successfully</Verification5>
+<Verification6>24/07/2014 02:53:09 | Pass : Management code EAST updated successfully</Verification6>
+</A032A_Management_CodesTest>
+<A037_ICA_Default_Trading_RelationshipsTest>
+<Verification1>24/07/2014 02:55:14 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:55:18 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:55:29 | Pass : Search page displayed</Verification3>
+<Verification4>24/07/2014 02:56:36 | Pass : New relationship between BTZ element for ICA structure ******************** created</Verification4>
+</A037_ICA_Default_Trading_RelationshipsTest>
+<A036_BTZ_Elements_For_ICA_StructureTest>
+<Verification1>24/07/2014 02:55:12 | Pass : Login page displayed</Verification1>
+<Verification2>24/07/2014 02:55:16 | Pass : Command line displayed</Verification2>
+<Verification3>24/07/2014 02:55:26 | Pass : Search page displayed</Verification3>
+<Verification4>24/07/2014 02:57:21 | Pass : New BTZ element for ICA structure NBTZ displayed in the list</Verification4>
+<Verification5>24/07/2014 02:57:23 | Pass : New BTZ element for ICA structure WBTZ displayed in the list</Verification5>
+<Verification6>24/07/2014 02:57:26 | Pass : New BTZ element for ICA structure EBTZ displayed in the list</Verification6>
+<Verification7>24/07/2014 02:57:28 | Pass : New BTZ element for ICA structure SBTZ displayed in the list</Verification7>
+</A036_BTZ_Elements_For_ICA_StructureTest>
+</TestCase>
+</SeleniumTestReport>

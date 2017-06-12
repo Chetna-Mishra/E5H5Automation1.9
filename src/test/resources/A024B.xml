@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T86</userName>
+          	<passWord>T86</passWord>
+          	<batchCode>AKK</batchCode>
+			
+			<imBatchTypeForIMAD>IMAD</imBatchTypeForIMAD>
+			<imBatchTypeForIMAD>Stock Adjustments In</imBatchTypeForIMAD>
+			<imBatchTypeForIMAD>IM</imBatchTypeForIMAD>
+			<imBatchTypeForIMAD>Immediate</imBatchTypeForIMAD>
+			<imBatchTypeForIMAD>0</imBatchTypeForIMAD>
+			<imBatchTypeForIMAD>1</imBatchTypeForIMAD>
+			<imBatchTypeForIMAD>1</imBatchTypeForIMAD>
+			<imBatchTypeForIMAD>1</imBatchTypeForIMAD>
+			<imBatchTypeForIMAD>1</imBatchTypeForIMAD>
+			<imBatchTypeForIMAD>NILL</imBatchTypeForIMAD>
+			<imBatchTypeForIMAD>NILL</imBatchTypeForIMAD>
+			
+			<imBatchTypeForIMAO>IMAO</imBatchTypeForIMAO>
+			<imBatchTypeForIMAO>Stock Adjustments Out</imBatchTypeForIMAO>
+			<imBatchTypeForIMAO>IM</imBatchTypeForIMAO>
+			<imBatchTypeForIMAO>Immediate</imBatchTypeForIMAO>
+			<imBatchTypeForIMAO>0</imBatchTypeForIMAO>
+			<imBatchTypeForIMAO>1</imBatchTypeForIMAO>
+			<imBatchTypeForIMAO>1</imBatchTypeForIMAO>
+			<imBatchTypeForIMAO>1</imBatchTypeForIMAO>
+			<imBatchTypeForIMAO>1</imBatchTypeForIMAO>
+			<imBatchTypeForIMAO>NILL</imBatchTypeForIMAO>
+			<imBatchTypeForIMAO>NILL</imBatchTypeForIMAO>
+			
+			<imBatchTypeForIMVA>IMVA</imBatchTypeForIMVA>
+			<imBatchTypeForIMVA>Value Adjustments</imBatchTypeForIMVA>
+			<imBatchTypeForIMVA>IM</imBatchTypeForIMVA>
+			<imBatchTypeForIMVA>Immediate</imBatchTypeForIMVA>
+			<imBatchTypeForIMVA>0</imBatchTypeForIMVA>
+			<imBatchTypeForIMVA>1</imBatchTypeForIMVA>
+			<imBatchTypeForIMVA>1</imBatchTypeForIMVA>
+			<imBatchTypeForIMVA>1</imBatchTypeForIMVA>
+			<imBatchTypeForIMVA>1</imBatchTypeForIMVA>
+			<imBatchTypeForIMVA>NILL</imBatchTypeForIMVA>
+			<imBatchTypeForIMVA>NILL</imBatchTypeForIMVA>
+			
+			<imBatchTypeForIMDI>IMDI</imBatchTypeForIMDI>
+			<imBatchTypeForIMDI>Disposals</imBatchTypeForIMDI>
+			<imBatchTypeForIMDI>IM</imBatchTypeForIMDI>
+			<imBatchTypeForIMDI>Immediate</imBatchTypeForIMDI>
+			<imBatchTypeForIMDI>0</imBatchTypeForIMDI>
+			<imBatchTypeForIMDI>1</imBatchTypeForIMDI>
+			<imBatchTypeForIMDI>1</imBatchTypeForIMDI>
+			<imBatchTypeForIMDI>1</imBatchTypeForIMDI>
+			<imBatchTypeForIMDI>1</imBatchTypeForIMDI>
+			<imBatchTypeForIMDI>NILL</imBatchTypeForIMDI>
+			<imBatchTypeForIMDI>NILL</imBatchTypeForIMDI>
+			
+			<imBatchTypeForIMTR>IMTR</imBatchTypeForIMTR>
+			<imBatchTypeForIMTR>IM Store Transfer</imBatchTypeForIMTR>
+			<imBatchTypeForIMTR>IM</imBatchTypeForIMTR>
+			<imBatchTypeForIMTR>Immediate</imBatchTypeForIMTR>
+			<imBatchTypeForIMTR>0</imBatchTypeForIMTR>
+			<imBatchTypeForIMTR>1</imBatchTypeForIMTR>
+			<imBatchTypeForIMTR>1</imBatchTypeForIMTR>
+			<imBatchTypeForIMTR>1</imBatchTypeForIMTR>
+			<imBatchTypeForIMTR>1</imBatchTypeForIMTR>
+			<imBatchTypeForIMTR>NILL</imBatchTypeForIMTR>
+			<imBatchTypeForIMTR>NILL</imBatchTypeForIMTR>
+			
+			<imBatchTypeForIMRS>IMRS</imBatchTypeForIMRS>
+			<imBatchTypeForIMRS>Return to Stores</imBatchTypeForIMRS>
+			<imBatchTypeForIMRS>IM</imBatchTypeForIMRS>
+			<imBatchTypeForIMRS>Immediate</imBatchTypeForIMRS>
+			<imBatchTypeForIMRS>0</imBatchTypeForIMRS>
+			<imBatchTypeForIMRS>1</imBatchTypeForIMRS>
+			<imBatchTypeForIMRS>1</imBatchTypeForIMRS>
+			<imBatchTypeForIMRS>1</imBatchTypeForIMRS>
+			<imBatchTypeForIMRS>1</imBatchTypeForIMRS>
+			<imBatchTypeForIMRS>NILL</imBatchTypeForIMRS>
+			<imBatchTypeForIMRS>NILL</imBatchTypeForIMRS>
+			
+			<imBatchTypeForIMRU>IMRU</imBatchTypeForIMRU>
+			<imBatchTypeForIMRU>Returns to Suppliers</imBatchTypeForIMRU>
+			<imBatchTypeForIMRU>IM</imBatchTypeForIMRU>
+			<imBatchTypeForIMRU>Immediate</imBatchTypeForIMRU>
+			<imBatchTypeForIMRU>0</imBatchTypeForIMRU>
+			<imBatchTypeForIMRU>1</imBatchTypeForIMRU>
+			<imBatchTypeForIMRU>1</imBatchTypeForIMRU>
+			<imBatchTypeForIMRU>1</imBatchTypeForIMRU>
+			<imBatchTypeForIMRU>1</imBatchTypeForIMRU>
+			<imBatchTypeForIMRU>NILL</imBatchTypeForIMRU>
+			<imBatchTypeForIMRU>NILL</imBatchTypeForIMRU>
+			
+			<imBatchTypeForIMRC>IMRC</imBatchTypeForIMRC>
+			<imBatchTypeForIMRC>Revised Cost Variance</imBatchTypeForIMRC>
+			<imBatchTypeForIMRC>IM</imBatchTypeForIMRC>
+			<imBatchTypeForIMRC>Immediate</imBatchTypeForIMRC>
+			<imBatchTypeForIMRC>0</imBatchTypeForIMRC>
+			<imBatchTypeForIMRC>1</imBatchTypeForIMRC>
+			<imBatchTypeForIMRC>1</imBatchTypeForIMRC>
+			<imBatchTypeForIMRC>1</imBatchTypeForIMRC>
+			<imBatchTypeForIMRC>1</imBatchTypeForIMRC>
+			<imBatchTypeForIMRC>NILL</imBatchTypeForIMRC>
+			<imBatchTypeForIMRC>NILL</imBatchTypeForIMRC>
+			
+			<imBatchTypeForIMSC>IMSC</imBatchTypeForIMSC>
+			<imBatchTypeForIMSC>Standard Cost Revaluation</imBatchTypeForIMSC>
+			<imBatchTypeForIMSC>IM</imBatchTypeForIMSC>
+			<imBatchTypeForIMSC>Immediate</imBatchTypeForIMSC>
+			<imBatchTypeForIMSC>0</imBatchTypeForIMSC>
+			<imBatchTypeForIMSC>1</imBatchTypeForIMSC>
+			<imBatchTypeForIMSC>1</imBatchTypeForIMSC>
+			<imBatchTypeForIMSC>1</imBatchTypeForIMSC>
+			<imBatchTypeForIMSC>1</imBatchTypeForIMSC>
+			<imBatchTypeForIMSC>NILL</imBatchTypeForIMSC>
+			<imBatchTypeForIMSC>NILL</imBatchTypeForIMSC>
+      </Row>
+</Root>

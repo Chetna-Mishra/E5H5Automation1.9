@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+        <userName>T67</userName>
+        <passWord>T67</passWord>
+        <currencyCode>PBA</currencyCode>
+        
+        <sonySupplier>SONY</sonySupplier>
+        <sonySupplier>Sony</sonySupplier>
+        <sonySupplier>Sony</sonySupplier>
+        <sonySupplier>UKP</sonySupplier>
+               
+        <sonySupplier>0</sonySupplier>
+        <sonySupplier>Any Street</sonySupplier>
+        <sonySupplier>Any District</sonySupplier>
+        <sonySupplier>Any Town</sonySupplier>
+        <sonySupplier>Any County</sonySupplier>
+        
+        <sonySupplier>SR8 4IP</sonySupplier>
+        <sonySupplier>(0191) 34764832</sonySupplier>
+        <sonySupplier>(0191) 84676437</sonySupplier>
+        <sonySupplier>(0191) 82372932</sonySupplier>
+        <sonySupplier>SP1</sonySupplier>
+        
+        <sonySupplier>C1</sonySupplier>
+        <sonySupplier>D2</sonySupplier>
+        <sonySupplier>S2</sonySupplier>
+        
+        <sonySupplier>UK</sonySupplier>
+        <sonySupplier>12345678</sonySupplier>
+        <sonySupplier>PE</sonySupplier>
+        
+        <sonySupplier>UKE</sonySupplier>
+        <sonySupplier>H1</sonySupplier>
+        <sonySupplier>Y</sonySupplier>
+        <sonySupplier>L0</sonySupplier>
+        <sonySupplier>Inactive</sonySupplier>
+        
+        <sonySupplier>Not Maintained</sonySupplier>
+        <sonySupplier>Standard</sonySupplier>
+        <sonySupplier>01</sonySupplier>
+        <sonySupplier>01</sonySupplier>  
+        
+        <pioneerSupplier>Pioneer</pioneerSupplier>
+        <pioneerSupplier>Pioneer</pioneerSupplier>
+        <pioneerSupplier>Pioneer</pioneerSupplier>
+        <pioneerSupplier>UKP</pioneerSupplier>
+               
+        <pioneerSupplier>0</pioneerSupplier>
+        <pioneerSupplier>Road 1</pioneerSupplier>
+        <pioneerSupplier>Road 2</pioneerSupplier>
+        <pioneerSupplier>Any Town</pioneerSupplier>
+        <pioneerSupplier>Any County</pioneerSupplier>
+        
+        <pioneerSupplier>DH1 1AA</pioneerSupplier>
+        <pioneerSupplier>(0191) 34764832</pioneerSupplier>
+        <pioneerSupplier>(0191) 84676437</pioneerSupplier>
+        <pioneerSupplier>(0191) 82372932</pioneerSupplier>
+        <pioneerSupplier>SP1</pioneerSupplier>
+        
+        <pioneerSupplier>C1</pioneerSupplier>
+        <pioneerSupplier>D2</pioneerSupplier>
+        <pioneerSupplier>S2</pioneerSupplier>
+        
+        <pioneerSupplier>UK</pioneerSupplier>
+        <pioneerSupplier>454545</pioneerSupplier>
+        <pioneerSupplier>PE</pioneerSupplier>
+        
+        <pioneerSupplier>UKE</pioneerSupplier>
+        <pioneerSupplier>H1</pioneerSupplier>
+        <pioneerSupplier>Y</pioneerSupplier>
+        <pioneerSupplier>L0</pioneerSupplier>
+        <pioneerSupplier>Inactive</pioneerSupplier>
+        
+        <pioneerSupplier>Not Maintained</pioneerSupplier>
+        <pioneerSupplier>Standard</pioneerSupplier>
+        <pioneerSupplier>01</pioneerSupplier>
+        <pioneerSupplier>01</pioneerSupplier> 
+        
+        <panasonicSupplier>PANASONIC</panasonicSupplier>
+        <panasonicSupplier>Panasonic</panasonicSupplier>
+        <panasonicSupplier>Panasonic</panasonicSupplier>
+        <panasonicSupplier>UKP</panasonicSupplier>
+               
+        <panasonicSupplier>0</panasonicSupplier>
+        <panasonicSupplier>Any Street</panasonicSupplier>
+        <panasonicSupplier>Any District</panasonicSupplier>
+        <panasonicSupplier>Any Town</panasonicSupplier>
+        <panasonicSupplier>Any County</panasonicSupplier>
+        
+        <panasonicSupplier>DH2 2AA</panasonicSupplier>
+        <panasonicSupplier>(0191) 34764832</panasonicSupplier>
+        <panasonicSupplier>(0191) 84676437</panasonicSupplier>
+        <panasonicSupplier>(0191) 82372932</panasonicSupplier>
+        <panasonicSupplier>SP1</panasonicSupplier>
+        
+        <panasonicSupplier>C1</panasonicSupplier>
+        <panasonicSupplier>D2</panasonicSupplier>
+        <panasonicSupplier>S2</panasonicSupplier>
+        
+        <panasonicSupplier>UK</panasonicSupplier>
+        <panasonicSupplier>12345678</panasonicSupplier>
+        <panasonicSupplier>PV</panasonicSupplier>
+        
+        <panasonicSupplier>UKV</panasonicSupplier>
+        <panasonicSupplier>H1</panasonicSupplier>
+        <panasonicSupplier>Y</panasonicSupplier>
+        <panasonicSupplier>L0</panasonicSupplier>
+        <panasonicSupplier>Inactive</panasonicSupplier>
+        
+        <panasonicSupplier>Not Maintained</panasonicSupplier>
+        <panasonicSupplier>Standard</panasonicSupplier>
+        <panasonicSupplier>01</panasonicSupplier>
+        <panasonicSupplier>01</panasonicSupplier>
+        
+        <yamahaSupplier>YAMAHA</yamahaSupplier>
+        <yamahaSupplier>Yamaha</yamahaSupplier>
+        <yamahaSupplier>Yamaha</yamahaSupplier>
+        <yamahaSupplier>UKP</yamahaSupplier>
+               
+        <yamahaSupplier>0</yamahaSupplier>
+        <yamahaSupplier>Any Street</yamahaSupplier>
+        <yamahaSupplier>Any District</yamahaSupplier>
+        <yamahaSupplier>Any Town</yamahaSupplier>
+        <yamahaSupplier>Any County</yamahaSupplier>
+        
+        <yamahaSupplier>NE11 0NG</yamahaSupplier>
+        <yamahaSupplier>(0191) 34764832</yamahaSupplier>
+        <yamahaSupplier>(0191) 84676437</yamahaSupplier>
+        <yamahaSupplier>(0191) 82372932</yamahaSupplier>
+        <yamahaSupplier>SP1</yamahaSupplier>
+        
+        <yamahaSupplier>C1</yamahaSupplier>
+        <yamahaSupplier>D2</yamahaSupplier>
+        <yamahaSupplier>S2</yamahaSupplier>
+        
+        <yamahaSupplier>UK</yamahaSupplier>
+        <yamahaSupplier>12345678</yamahaSupplier>
+        <yamahaSupplier>PE</yamahaSupplier>
+        
+        <yamahaSupplier>UKE</yamahaSupplier>
+        <yamahaSupplier>H1</yamahaSupplier>
+        <yamahaSupplier>Y</yamahaSupplier>
+        <yamahaSupplier>L0</yamahaSupplier>
+        <yamahaSupplier>Inactive</yamahaSupplier>
+        
+        <yamahaSupplier>Not Maintained</yamahaSupplier>
+        <yamahaSupplier>Standard</yamahaSupplier>
+        <yamahaSupplier>01</yamahaSupplier>
+        <yamahaSupplier>01</yamahaSupplier>
+        
+        <denonSupplier>DENON</denonSupplier>
+        <denonSupplier>Denon</denonSupplier>
+        <denonSupplier>Denon</denonSupplier>
+        <denonSupplier>UKP</denonSupplier>
+               
+        <denonSupplier>0</denonSupplier>
+        <denonSupplier>Any Street</denonSupplier>
+        <denonSupplier>Any District</denonSupplier>
+        <denonSupplier>Any Town</denonSupplier>
+        <denonSupplier>Any County</denonSupplier>
+        
+        <denonSupplier>NE11 0NG</denonSupplier>
+        <denonSupplier>(0191) 34764832</denonSupplier>
+        <denonSupplier>(0191) 84676437</denonSupplier>
+        <denonSupplier>(0191) 82372932</denonSupplier>
+        <denonSupplier>SP1</denonSupplier>
+        
+        <denonSupplier>C1</denonSupplier>
+        <denonSupplier>D2</denonSupplier>
+        <denonSupplier>S2</denonSupplier>
+        
+        <denonSupplier>UK</denonSupplier>
+        <denonSupplier>12345678</denonSupplier>
+        <denonSupplier>PE</denonSupplier>
+        
+        <denonSupplier>UKE</denonSupplier>
+        <denonSupplier>H1</denonSupplier>
+        <denonSupplier>Y</denonSupplier>
+        <denonSupplier>L0</denonSupplier>
+        <denonSupplier>Inactive</denonSupplier>
+        
+        <denonSupplier>Not Maintained</denonSupplier>
+        <denonSupplier>Standard</denonSupplier>
+        <denonSupplier>01</denonSupplier>
+        <denonSupplier>01</denonSupplier>
+        
+        <akaiSupplier>AKAI</akaiSupplier>
+        <akaiSupplier>AKAI</akaiSupplier>
+        <akaiSupplier>AKAI</akaiSupplier>
+        <akaiSupplier>UKP</akaiSupplier>
+               
+        <akaiSupplier>0</akaiSupplier>
+        <akaiSupplier>Any Street</akaiSupplier>
+        <akaiSupplier>Any District</akaiSupplier>
+        <akaiSupplier>Any Town</akaiSupplier>
+        <akaiSupplier>Any County</akaiSupplier>
+        
+        <akaiSupplier>DH2 2AA</akaiSupplier>
+        <akaiSupplier>(0191) 34764832</akaiSupplier>
+        <akaiSupplier>(0191) 84676437</akaiSupplier>
+        <akaiSupplier>(0191) 82372932</akaiSupplier>
+        <akaiSupplier>SP1</akaiSupplier>
+        
+        <akaiSupplier>C1</akaiSupplier>
+        <akaiSupplier>D2</akaiSupplier>
+        <akaiSupplier>S2</akaiSupplier>
+        
+        <akaiSupplier>UK</akaiSupplier>
+        <akaiSupplier>12345678</akaiSupplier>
+        <akaiSupplier>PV</akaiSupplier>
+        
+        <akaiSupplier>UKV</akaiSupplier>
+        <akaiSupplier>H1</akaiSupplier>
+        <akaiSupplier>Y</akaiSupplier>
+        <akaiSupplier>L3</akaiSupplier>
+        <akaiSupplier>Inactive</akaiSupplier>
+        
+        <akaiSupplier>Not Maintained</akaiSupplier>
+        <akaiSupplier>Standard</akaiSupplier>
+        <akaiSupplier>01</akaiSupplier>
+        <akaiSupplier>04</akaiSupplier>
+        
+       </Row>
+</Root>

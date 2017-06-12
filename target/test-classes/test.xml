@@ -1,0 +1,149 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" verbose="2" time-out="8000000" thread-count="1"  preserve-test-order="true">
+<!-- 
+	 @author : Draxayani
+	 Purpose : Batch execution of testcases from A043 - A091
+ --> 
+     
+     
+       	
+    <test name="suite9" preserve-order="true" time-out="8000000">
+    	<classes>      	      
+       		 <class name="com.adv.qa.selenium.tests.currency.A023_Company_ControlsTest"/>		
+       		 <class name="com.adv.qa.selenium.tests.currency.A024_Batch_TypesTest"/> 
+       		 <class name="com.adv.qa.selenium.tests.currency.A024A_Batch_TypesTest"/> 
+   	 	</classes>
+  	</test>
+  	 
+     
+  <!--   <test name="suite1" preserve-order="true" time-out="8000000" parallel="classes" thread-count="2">
+    	<classes>      		
+       		 <class name="com.adv.qa.selenium.tests.currency.A001_Switch_Intra_Company_Accounting_OnTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.A001A_On_line_AuditingTest"/>
+    	</classes>
+  	 </test> 
+  	 
+      <test name="suite2" preserve-order="true" time-out="8000000">
+    	<classes>      		
+       		 <class name="com.adv.qa.selenium.tests.currency.A002_Currency_DescriptionTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.A003_Currency_Base_NonBase_RelationshipsTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.A004_Currency_Exchange_Rate_TypesTest"/> 
+       		 <class name="com.adv.qa.selenium.tests.currency.A005_Currency_Exchange_RatesTest"/>      		 
+    	</classes>
+  	 </test> 
+  	    	   
+    <test name="suite3" preserve-order="true" time-out="8000000" parallel="classes" thread-count="3">
+    	<classes>      		
+       		 <class name="com.adv.qa.selenium.tests.currency.A007_DevicesTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.A008_DestinationsTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.A009_Distribution_ProfileTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.A010_Environment_Groups_Test"/> 
+    	 </classes>
+  	 </test> 
+  	 
+     <test name="suite4" preserve-order="true" time-out="8000000" parallel="classes" thread-count="2">
+    	<classes>      		    	    
+       		<class name="com.adv.qa.selenium.tests.currency.A006_Company_DefinitionTest"/>
+       		<class name="com.adv.qa.selenium.tests.currency.A011_UsersTest"/>       		 
+    	</classes>
+  	 </test>
+  	  
+    <test name="suite5" preserve-order="true" time-out="8000000" parallel="classes" thread-count="4">
+    	<classes>      	
+		  <class name="com.adv.qa.selenium.tests.currency.A012_CalendarsTest"/>	
+       		 <class name="com.adv.qa.selenium.tests.currency.A013_Fiscal_CalendarTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.A014_Account_Code_DefinitionTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.A015_BalanceSheetTest"/> 
+   	 	</classes>
+  	 </test> 
+  	 
+    <test name="suite6" preserve-order="true" time-out="8000000" parallel="classes" thread-count="2">
+    	<classes> 
+    	    <class name="com.adv.qa.selenium.tests.currency.A016_Normal_Balance_Sheet_GroupsTest"/>
+    	    <class name="com.adv.qa.selenium.tests.currency.A016A_Normal_Balance_Sheet_GroupsTest"/>     		       		
+    	 </classes>
+  	 </test> 
+  	   	 
+     <test name="suite7" preserve-order="true" time-out="8000000" parallel="classes" thread-count="2">
+    	<classes> 
+			<class name="com.adv.qa.selenium.tests.currency.A017_Normal_Balance_Sheet_CategoriesTest"/>  		
+       		<class name="com.adv.qa.selenium.tests.currency.A017A_Normal_Balance_Sheet_CategoriesTest"/>
+    	 	</classes>
+  	 </test> 
+  	  	  
+    <test name="suite8" preserve-order="true" time-out="8000000" parallel="classes" thread-count="4">
+    	<classes>      		
+       		<class name="com.adv.qa.selenium.tests.currency.A018_Ledger_Control_Nominals"/>
+       		<class name="com.adv.qa.selenium.tests.currency.A018A_Ledger_Control_Nominals"/>
+       		<class name="com.adv.qa.selenium.tests.currency.A018B_Ledger_Control_Nominals"/> 
+       		<class name="com.adv.qa.selenium.tests.currency.A018C_Ledger_Control_Nominals"/> 
+       		<class name="com.adv.qa.selenium.tests.currency.A019_Ledger_Control_Management_CodeTest"/>
+   	 	</classes>
+  	</test>
+  	
+    <test name="suite9" preserve-order="true" time-out="8000000">
+    	<classes>      	      
+       		 <class name="com.adv.qa.selenium.tests.currency.A020_Ledger_Control_AccountsTest"/>    		
+       		 <class name="com.adv.qa.selenium.tests.currency.A021_Batch_TypesTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.A022_Balance_ClassesTest"/>    
+       		 <class name="com.adv.qa.selenium.tests.currency.A023_Company_ControlsTest"/>		 
+   	 	</classes>
+  	</test>
+  	 
+    <test name="suite10" preserve-order="true" time-out="8000000" parallel="classes" thread-count="4">
+    	<classes>      	     
+       		 <class name="com.adv.qa.selenium.tests.currency.A024_Batch_TypesTest"/>     	       		 
+       		 <class name="com.adv.qa.selenium.tests.currency.A024A_Batch_TypesTest"/> 
+       		 <class name="com.adv.qa.selenium.tests.currency.A024B_Batch_TypesTest"/>    
+       		 <class name="com.adv.qa.selenium.tests.currency.A025_FormulaTest"/>   	    		    	     
+   	 	</classes>
+  	 </test>
+  	    	 
+     <test name="suite11" preserve-order="true" time-out="8000000">
+    	<classes>    	      
+    	     <class name="com.adv.qa.selenium.tests.currency.A026_Layout_CodesTest"/> 
+       		 <class name="com.adv.qa.selenium.tests.currency.A027_Default_StructureTest"/>	    
+       		 <class name="com.adv.qa.selenium.tests.currency.A028_Default_Structure_ControlsTest"/>  
+       		 <class name="com.adv.qa.selenium.tests.currency.A029_Default_Structure_ElementsTest"/>    		       	
+    	</classes>
+  	 </test>
+  	    	 
+     <test name="suite12" preserve-order="true" time-out="8000000" parallel="classes" thread-count="3">
+    	<classes>      		    	    
+ 			 <class name="com.adv.qa.selenium.tests.currency.A030_Security_ElementsTest"/>   	    
+       		 <class name="com.adv.qa.selenium.tests.currency.A031_Company_ControlsTest"/> 
+       		 <class name="com.adv.qa.selenium.tests.currency.A032_Management_CodesTest"/>         		 	    
+    	</classes>
+  	 </test> 
+     
+     <test name="suite13" preserve-order="true" time-out="8000000">
+    	<classes>    	            		
+    	    <class name="com.adv.qa.selenium.tests.currency.A032A_Management_CodesTest"/> 	    
+    	</classes>
+  	 </test>  	  
+  	 
+      <test name="suite14" preserve-order="true" time-out="8000000">
+    	<classes>
+    	    <class name="com.adv.qa.selenium.tests.currency.StartDispatcher"/>    	            		
+    	    <class name="com.adv.qa.selenium.tests.currency.A035_Structure_RebuildTest"/> 	    
+    	</classes>
+  	 </test>  
+  	 
+  	 <test name="suite15" preserve-order="true" time-out="8000000" parallel="classes" thread-count="2">
+    	<classes>
+       		 <class name="com.adv.qa.selenium.tests.currency.A036_BTZ_Elements_For_ICA_StructureTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.A037_ICA_Default_Trading_RelationshipsTest"/>    	    
+    	</classes>
+  	 </test>
+  	 
+  	 <test name="suite16" preserve-order="true" time-out="8000000">
+    	<classes>
+    	    <class name="com.adv.qa.selenium.tests.currency.A038_Process_EP2Test"/> 
+    	    <class name="com.adv.qa.selenium.tests.currency.A039_EnquiryTest"/> 
+       		<class name="com.adv.qa.selenium.tests.currency.A041_Group_Category_And_Structure_PostingsTest"/>
+       		<class name="com.adv.qa.selenium.tests.currency.A042_Period_End_Test"/>      		    	    
+    	</classes>
+  	 </test>
+  	  -->
+</suite>
+

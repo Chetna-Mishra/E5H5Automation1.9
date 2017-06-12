@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="2" name="Failed suite [suite]">
+  <test name="suite1(failed)" parallel="classes">
+    <classes>
+      <class name="com.adv.qa.selenium.tests.currency.Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="testing"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.Login -->
+      <class name="com.adv.qa.selenium.tests.currency.CopyOfLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="testing"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.CopyOfLogin -->
+    </classes>
+  </test> <!-- suite1(failed) -->
+</suite> <!-- Failed suite [suite] -->

@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>TestNG:  suite73</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>suite73</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 08 11:56:30 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>1057 seconds (1057705 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A077_CP_Company_ControlsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A077_CP_Company_ControlsTest<br>Parameters: [DataUnit [userName = T65], DataUnit [passWord = T65], DataUnit [currencyCode = PAA], DataUnit [cpCompanyControl = 03], DataUnit [cpCompanyControl = SR], DataUnit [cpCompanyControl = PR], DataUnit [cpCompanyControl = RR], DataUnit [cpCompanyControl = T66]]</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 63.93 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;Draxayani-PC&apos;, ip: &apos;192.168.30.61&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: eed03cf2-a590-4400-8fab-cbb032249d1e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:152)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText(EventFiringWebDriver.java:381)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.verifyValues(CurrencyPage.java:236)
+	at com.adv.qa.selenium.tests.currency.phase2.A077_CP_Company_ControlsTest.verify(A077_CP_Company_ControlsTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;Draxayani-PC&apos;, ip: &apos;192.168.30.61&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7610)
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/DRAXAY~1.P/AppData/Local/Temp/anonymous3114113800531696875webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:7210)
+	at &lt;anonymous class&gt;.WebElement.getElementText(file:///C:/Users/DRAXAY~1.P/AppData/Local/Temp/anonymous3114113800531696875webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10322)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DRAXAY~1.P/AppData/Local/Temp/anonymous3114113800531696875webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/DRAXAY~1.P/AppData/Local/Temp/anonymous3114113800531696875webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:396)
+</pre></div><a href='#' onClick='toggleBox("stack-trace133970449", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace133970449'><pre>org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 63.93 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;Draxayani-PC&apos;, ip: &apos;192.168.30.61&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: eed03cf2-a590-4400-8fab-cbb032249d1e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:152)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText(EventFiringWebDriver.java:381)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.verifyValues(CurrencyPage.java:236)
+	at com.adv.qa.selenium.tests.currency.phase2.A077_CP_Company_ControlsTest.verify(A077_CP_Company_ControlsTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;Draxayani-PC&apos;, ip: &apos;192.168.30.61&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7610)
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/DRAXAY~1.P/AppData/Local/Temp/anonymous3114113800531696875webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:7210)
+	at &lt;anonymous class&gt;.WebElement.getElementText(file:///C:/Users/DRAXAY~1.P/AppData/Local/Temp/anonymous3114113800531696875webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10322)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DRAXAY~1.P/AppData/Local/Temp/anonymous3114113800531696875webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/DRAXAY~1.P/AppData/Local/Temp/anonymous3114113800531696875webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:396)
+</pre></div></td>
+<td>148</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A077_CP_Company_ControlsTest@41302aea</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A078_Authorisation_Control_Codes_For_APTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A078_Authorisation_Control_Codes_For_APTest<br>Parameters: [DataUnit [userName = T65], DataUnit [passWord = T65], DataUnit [currencyCode = GOA], DataUnit [authorisationCodeL0 = 03], DataUnit [authorisationCodeL0 = L0], DataUnit [authorisationCodeL0 = Level 0 - None], DataUnit [authorisationCodeL0 = None], DataUnit [authorisationCodeL0 = None], DataUnit [authorisationCodeL0 = 0], DataUnit [authorisationCodeL0 = 0.00], DataUnit [authorisationCodeL0 = QUERY], DataUnit [authorisationCodeL0 = 0], DataUnit [authorisationCodeL1 = 03], DataUnit [authorisationCodeL1 = L1], DataUnit [authorisationCodeL1 = Level 1 - Optional], DataUnit [authorisationCodeL1 = Optional], DataUnit [authorisationCodeL1 = Value], DataUnit [authorisationCodeL1 = 1], DataUnit [authorisationCodeL1 = 0.00], DataUnit [authorisationCodeL1 = QUERY], DataUnit [authorisationCodeL1 = 0], DataUnit [authorisationCodeL2 = 03], DataUnit [authorisationCodeL2 = L2], DataUnit [authorisationCodeL2 = Level 2 – Mandatory System], DataUnit [authorisationCodeL2 = Fixed], DataUnit [authorisationCodeL2 = GL Responsibility], DataUnit [authorisationCodeL2 = 2], DataUnit [authorisationCodeL2 = 0.00], DataUnit [authorisationCodeL2 = QUERY], DataUnit [authorisationCodeL2 = 0]]</td>
+<td></td>
+<td>220</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A078_Authorisation_Control_Codes_For_APTest@50408a33</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A078A_Authorisation_Control_Codes_For_APTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A078A_Authorisation_Control_Codes_For_APTest<br>Parameters: [DataUnit [userName = T65], DataUnit [passWord = T65], DataUnit [currencyCode = GOA], DataUnit [authorisationCodeL3 = 03], DataUnit [authorisationCodeL3 = L3], DataUnit [authorisationCodeL3 = Level 3 – Mandatory User ], DataUnit [authorisationCodeL3 = Deselect], DataUnit [authorisationCodeL3 = Val Within GL Resp], DataUnit [authorisationCodeL3 = 1], DataUnit [authorisationCodeL3 = 0.00], DataUnit [authorisationCodeL3 = QUERY], DataUnit [authorisationCodeL3 = 0], DataUnit [authorisationCodeL4 = 03], DataUnit [authorisationCodeL4 = L4], DataUnit [authorisationCodeL4 = Level 4 - Mandatory Automatic Off System], DataUnit [authorisationCodeL4 = Entered], DataUnit [authorisationCodeL4 = Value], DataUnit [authorisationCodeL4 = 1], DataUnit [authorisationCodeL4 = 1000.00], DataUnit [authorisationCodeL4 = QUERY], DataUnit [authorisationCodeL4 = 1], DataUnit [authorisationCodeL5 = 03], DataUnit [authorisationCodeL5 = L5], DataUnit [authorisationCodeL5 = Level 5 – Automatic For Logged On User], DataUnit [authorisationCodeL5 = Desel/Entered], DataUnit [authorisationCodeL5 = Value], DataUnit [authorisationCodeL5 = 1], DataUnit [authorisationCodeL5 = 0.00], DataUnit [authorisationCodeL5 = QUERY], DataUnit [authorisationCodeL5 = 0]]</td>
+<td></td>
+<td>221</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A078A_Authorisation_Control_Codes_For_APTest@41518a15</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A079_Authorisation_GroupsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A079_Authorisation_GroupsTest<br>Parameters: [DataUnit [userName = T65], DataUnit [passWord = T65], DataUnit [currencyCode = DBC], DataUnit [currencyCode = GOC], DataUnit [authorisationGroupForPM = 03], DataUnit [authorisationGroupForPM = PM], DataUnit [authorisationGroupForPM = Authorisation Group for PM], DataUnit [authorisationGroupForAP = 03], DataUnit [authorisationGroupForAP = PM], DataUnit [authorisationGroupForAP = Authorisation Group for AP]]</td>
+<td></td>
+<td>151</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A079_Authorisation_GroupsTest@3d31436e</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A080_Authorisation_Control_Codes_For_PMTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A080_Authorisation_Control_Codes_For_PMTest<br>Parameters: [DataUnit [userName = T65], DataUnit [passWord = T65], DataUnit [currencyCode = DBA], DataUnit [authorisationCodeL1 = 03], DataUnit [authorisationCodeL1 = L1], DataUnit [authorisationCodeL1 = Level 1 Authorisation code for PM], DataUnit [authorisationCodeL1 = User Assigned], DataUnit [authorisationCodeL1 = Value], DataUnit [authorisationCodeL1 = 2], DataUnit [authorisationCodeL1 = 0.00], DataUnit [authorisationCodeL1 = QUERY], DataUnit [authorisationCodeL1 = 1], DataUnit [authorisationCodeL1 = 1], DataUnit [authorisationCodeL1 = 1], DataUnit [authorisationCodeL1 = 1], DataUnit [authorisationCodeL1 = 0], DataUnit [authorisationCodeL2 = 03], DataUnit [authorisationCodeL2 = L2], DataUnit [authorisationCodeL2 = Level 2 Authorisation code for PM], DataUnit [authorisationCodeL2 = None], DataUnit [authorisationCodeL2 = None], DataUnit [authorisationCodeL2 = 0], DataUnit [authorisationCodeL2 = 0.00], DataUnit [authorisationCodeL2 = NILL], DataUnit [authorisationCodeL2 = 0], DataUnit [authorisationCodeL2 = 0], DataUnit [authorisationCodeL2 = 0], DataUnit [authorisationCodeL2 = 0], DataUnit [authorisationCodeL2 = 0]]</td>
+<td></td>
+<td>185</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A080_Authorisation_Control_Codes_For_PMTest@670b13df</td></tr>
+</table><p>
+</body>
+</html>

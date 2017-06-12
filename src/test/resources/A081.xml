@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<Row >
+	    <userName>T65</userName>
+        <passWord>T65</passWord>
+        <currencyCode>DDC</currencyCode>
+        
+        <authorisationGroupOne>POP HQ</authorisationGroupOne>
+        <authorisationGroupOne>O</authorisationGroupOne>
+        <authorisationGroupOne>O1</authorisationGroupOne>
+        <authorisationGroupOne>NILL</authorisationGroupOne>
+        <authorisationGroupOne>PM</authorisationGroupOne>
+        <authorisationGroupOne>L1</authorisationGroupOne>
+        <authorisationGroupOne>O1/POP HQ</authorisationGroupOne>
+        
+        <authorisationGroupTwo>POP HQ</authorisationGroupTwo>
+        <authorisationGroupTwo>R</authorisationGroupTwo>
+        <authorisationGroupTwo>PM</authorisationGroupTwo>
+        <authorisationGroupTwo>NILL</authorisationGroupTwo>
+        <authorisationGroupTwo>PM</authorisationGroupTwo>
+        <authorisationGroupTwo>L1</authorisationGroupTwo>
+        <authorisationGroupTwo>O1/POP HQ</authorisationGroupTwo>
+        
+        <authorisationGroupThree>POP HQ</authorisationGroupThree>
+        <authorisationGroupThree>R</authorisationGroupThree>
+        <authorisationGroupThree>RE</authorisationGroupThree>
+        <authorisationGroupThree>NILL</authorisationGroupThree>
+        <authorisationGroupThree>PM</authorisationGroupThree>
+        <authorisationGroupThree>L1</authorisationGroupThree>
+        <authorisationGroupThree>RE/POP HQ</authorisationGroupThree>
+        
+        <authorisationGroupFour>POP HQ</authorisationGroupFour>
+        <authorisationGroupFour>R</authorisationGroupFour>
+        <authorisationGroupFour>RI</authorisationGroupFour>
+        <authorisationGroupFour>NILL</authorisationGroupFour>
+        <authorisationGroupFour>PM</authorisationGroupFour>
+        <authorisationGroupFour>L1</authorisationGroupFour>
+        <authorisationGroupFour>RI/POP HQ</authorisationGroupFour>
+        
+        <authorisationGroupFive>POP HQ</authorisationGroupFive>
+        <authorisationGroupFive>R</authorisationGroupFive>
+        <authorisationGroupFive>RR</authorisationGroupFive>
+        <authorisationGroupFive>NILL</authorisationGroupFive>
+        <authorisationGroupFive>PM</authorisationGroupFive>
+        <authorisationGroupFive>L1</authorisationGroupFive>
+        <authorisationGroupFive>RR/POP HQ</authorisationGroupFive>
+     </Row>
+</Root>

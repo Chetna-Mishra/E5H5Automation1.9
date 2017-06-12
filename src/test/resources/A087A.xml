@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	
+	<Row>
+	    <userName>T87</userName>
+        <passWord>T87</passWord>
+        <currencyCode>GOK</currencyCode>
+        <url>http://192.168.31.62:37474/e5h5/app/map.do</url>
+       
+        <authorisationCode>PM</authorisationCode>
+        <authorisationCode>WEST</authorisationCode>
+        <authorisationCode>LEV1</authorisationCode>
+        <authorisationCode>LEV2</authorisationCode>
+        <authorisationCode>LEV3</authorisationCode>
+        <authorisationCode>LEV4</authorisationCode>        
+        
+        <lev1User>1</lev1User>
+        <lev1User>EMPLOYEE</lev1User>
+        
+        <lev2and3User>2</lev2and3User>
+        <lev2and3User>ADMIN</lev2and3User>
+        <lev2and3User>MANAGER</lev2and3User>
+        
+        <lev4User>3</lev4User>
+        <lev4User>ADMIN</lev4User>
+        <lev4User>MANAGER</lev4User>
+        <lev4User>QUERY</lev4User>	
+	</Row>
+    
+	<Row>
+	    <userName>T87</userName>
+        <passWord>T87</passWord>
+        <currencyCode>GOK</currencyCode>
+       	<url>http://192.168.31.62:37474/e5h5/app/map.do</url>
+        
+        <authorisationCode>PM</authorisationCode>
+        <authorisationCode>NORTH</authorisationCode>
+        <authorisationCode>LEV1</authorisationCode>
+        <authorisationCode>LEV2</authorisationCode>
+        <authorisationCode>LEV3</authorisationCode>
+        <authorisationCode>LEV4</authorisationCode>        
+        
+        <lev1User>1</lev1User>
+        <lev1User>EMPLOYEE</lev1User>
+        
+        <lev2and3User>2</lev2and3User>
+        <lev2and3User>ADMIN</lev2and3User>
+        <lev2and3User>MANAGER</lev2and3User>
+        
+        <lev4User>3</lev4User>
+        <lev4User>ADMIN</lev4User>
+        <lev4User>MANAGER</lev4User>
+        <lev4User>QUERY</lev4User>	
+	</Row>
+	
+	<Row>
+	    <userName>T87</userName>
+        <passWord>T87</passWord>
+        <currencyCode>GOK</currencyCode>
+        <url>http://192.168.31.62:37474/e5h5/app/map.do</url>
+       
+        <authorisationCode>PM</authorisationCode>
+        <authorisationCode>SOUTH</authorisationCode>
+        <authorisationCode>LEV1</authorisationCode>
+        <authorisationCode>LEV2</authorisationCode>
+        <authorisationCode>LEV3</authorisationCode>
+        <authorisationCode>LEV4</authorisationCode>        
+        
+        <lev1User>1</lev1User>
+        <lev1User>EMPLOYEE</lev1User>
+        
+        <lev2and3User>2</lev2and3User>
+        <lev2and3User>ADMIN</lev2and3User>
+        <lev2and3User>MANAGER</lev2and3User>
+        
+        <lev4User>3</lev4User>
+        <lev4User>ADMIN</lev4User>
+        <lev4User>MANAGER</lev4User>
+        <lev4User>QUERY</lev4User>	
+	</Row>
+	
+</Root>

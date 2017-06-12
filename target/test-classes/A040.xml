@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T82</userName>
+          	<passWord>T82</passWord>
+            <currencyCode>EDB</currencyCode> 
+            <currencyCode>EJI</currencyCode>
+            <currencyCode>EJJ</currencyCode>
+            <company>03</company>
+            
+            <firstICAData>BASE</firstICAData>
+            <firstICAData>B001</firstICAData>
+            <firstICAData>NORTH</firstICAData>
+            <firstICAData>Posting within BTZ element B001</firstICAData>
+            <firstICAData>2</firstICAData>
+            <firstICAData>1500</firstICAData>
+            <firstICAData>N1</firstICAData>
+            <firstICAData>400.00</firstICAData>
+            <firstICAData>6300</firstICAData>
+            <firstICAData>N2</firstICAData>
+            <firstICAData>-400.00</firstICAData>
+            
+            <secondICAData>BASE</secondICAData>
+            <secondICAData>B002</secondICAData>
+            <secondICAData>NORTH</secondICAData>
+            <secondICAData>Posting within BTZ element B002</secondICAData>
+            <secondICAData>2</secondICAData>
+            <secondICAData>1500</secondICAData>
+            <secondICAData>N1</secondICAData>
+            <secondICAData>200.00</secondICAData>
+            <secondICAData>6400</secondICAData>
+            <secondICAData>S1</secondICAData>
+            <secondICAData>-200.00</secondICAData>
+            
+            <aGroup>LAY1</aGroup>
+            <aGroup>A</aGroup>
+            <aGroup>02</aGroup>
+            
+            <fAccount1500>1500</fAccount1500>
+            <fAccount1500>400.00</fAccount1500>
+            <fAccount1500>400.00</fAccount1500>
+
+            <sAccount1500>1500</sAccount1500>
+            <sAccount1500>600.00</sAccount1500>
+            <sAccount1500>600.00</sAccount1500>
+            
+            
+            <account6300>6300</account6300>
+            <account6300>-400.00</account6300>
+            <account6300>-400.00</account6300>
+            
+            <account6400>6400</account6400>
+            <account6400>-200.00</account6400>
+            <account6400>-200.00</account6400>
+            
+            
+            <structureEnqForA02>LAY1</structureEnqForA02>
+            <structureEnqForA02>00</structureEnqForA02>
+            <structureEnqForA02>NORTH</structureEnqForA02>
+            <structureEnqForA02>N</structureEnqForA02>
+            <structureEnqForA02>A</structureEnqForA02>
+            <structureEnqForA02>02</structureEnqForA02>
+            
+            <structureEnqForN1>N1</structureEnqForN1>
+            <structureEnqForN1>400.00</structureEnqForN1>
+            <structureEnqForN1>400.00</structureEnqForN1>
+ 
+            <structureEnqForN2>N2</structureEnqForN2>
+            <structureEnqForN2>400.00</structureEnqForN2>
+            <structureEnqForN2>400.00</structureEnqForN2>
+            
+            <structureEnq2ForN1>N1</structureEnq2ForN1>
+            <structureEnq2ForN1>600.00</structureEnq2ForN1>
+            <structureEnq2ForN1>600.00</structureEnq2ForN1>
+            
+            <structureEnqForS1>S1</structureEnqForS1>
+            <structureEnqForS1>600.00</structureEnqForS1>
+            <structureEnqForS1>600.00</structureEnqForS1>
+            
+            
+            
+            <balance>NBTZ</balance>
+            <balance>000.00</balance>
+            <balance>000.00</balance>
+            <balance>N1</balance>
+            <balance>400.00</balance>
+            <balance>400.00</balance>
+            <balance>N2</balance>
+            <balance>-400.00</balance>
+            <balance>-400.00</balance>
+  
+      </Row>
+</Root>

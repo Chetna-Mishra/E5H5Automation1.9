@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	  <Row>
+	      	<userName>T85</userName>
+          	<passWord>T85</passWord>
+            <code>ENI</code> 
+            <code>AFF</code>
+			
+			<securityList>STD</securityList>
+			<securityList>00</securityList>
+			<securityList>HQ</securityList>
+						
+			<securityList>STD</securityList>
+			
+			<securityList>Access to all E5 application function</securityList>
+			
+      </Row>
+</Root>

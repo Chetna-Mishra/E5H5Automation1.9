@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  suite29</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>suite29</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 05 13:01:42 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>737 seconds (737402 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A074_Automatic_Banking_CodeTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A074_Automatic_Banking_CodeTest<br>Parameters: [DataUnit [userName = T74], DataUnit [passWord = T74], DataUnit [currencyCode = GAM], DataUnit [bankingCode = AP], DataUnit [bankingCode = 123456], DataUnit [bankingCode = ABC BP], DataUnit [bankingCode = NILL], DataUnit [bankingCode = BACS03], DataUnit [bankingCode = 1]]</td>
+<td><div><pre>java.lang.AssertionError: New automatic bank code  AP not displayed in the list expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.adv.qa.selenium.framework.Assert.assertTrue(Assert.java:43)
+	at com.adv.qa.selenium.tests.currency.phase2.A074_Automatic_Banking_CodeTest.verify(A074_Automatic_Banking_CodeTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace494592833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace494592833'><pre>java.lang.AssertionError: New automatic bank code  AP not displayed in the list expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.adv.qa.selenium.framework.Assert.assertTrue(Assert.java:43)
+	at com.adv.qa.selenium.tests.currency.phase2.A074_Automatic_Banking_CodeTest.verify(A074_Automatic_Banking_CodeTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>132</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A074_Automatic_Banking_CodeTest@38aa441a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A073_Receipt_ControlTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A073_Receipt_ControlTest<br>Parameters: [DataUnit [userName = T73], DataUnit [passWord = T73], DataUnit [currencyCode = PX3], DataUnit [receiptControl = REC3], DataUnit [receiptControl = Receipt Control REC1], DataUnit [receiptControl = Percent], DataUnit [receiptControl = 10.00], DataUnit [receiptControl = 10.00], DataUnit [receiptControl = 2]]</td>
+<td></td>
+<td>116</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A073_Receipt_ControlTest@48d19957</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A071_Document_PrefixCodesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A071_Document_PrefixCodesTest<br>Parameters: [DataUnit [userName = T71], DataUnit [passWord = T71], DataUnit [currencyCode = PXJ], DataUnit [currencyCode = PXI], DataUnit [documentO = Order], DataUnit [documentO = O], DataUnit [documentO = Order Prefix Code (Order)], DataUnit [documentO = Manual], DataUnit [documentO = 10], DataUnit [documentC = Contract], DataUnit [documentC = C], DataUnit [documentC = Contract Prefix Code C], DataUnit [documentC = Manual], DataUnit [documentC = 10], DataUnit [documentR = Requisition], DataUnit [documentR = R], DataUnit [documentR = Requisition Prefix Code R], DataUnit [documentR = Manual], DataUnit [documentR = 10], DataUnit [documentG = GRN], DataUnit [documentG = G], DataUnit [documentG = GRN Prefix Code G], DataUnit [documentG = Manual], DataUnit [documentG = 10]]</td>
+<td></td>
+<td>211</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A071_Document_PrefixCodesTest@325d2406</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A072_Common_Purchasing_UsersTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A072_Common_Purchasing_UsersTest<br>Parameters: [DataUnit [userName = T72], DataUnit [passWord = T72], DataUnit [currencyCode = PX2], DataUnit [currencyCode = PX1], DataUnit [cpUserQuery = QUERY], DataUnit [cpUserQuery = 1], DataUnit [cpUserQuery = 1], DataUnit [cpUserQuery = 1], DataUnit [cpUserQuery = 1], DataUnit [cpUserQuery = QUERY], DataUnit [cpUserAccept = ACCEPT], DataUnit [cpUserAccept = 0], DataUnit [cpUserAccept = 0], DataUnit [cpUserAccept = 1], DataUnit [cpUserAccept = 0], DataUnit [cpUserAccept = QUERY], DataUnit [cpUserBuyer = BUYER], DataUnit [cpUserBuyer = 1], DataUnit [cpUserBuyer = 0], DataUnit [cpUserBuyer = 0], DataUnit [cpUserBuyer = 0], DataUnit [cpUserBuyer = BUYER], DataUnit [cpUserT66 = T66], DataUnit [cpUserT66 = 1], DataUnit [cpUserT66 = 1], DataUnit [cpUserT66 = 1], DataUnit [cpUserT66 = 1], DataUnit [cpUserT66 = T66], DataUnit [cpUserExped = EXPED], DataUnit [cpUserExped = 0], DataUnit [cpUserExped = 1], DataUnit [cpUserExped = 0], DataUnit [cpUserExped = 0], DataUnit [cpUserExped = QUERY], DataUnit [cpUserGrec = GREC], DataUnit [cpUserGrec = 0], DataUnit [cpUserGrec = 1], DataUnit [cpUserGrec = 0], DataUnit [cpUserGrec = 0], DataUnit [cpUserGrec = QUERY]]</td>
+<td></td>
+<td>282</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A072_Common_Purchasing_UsersTest@e81fbf</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A075_Circulation_CodeTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A075_Circulation_CodeTest<br>Parameters: [DataUnit [userName = T75], DataUnit [passWord = T75], DataUnit [currencyCode = QSA], DataUnit [currencyCode = QMA], DataUnit [companyControl = T66], DataUnit [companyControl = AAS], DataUnit [companyControl = 12], DataUnit [mappingsOrder = POP_ORDER_1], DataUnit [mappingsOrder = POP_ORDER_1], DataUnit [mappingsReq = POP_REQUISITION_1], DataUnit [mappingsReq = POP_REQUISITION_1], DataUnit [mappingAdj = IM_STOCK_ADJ], DataUnit [mappingAdj = IM_STOCK_ADJ], DataUnit [mappingTrans = IM_BIN_TRANS], DataUnit [mappingTrans = IM_BIN_TRANS], DataUnit [mappingDisp = IM_STOCK_DISP], DataUnit [mappingDisp = IM_STOCK_DISP], DataUnit [mappingStock = IM_STOCK_TAKE], DataUnit [mappingStock = IM_STOCK_TAKE], DataUnit [mappingMtIssue = IM_MATERIAL_ISSUE], DataUnit [mappingMtIssue = IM_MATERIAL_ISSUE], DataUnit [mappingPickList = IM_PICK_LIST], DataUnit [mappingPickList = IM_PICK_LIST], DataUnit [mappingStoreTran = IM_STORE_TRANS], DataUnit [mappingStoreTran = IM_STORE_TRANS], DataUnit [mappingRet = IM_STORE_RET], DataUnit [mappingRet = IM_STORE_RET]]</td>
+<td></td>
+<td>478</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A075_Circulation_CodeTest@77c3510</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  	<Row>
+	    <userName>T65</userName>
+        <passWord>T65</passWord>
+        <currencyCode>PX8</currencyCode>
+        
+        <circulationO1>O1</circulationO1>
+        <circulationO1>O1 Normal Order</circulationO1>
+        <circulationO1>POP_ORDER_1</circulationO1>
+        <circulationO1>CMS123</circulationO1>
+        <circulationO1>ORDER-1</circulationO1>
+        
+        <circulationRQ>RQ</circulationRQ>
+        <circulationRQ>RQ Requisition Circulation Code</circulationRQ>
+        <circulationRQ>POP_REQUISITION_1</circulationRQ>
+        <circulationRQ>CMS123</circulationRQ>
+        <circulationRQ>REQUISITION-1</circulationRQ>
+        
+        <circulationA1>A1</circulationA1>
+        <circulationA1>Stock Adjustment</circulationA1>
+        <circulationA1>IM_STOCK_ADJ</circulationA1>
+        <circulationA1>CMS123</circulationA1>
+        <circulationA1>STOCK_ADJ</circulationA1>
+        
+        <circulationB1>B1</circulationB1>
+        <circulationB1>Bin Transfer</circulationB1>
+        <circulationB1>IM_STOCK_ADJ</circulationB1>
+        <circulationB1>CMS123</circulationB1>
+        <circulationB1>STOCK_ADJ</circulationB1>
+        
+        <circulationD1>D1</circulationD1>
+        <circulationD1>Stock Disposal</circulationD1>
+        <circulationD1>IM_STOCK_DISP</circulationD1>
+        <circulationD1>CMS123</circulationD1>
+        <circulationD1>STOCK_DISP</circulationD1>
+        
+	</Row>
+</Root>

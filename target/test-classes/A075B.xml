@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  	<Row>
+	    <userName>T55</userName>
+        <passWord>T55</passWord>
+        <currencyCode>PX8</currencyCode>
+               
+        <circulationK1>K1</circulationK1>
+        <circulationK1>Stock Take</circulationK1>
+        <circulationK1>IM_STOCK_TAKE</circulationK1>
+        <circulationK1>CMS123</circulationK1>
+        <circulationK1>STOCK_TAKE</circulationK1>
+        
+        <circulationM1>M1</circulationM1>
+        <circulationM1>Material Issue</circulationM1>
+        <circulationM1>IM_MATERIAL_ISSUE</circulationM1>
+        <circulationM1>CMS123</circulationM1>
+        <circulationM1>MATERIAL_ISSUE</circulationM1>
+        
+        <circulationP1>P1</circulationP1>
+        <circulationP1>Picking List</circulationP1>
+        <circulationP1>IM_PICK_LIST</circulationP1>
+        <circulationP1>CMS123</circulationP1>
+        <circulationP1>PICK_LIST</circulationP1>
+                
+        <circulationT1>T1</circulationT1>
+        <circulationT1>Store Transfer</circulationT1>
+        <circulationT1>IM_STORE_TRANS</circulationT1>
+        <circulationT1>CMS123</circulationT1>
+        <circulationT1>STORE_TRANS</circulationT1>
+        
+        <circulationRS>RS</circulationRS>
+        <circulationRS>Return to Store</circulationRS>
+        <circulationRS>IM_STORE_RET</circulationRS>
+        <circulationRS>CMS123</circulationRS>
+        <circulationRS>STORE_RET</circulationRS>
+        
+	</Row>
+</Root>

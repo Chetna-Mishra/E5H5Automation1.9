@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T88</userName>
+          	<passWord>T88</passWord>
+            <balanceCategoryCode>EAK</balanceCategoryCode>   
+
+            <values>N</values>
+            <values>A</values>               
+            
+            <a02Category>N</a02Category>
+            <a02Category>A</a02Category>
+            <a02Category>02</a02Category>
+            <a02Category>Category A02 (N)</a02Category>
+            <a02Category>Asset</a02Category>
+            
+            <b08Category>N</b08Category>
+            <b08Category>B</b08Category>
+            <b08Category>08</b08Category>
+            <b08Category>Category B08 (N)</b08Category>
+            <b08Category>Asset</b08Category>
+            
+            <b01Category>N</b01Category>
+            <b01Category>B</b01Category>
+            <b01Category>01</b01Category>
+            <b01Category>Purchasing Assets</b01Category>
+            <b01Category>Asset</b01Category> 
+            
+            <b02Category>N</b02Category>
+            <b02Category>B</b02Category>
+            <b02Category>02</b02Category>
+            <b02Category>PL Creditors</b02Category>
+            <b02Category>Asset</b02Category> 
+            
+            <b03Category>N</b03Category>
+            <b03Category>B</b03Category>
+            <b03Category>03</b03Category>
+            <b03Category>Purchasing CTLs</b03Category>
+            <b03Category>Asset</b03Category>
+            
+            <b04Category>N</b04Category>
+            <b04Category>B</b04Category>
+            <b04Category>04</b04Category>
+            <b04Category>POP Accruals</b04Category>
+            <b04Category>Asset</b04Category>
+            
+            <c01Category>N</c01Category>
+            <c01Category>C</c01Category>
+            <c01Category>01</c01Category>
+            <c01Category>Self Assessed Tax Liability</c01Category>
+            <c01Category>Asset</c01Category>
+            
+            <c02Category>N</c02Category>
+            <c02Category>C</c02Category>
+            <c02Category>02</c02Category>
+            <c02Category>Liability Category 02</c02Category>
+            <c02Category>Liability</c02Category>
+      </Row>
+</Root>

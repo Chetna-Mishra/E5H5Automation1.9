@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>TestNG:  suite9</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>suite9</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 05 10:58:30 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>852 seconds (852296 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A020_Ledger_Control_AccountsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A020_Ledger_Control_AccountsTest<br>Parameters: [DataUnit [userName = T86], DataUnit [passWord = T86], DataUnit [code = EAC], DataUnit [ledgerControlList = IM], DataUnit [ledgerControlList = GL Default Controls], DataUnit [ledgerControlList = 3000], DataUnit [ledgerControlList = DUM], DataUnit [ledgerControlList = 2600], DataUnit [ledgerControlList = DUM], DataUnit [ledgerControlList = 2500], DataUnit [ledgerControlList = DUM]]</td>
+<td></td>
+<td>106</td>
+<td>com.adv.qa.selenium.tests.currency.A020_Ledger_Control_AccountsTest@349c5304</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A021_Batch_TypesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A021_Batch_TypesTest<br>Parameters: [DataUnit [userName = T86], DataUnit [passWord = T86], DataUnit [code = AKK], DataUnit [batchTypeRval = RVAL], DataUnit [batchTypeRval = Revaluation], DataUnit [batchTypeRval = IM], DataUnit [batchTypeRval = Delayed], DataUnit [batchTypeRval = 1], DataUnit [batchTypeRval = 1], DataUnit [batchTypeSumm = TRAN], DataUnit [batchTypeSumm = Transfer], DataUnit [batchTypeSumm = IM], DataUnit [batchTypeSumm = Delayed], DataUnit [batchTypeSumm = 1], DataUnit [batchTypeSumm = 1], DataUnit [batchTypeTran = SUMM], DataUnit [batchTypeTran = Summarisation], DataUnit [batchTypeTran = IM], DataUnit [batchTypeTran = Delayed], DataUnit [batchTypeTran = 0], DataUnit [batchTypeTran = 0]]</td>
+<td></td>
+<td>163</td>
+<td>com.adv.qa.selenium.tests.currency.A021_Batch_TypesTest@c4fa1cd</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A022_Balance_ClassesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A022_Balance_ClassesTest<br>Parameters: [DataUnit [userName = T84], DataUnit [passWord = T84], DataUnit [code = AKS], DataUnit [firstBalanceClass = S,1], DataUnit [firstBalanceClass = Statistical Default], DataUnit [firstBalanceClass = 1], DataUnit [firstBalanceClass = 0], DataUnit [firstBalanceClass = 0], DataUnit [firstBalanceClass = 0], DataUnit [firstBalanceClass = 0], DataUnit [firstBalanceClass = 0], DataUnit [firstBalanceClass = 0], DataUnit [firstBalanceClass = 0], DataUnit [firstBalanceClass = Not Active], DataUnit [secondBalanceClass = I,C], DataUnit [secondBalanceClass = ICA Balance Class], DataUnit [secondBalanceClass = 0], DataUnit [secondBalanceClass = 1], DataUnit [secondBalanceClass = 0], DataUnit [secondBalanceClass = 0], DataUnit [secondBalanceClass = 0], DataUnit [secondBalanceClass = 0], DataUnit [secondBalanceClass = 0], DataUnit [secondBalanceClass = 0], DataUnit [secondBalanceClass = Not Active], DataUnit [thirdBalanceClass = B,1], DataUnit [thirdBalanceClass = Annual Budget], DataUnit [thirdBalanceClass = 0], DataUnit [thirdBalanceClass = 1], DataUnit [thirdBalanceClass = 0], DataUnit [thirdBalanceClass = 0], DataUnit [thirdBalanceClass = 0], DataUnit [thirdBalanceClass = 1], DataUnit [thirdBalanceClass = 0], DataUnit [thirdBalanceClass = 0], DataUnit [thirdBalanceClass = Not Active], DataUnit [fourthBalanceClass = V,1], DataUnit [fourthBalanceClass = VAT  Analysis], DataUnit [fourthBalanceClass = 0], DataUnit [fourthBalanceClass = 0], DataUnit [fourthBalanceClass = 0], DataUnit [fourthBalanceClass = 0], DataUnit [fourthBalanceClass = 0], DataUnit [fourthBalanceClass = 0], DataUnit [fourthBalanceClass = 0], DataUnit [fourthBalanceClass = 1], DataUnit [fourthBalanceClass = 1], DataUnit [fourthBalanceClass = Not Active], DataUnit [BalanceClassForRS = R,S], DataUnit [BalanceClassForRS = RS], DataUnit [BalanceClassForRS = 0], DataUnit [BalanceClassForRS = 1], DataUnit [BalanceClassForRS = 0], DataUnit [BalanceClassForRS = 0], DataUnit [BalanceClassForRS = 0], DataUnit [BalanceClassForRS = 1], DataUnit [BalanceClassForRS = 1], DataUnit [BalanceClassForRS = 1], DataUnit [BalanceClassForRS = 1], DataUnit [BalanceClassForRS = Not Active], DataUnit [BalanceClassForBR = B,S], DataUnit [BalanceClassForBR = BR], DataUnit [BalanceClassForBR = 0], DataUnit [BalanceClassForBR = 1], DataUnit [BalanceClassForBR = 0], DataUnit [BalanceClassForBR = 0], DataUnit [BalanceClassForBR = 0], DataUnit [BalanceClassForBR = 1], DataUnit [BalanceClassForBR = 1], DataUnit [BalanceClassForBR = 1], DataUnit [BalanceClassForBR = 1], DataUnit [BalanceClassForBR = Not Active]]</td>
+<td></td>
+<td>336</td>
+<td>com.adv.qa.selenium.tests.currency.A022_Balance_ClassesTest@6b7fb146</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A023_Company_ControlsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A023_Company_ControlsTest<br>Parameters: [DataUnit [userName = T84], DataUnit [passWord = T84], DataUnit [code = EAA], DataUnit [companyControl = 02], DataUnit [companyControl = 2003], DataUnit [companyControl = IM], DataUnit [companyControl = HCFISCAL], DataUnit [companyControl = 2], DataUnit [companyControl = 2], DataUnit [companyControl = SUMM], DataUnit [companyControl = 7], DataUnit [companyControl = S1], DataUnit [companyControl = Offline Only], DataUnit [companyControl = Not In Use], DataUnit [companyControl = IM], DataUnit [companyControl = 2.00], DataUnit [companyControl = 5.00], DataUnit [companyControl = Warning], DataUnit [companyControl = RVAL]]</td>
+<td></td>
+<td>155</td>
+<td>com.adv.qa.selenium.tests.currency.A023_Company_ControlsTest@4007a00b</td></tr>
+</table><p>
+</body>
+</html>

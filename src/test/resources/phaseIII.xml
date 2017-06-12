@@ -1,0 +1,79 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" verbose="2" time-out="8000000" thread-count="1"  preserve-test-order="true">
+<!-- 
+	 @author : Draxayani
+	 Purpose : Batch execution of testcases from A043 - A091
+ -->    
+  
+ <test name="suite1" preserve-order="true" time-out="800000">
+    	<classes>
+    	      <class name="com.adv.qa.selenium.tests.currency.phase3.A116_Simplified_Security_ElementsTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A116A_Simplified_Security_ElementsTest"/>
+    	    
+       	<!-- 	 <class name="com.adv.qa.selenium.tests.currency.phase3.A091A_SupplierAuditTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A092_Supplier_ElementsTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A093_Transaction_Legend_ControlsTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A094_Business_Event_Manager_ObjectsTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A095_Business_Event_Manager_Program_V_EventTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A096_Business_Event_Manager_Action_ListTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A097_Stock_TypesTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A098_Item_CreationTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A098A_Item_CreationTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A099_Items_Supplier_RelationshipTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A100_Item_PricesTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A101_Item_BuyersTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A102_ICA_Default_Trading_RelationshipsTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A103_IM_AccountsTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A104_Inventory_Company_ControlsTest"/>  
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A105_Store_LocationsTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A106_Inventory_Store_ControlTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A107_Stores_HierarchyTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A108_Item_Store_Controls_Manual_Store_HierarchyTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A108A_Item_Store_Controls_Manual_Store_HierarchyTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A109_Element_Control_AccountsTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A110_Security_Range_ListsTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A111_Security_GroupsTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A112_User_Company_SecurityTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A113_Security_Access_CodesTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A114_Security_Group_Access_CodesTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A115_User_Roles_Set_upTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A116_Simplified_Security_ElementsTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.A116A_Simplified_Security_ElementsTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.A117_Simplified_SecurityTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD01004_Stock_Take_On_Using_Positive_AdjustmentTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD01008_IM_Audit_ReportsTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD01009_General_Ledger_AuditTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD02001_Normal_Material_IssueTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD02009_Goods_ReceivingTest"/>
+        	  <class name="com.adv.qa.selenium.tests.currency.phase3.AD02010_Invoice_Creation_For_OrderTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD02013_Create_Service_OrderTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD03001_Store_TransferTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD03013_IM_Audit_ReportsTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD03016_Period_EndTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD05001_Return_To_StoreTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD09004_Classification_Codes_For_Item_HierarchyTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD09005_Classification_Parentage_For_Item_HierarchyTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD09006_Item_ClassificationTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD09008_Enquiries_Document_ListTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD10001_Log_Single_InvoiceTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD10002_Enter_Taxable_DebitNotes"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD10004_Enter_Tax_Only_InvoiceTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD10005_Enter_FOC_InvoiceTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD10006_Under_Invoice_OrdersTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD10014_Enter_Invoice_Due_TodayTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD10015_Create_Manual_Payment_ScheduleTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD01004_Stock_Take_On_Using_Positive_AdjustmentTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD10016_Create_Schedule_For_Payment_ProcessingTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD10017_Submit_Payment_ProcessingTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD10019_Accounts_Payable_And_General_Ledger_AuditTest"/>  
+        	 <class name="com.adv.qa.selenium.tests.currency.phase3.AD11008_Transaction_Amendment_InvoiceTest"/>
+        	  <class name="com.adv.qa.selenium.tests.currency.phase3.AD11010_Suspend_Release_InvoiceTest"/>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD11014_Recurring_Payments_For_InvoicesTest"/>  
+       		 <class name="com.adv.qa.selenium.tests.currency.phase3.AD12005_Supplier_Financial_CommitmentTest"/>  
+        	 
+        	 	 	 	 	 	 	 	 	 	 	 	 	 	 	  -->	 	 
+   	 </classes>
+  </test>   
+
+</suite>
+

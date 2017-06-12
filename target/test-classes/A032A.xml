@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T62</userName>
+          	<passWord>T62</passWord>
+            <currencyCode>ECG</currencyCode>
+            			
+			<pathKeyNorth>00</pathKeyNorth>
+			<pathKeyNorth>2</pathKeyNorth>
+			<pathKeyNorth>NBTZ</pathKeyNorth>
+			<pathKeyNorth>NORTH</pathKeyNorth>
+			
+			<pathKeyEast>00</pathKeyEast>
+			<pathKeyEast>2</pathKeyEast>
+			<pathKeyEast>SBTZ</pathKeyEast>
+			<pathKeyEast>SOUTH</pathKeyEast>
+			
+			<pathKeyWest>00</pathKeyWest>
+			<pathKeyWest>2</pathKeyWest>
+			<pathKeyWest>EBTZ</pathKeyWest>
+			<pathKeyWest>EAST</pathKeyWest>
+			
+			<pathKeySouth>00</pathKeySouth>
+			<pathKeySouth>2</pathKeySouth>
+			<pathKeySouth>WBTZ</pathKeySouth>
+			<pathKeySouth>WEST</pathKeySouth>
+					
+      </Row>
+</Root>

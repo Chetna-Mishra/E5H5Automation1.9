@@ -1,0 +1,143 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" verbose="2" time-out="800000"  thread-count="2"  preserve-test-order="true">
+   <test name="suite1" preserve-order="true">
+    	<classes>
+			<class name="com.adv.qa.selenium.tests.currency.A001_Switch_Intra_Company_Accounting_OnTest"/>   
+		</classes>
+   </test>
+ <!--   
+      <test name="suite2" parallel="instances">
+    	<classes>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase2.A048_UOMTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A049_Common_Purchasing_Company_ControlsTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A050_Accounts_Payable_Control_AccountsTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A051_Purchase_Ledger_Bank_CodesTest"/>     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A052_Tax_AccountsTest"/>            
+   	 </classes>
+   </test>
+   
+      <test name="suite3" parallel="instances">
+    	<classes>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase2.A053_Category_CodeTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A054_Discount_TermsTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A055_Settlement_TermsTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A056_AP_Ledger_ControlsTest"/>     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A056A_System_Assigned_Batch_Numbers_In_AP"/>            
+   	 </classes>
+   </test>
+   
+   <test name="suite4" parallel="instances">
+    	<classes>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase2.A057_Legend_ControlsTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A058_Payment_MethodsTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A060_Payment_CodesTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A061_Purchasing_Management_LocationsTest"/>     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A062_Tax_Handling_CodesTest"/>            
+   	 </classes>
+   </test>
+   
+   
+  <test name="suite5" parallel="instances">
+    	<classes>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase2.A063_Standard_TextTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A064_PPV_Control_AccountTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A065_CP_Company_ControlsTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A066_Accrual_Control_CodeTest"/>     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A067_Purchasing_Management_Company_ControlsTest"/>            
+   	 </classes>
+   </test>
+
+  
+   <test name="suite6" parallel="instances">
+    	<classes>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase2.A068_Inspection_CodesTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A069_Disposal_CodeTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A070_Reason_CodesTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A071_Document_PrefixCodesTest"/>     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A072_Common_Purchasing_UsersTest"/>            
+   	 </classes>
+   </test>
+   
+   
+   <test name="suite7" parallel="instances">
+    	<classes>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase2.A073_Receipt_ControlTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A074_Automatic_Banking_CodeTest"/>
+            
+   	 </classes>
+   </test>
+   
+    <test name="suite71" parallel="instances">
+    	<classes>
+
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A075_Circulation_CodeTest"/> 
+         
+   	 </classes>
+   </test>
+   
+     <test name="suite72" parallel="instances">
+    	<classes>
+
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A076_Document_CodesTest"/>     
+        	          
+   	 </classes>
+   </test>
+   
+       <test name="suite73" parallel="instances">
+    	<classes>     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A077_CP_Company_ControlsTest"/>            
+   	 </classes>
+   </test>
+   
+   
+   <test name="suite8" parallel="instances">
+    	<classes>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase2.A078_Authorisation_Control_Codes_For_APTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A079_Authorisation_GroupsTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A080_Authorisation_Control_Codes_For_PMTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A081_Authorisation_Groupings_For_PMTest"/>     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A082_Authorisation_StructuresTest"/>            
+   	 </classes>
+   </test>
+   
+    <test name="suite81" parallel="instances">
+    	<classes>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A081_Authorisation_Groupings_For_PMTest"/>                 
+   	 </classes>
+   </test>
+   
+     <test name="suite82" parallel="instances">
+    	<classes>
+   
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A082_Authorisation_StructuresTest"/>            
+   	 </classes>
+   </test>
+   
+       <test name="suite83" parallel="instances">
+    	<classes>
+   
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A083_Structure_AuthorisersTest"/>     
+   	 </classes>
+   </test>
+   
+  <test name="suite9" parallel="instances">
+    	<classes>
+       		 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A084_Authorisation_Value_Levels_DefinitionTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A085_Authorisation_By_Value_LevelTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A086_Authorisation_By_GL_ResponsibilityTest"/>     
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A087_Authorisation_By_Level_Or_GL_ResponsibilityTest"/>            
+   	 </classes>
+   </test>
+   
+  <test name="suite10" parallel="instances">
+    	<classes>
+       		 <class name="com.adv.qa.selenium.tests.currency.phase2.A088_Authorisation_By_Val_Or_GL_ResponsibilityTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A089_Amend_AP_Company_Controls_For_AuthorisationTest"/>
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A090_PM_Company_Controls_For_AuthorisationTest"/> 
+        	 <class name="com.adv.qa.selenium.tests.currency.phase2.A091_SuppliersTest"/>            
+   	 </classes>
+   </test> -->
+   
+</suite>
+

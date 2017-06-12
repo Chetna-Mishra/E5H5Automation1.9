@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>TestNG:  suite3</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>suite3</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 28 10:04:45 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>227 seconds (227109 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A007_DevicesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A007_DevicesTest<br>Parameters: [DataUnit [userName = T87], DataUnit [passWord = T87], DataUnit [code = ANS], DataUnit [deviceDetails = CMSE5H4], DataUnit [deviceDetails = E5H5 TEST ENVIRONMENT GROUP], DataUnit [deviceDetails = SYSOUT=A,], DataUnit [deviceDetails = LRECL=133,], DataUnit [deviceDetails = BLKSIZE=133,], DataUnit [deviceDetails = RECFM=FBA,], DataUnit [deviceDetails = DEST=(LOCAL,CMS123)]]</td>
+<td></td>
+<td>58</td>
+<td>com.adv.qa.selenium.tests.currency.A007_DevicesTest@422fe3d3</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A008_DestinationsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A008_DestinationsTest<br>Parameters: [DataUnit [userName = T88], DataUnit [passWord = T88], DataUnit [code = ANC], DataUnit [firstDestination = CMS110], DataUnit [firstDestination = Output to Spool], DataUnit [firstDestination = 3], DataUnit [secondDestination = CMS220], DataUnit [secondDestination = Output to Spool], DataUnit [secondDestination = 3]]</td>
+<td></td>
+<td>75</td>
+<td>com.adv.qa.selenium.tests.currency.A008_DestinationsTest@3d7436b5</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A009_Distribution_ProfileTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A009_Distribution_ProfileTest<br>Parameters: [DataUnit [userName = T89], DataUnit [passWord = T89], DataUnit [code = AOJ], DataUnit [value = %], DataUnit [profileDetails = CMS110], DataUnit [profileDetails = CMS111 Distribution Profile], DataUnit [profileDetails = CMS110], DataUnit [profileDetails = 1], DataUnit [profileDetails1 = CMS20], DataUnit [profileDetails1 = CMS222 Distribution Profile], DataUnit [profileDetails1 = CMS220], DataUnit [profileDetails1 = 1]]</td>
+<td></td>
+<td>124</td>
+<td>com.adv.qa.selenium.tests.currency.A009_Distribution_ProfileTest@129d44e9</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A010_Environment_Groups_Test.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A010_Environment_Groups_Test<br>Parameters: [DataUnit [userName = T90], DataUnit [passWord = T90], DataUnit [code = AFA], DataUnit [environmentList = CMS330], DataUnit [environmentList = Output to SPOOL], DataUnit [environmentList = 1439], DataUnit [environmentList = 0], DataUnit [environmentList = 5], DataUnit [environmentList = 2], DataUnit [environmentList = CMS110], DataUnit [secondEnvironmentList = CMS220], DataUnit [secondEnvironmentList = Output to SPOOL], DataUnit [secondEnvironmentList = 1439], DataUnit [secondEnvironmentList = 0], DataUnit [secondEnvironmentList = 2], DataUnit [secondEnvironmentList = 2], DataUnit [secondEnvironmentList = CMS220]]</td>
+<td></td>
+<td>115</td>
+<td>com.adv.qa.selenium.tests.currency.A010_Environment_Groups_Test@18b3c498</td></tr>
+</table><p>
+</body>
+</html>

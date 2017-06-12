@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Row>
+          	<userName>T76</userName>
+          	<passWord>T76</passWord>
+            <code>XDJ</code>   
+            <tableValue>TPB%</tableValue> 
+            <entityValue>TPBSUPP</entityValue>    
+            <url>http://192.168.31.62:37474/e5h5/app/map.do</url> 
+      </Row>
+	  <Row>
+         	<userName>T76</userName>
+         	<url>vbfdjghjfdghjfhj</url>
+          	<passWord>T76</passWord>
+            <code>XDJ</code>   
+            <tableValue>TPB%</tableValue> 
+            <entityValue>TPBADDR</entityValue>   
+            <url>http://192.168.31.62:37474/e5h5/app/map.do</url>  
+      </Row> 
+</Root>

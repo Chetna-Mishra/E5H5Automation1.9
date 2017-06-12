@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>TestNG:  suite35</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>suite35</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 05 13:39:13 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>265 seconds (265940 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A082_Authorisation_StructuresTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A082_Authorisation_StructuresTest<br>Parameters: [DataUnit [userName = T45], DataUnit [passWord = T45], DataUnit [currencyCode = GOP], DataUnit [currencyCode = DBP], DataUnit [authorisationGroupForAP = S1], DataUnit [authorisationGroupForAP = Authorisation Structure 1 for AP], DataUnit [authorisationGroupForPM = S1], DataUnit [authorisationGroupForPM = Authorisation Structure 1 for PM]]</td>
+<td></td>
+<td>161</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A082_Authorisation_StructuresTest@793077ec</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A081A_Authorisation_Groupings_For_PMTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A081A_Authorisation_Groupings_For_PMTest<br>Parameters: [DataUnit [userName = T55], DataUnit [passWord = T55], DataUnit [currencyCode = DDC], DataUnit [authorisationGroupSix = POP HQ], DataUnit [authorisationGroupSix = R], DataUnit [authorisationGroupSix = RT], DataUnit [authorisationGroupSix = NILL], DataUnit [authorisationGroupSix = PM], DataUnit [authorisationGroupSix = L1], DataUnit [authorisationGroupSix = RT/POP HQ], DataUnit [authorisationGroupSeven = POP HQ], DataUnit [authorisationGroupSeven = R], DataUnit [authorisationGroupSeven = SR], DataUnit [authorisationGroupSeven = NILL], DataUnit [authorisationGroupSeven = PM], DataUnit [authorisationGroupSeven = L1], DataUnit [authorisationGroupSeven = SR/POP HQ], DataUnit [authorisationGroupEight = POP HQ], DataUnit [authorisationGroupEight = R], DataUnit [authorisationGroupEight = TR], DataUnit [authorisationGroupEight = NILL], DataUnit [authorisationGroupEight = PM], DataUnit [authorisationGroupEight = L1], DataUnit [authorisationGroupEight = TR/POP HQ], DataUnit [authorisationGroupSouth = SOUTH HQ], DataUnit [authorisationGroupSouth = Order], DataUnit [authorisationGroupSouth = O1], DataUnit [authorisationGroupSouth = NILL], DataUnit [authorisationGroupSouth = PM], DataUnit [authorisationGroupSouth = L1], DataUnit [authorisationGroupSouth = O1/SOUTH], DataUnit [authorisationGroupNorth = NORTH HQ], DataUnit [authorisationGroupNorth = Order], DataUnit [authorisationGroupNorth = O1], DataUnit [authorisationGroupNorth = NILL], DataUnit [authorisationGroupNorth = PM], DataUnit [authorisationGroupNorth = L1], DataUnit [authorisationGroupNorth = O1/NORTH]]</td>
+<td></td>
+<td>236</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A081A_Authorisation_Groupings_For_PMTest@346d61cf</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A081_Authorisation_Groupings_For_PMTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A081_Authorisation_Groupings_For_PMTest<br>Parameters: [DataUnit [userName = T65], DataUnit [passWord = T65], DataUnit [currencyCode = DDC], DataUnit [authorisationGroupOne = POP HQ], DataUnit [authorisationGroupOne = O], DataUnit [authorisationGroupOne = O1], DataUnit [authorisationGroupOne = NILL], DataUnit [authorisationGroupOne = PM], DataUnit [authorisationGroupOne = L1], DataUnit [authorisationGroupOne = O1/POP HQ], DataUnit [authorisationGroupTwo = POP HQ], DataUnit [authorisationGroupTwo = R], DataUnit [authorisationGroupTwo = PM], DataUnit [authorisationGroupTwo = NILL], DataUnit [authorisationGroupTwo = PM], DataUnit [authorisationGroupTwo = L1], DataUnit [authorisationGroupTwo = O1/POP HQ], DataUnit [authorisationGroupThree = POP HQ], DataUnit [authorisationGroupThree = R], DataUnit [authorisationGroupThree = RE], DataUnit [authorisationGroupThree = NILL], DataUnit [authorisationGroupThree = PM], DataUnit [authorisationGroupThree = L1], DataUnit [authorisationGroupThree = RE/POP HQ], DataUnit [authorisationGroupFour = POP HQ], DataUnit [authorisationGroupFour = R], DataUnit [authorisationGroupFour = RI], DataUnit [authorisationGroupFour = NILL], DataUnit [authorisationGroupFour = PM], DataUnit [authorisationGroupFour = L1], DataUnit [authorisationGroupFour = RI/POP HQ], DataUnit [authorisationGroupFive = POP HQ], DataUnit [authorisationGroupFive = R], DataUnit [authorisationGroupFive = RR], DataUnit [authorisationGroupFive = NILL], DataUnit [authorisationGroupFive = PM], DataUnit [authorisationGroupFive = L1], DataUnit [authorisationGroupFive = RR/POP HQ]]</td>
+<td></td>
+<td>235</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A081_Authorisation_Groupings_For_PMTest@757869d9</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>TestNG:  suite25</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>suite25</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 05 12:47:10 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>436 seconds (436220 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A062_Tax_Handling_CodesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A062_Tax_Handling_CodesTest<br>Parameters: [DataUnit [userName = T62], DataUnit [passWord = T62], DataUnit [currencyCode = RAF], DataUnit [taxR1 = R7], DataUnit [taxR1 = Recoverable Handling Code], DataUnit [taxR1 = 0], DataUnit [taxR1 = 1], DataUnit [taxR1 = 0], DataUnit [tax02 = 09], DataUnit [tax02 = Non-Rec Inc.Handling Code], DataUnit [tax02 = 1], DataUnit [tax02 = 0], DataUnit [tax02 = 0], DataUnit [tax03 = 02], DataUnit [tax03 = Non-Rec Exc.Handling Code ], DataUnit [tax03 = 0], DataUnit [tax03 = 0], DataUnit [tax03 = 0], DataUnit [taxH1 = H3], DataUnit [taxH1 = H3 Default Handling Code], DataUnit [taxH1 = 1], DataUnit [taxH1 = 1], DataUnit [taxH1 = 0]]</td>
+<td></td>
+<td>159</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A062_Tax_Handling_CodesTest@afd9691</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A061_Purchasing_Management_LocationsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A061_Purchasing_Management_LocationsTest<br>Parameters: [DataUnit [userName = T61], DataUnit [passWord = T61], DataUnit [currencyCode = AK2], DataUnit [locationHQ = POP HQ], DataUnit [locationHQ = POP Head Quarters], DataUnit [locationHQ = 236 Hartlepool Road], DataUnit [locationHQ = TS25 3HA], DataUnit [locationHQ = NILL], DataUnit [locationHQ = Not Used], DataUnit [locationEast = EAST HQ], DataUnit [locationEast = East Head Quarters], DataUnit [locationEast = Road 1], DataUnit [locationEast = NILL], DataUnit [locationEast = NILL], DataUnit [locationEast = Not Used], DataUnit [locationWest = WEST HQ], DataUnit [locationWest = West Head Quarters], DataUnit [locationWest = Road 1], DataUnit [locationWest = NILL], DataUnit [locationWest = NILL], DataUnit [locationWest = Not Used], DataUnit [locationSouth = SOUTH HQ], DataUnit [locationSouth = South Head Quarters], DataUnit [locationSouth = Road 1], DataUnit [locationSouth = NILL], DataUnit [locationSouth = NILL], DataUnit [locationSouth = Not Used], DataUnit [locationNorth = NORTH HQ], DataUnit [locationNorth = North Head Quarters], DataUnit [locationNorth = Road 1], DataUnit [locationNorth = NILL], DataUnit [locationNorth = NILL], DataUnit [locationNorth = Not Used]]</td>
+<td></td>
+<td>247</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A061_Purchasing_Management_LocationsTest@69f46631</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A060_Payment_CodesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A060_Payment_CodesTest<br>Parameters: [DataUnit [userName = T60], DataUnit [passWord = T60], DataUnit [currencyCode = GAK], DataUnit [payment01 = 01], DataUnit [payment01 = Cheque], DataUnit [payment01 = 1], DataUnit [payment01 = UKP], DataUnit [payment01 = 01], DataUnit [payment01 = BP], DataUnit [payment01 = 0], DataUnit [payment01 = STD], DataUnit [payment01 = STD], DataUnit [payment02 = 02], DataUnit [payment02 = Funds Transfer], DataUnit [payment02 = 1], DataUnit [payment02 = UKP], DataUnit [payment02 = 02], DataUnit [payment02 = BP], DataUnit [payment02 = 0], DataUnit [payment02 = STD], DataUnit [payment02 = STD], DataUnit [payment03 = 03], DataUnit [payment03 = Automatic Cheque], DataUnit [payment03 = 1], DataUnit [payment03 = UKP], DataUnit [payment03 = 01], DataUnit [payment03 = BP], DataUnit [payment03 = Y], DataUnit [payment03 = STD], DataUnit [payment03 = STD], DataUnit [payment04 = 04], DataUnit [payment04 = Manual Cheque], DataUnit [payment04 = 1], DataUnit [payment04 = UKP], DataUnit [payment04 = 01], DataUnit [payment04 = BP], DataUnit [payment04 = 0], DataUnit [payment04 = STD], DataUnit [payment04 = STD]]</td>
+<td></td>
+<td>285</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A060_Payment_CodesTest@6220ac02</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A064_PPV_Control_AccountTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A064_PPV_Control_AccountTest<br>Parameters: [DataUnit [userName = T64], DataUnit [passWord = T64], DataUnit [currencyCode = PXM], DataUnit [ppvAccount = MM], DataUnit [ppvAccount = PPV Control Code - ], DataUnit [ppvAccount = 3000], DataUnit [ppvAccount = DUM], DataUnit [ppvAccount = 2500], DataUnit [ppvAccount = DUM]]</td>
+<td></td>
+<td>103</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A064_PPV_Control_AccountTest@2c61514f</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.phase2.A063_Standard_TextTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.phase2.A063_Standard_TextTest<br>Parameters: [DataUnit [userName = T63], DataUnit [passWord = T63], DataUnit [currencyCode = PXU], DataUnit [standardAccept = QUOTE-ACCEPT], DataUnit [standardAccept = 0], DataUnit [standardAccept = Quotation Acceptance], DataUnit [standardReject = QUOTE-REJECT], DataUnit [standardReject = 0], DataUnit [standardReject = Quotation Rejection], DataUnit [standardRequest = QUOTE-REQUEST], DataUnit [standardRequest = 0], DataUnit [standardRequest = Quotation Request], DataUnit [acceptLines = Your quotation response relating to the following], DataUnit [acceptLines = lines has been successful. A Buyer from our], DataUnit [acceptLines = Purchasing Department will be in touch within the], DataUnit [acceptLines = next two weeks to confirm the details and provide], DataUnit [acceptLines = you with our Contract Reference.], DataUnit [rejectLines = I am sorry to have to inform you that your], DataUnit [rejectLines = response to our requirements for the following], DataUnit [rejectLines = items has not met the minimum requirements, and we], DataUnit [rejectLines = will therefore not be placing a contract with], DataUnit [rejectLines = yourselves for these goods.], DataUnit [rejectLines = If we have any further requests for quotations], DataUnit [rejectLines = then we shall contact you again.], DataUnit [requestLines = This is a request for you to provide a quotation], DataUnit [requestLines = for the items which are shown below. The quotation], DataUnit [requestLines = must be returned to the person named by the], DataUnit [requestLines = specified date in order to be considered.], DataUnit [requestLines = You will be notified via email within 14 days of], DataUnit [requestLines = response date whether your bid has been successful]]</td>
+<td></td>
+<td>213</td>
+<td>com.adv.qa.selenium.tests.currency.phase2.A063_Standard_TextTest@2921304c</td></tr>
+</table><p>
+</body>
+</html>

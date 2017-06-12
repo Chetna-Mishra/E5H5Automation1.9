@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T85</userName>
+          	<passWord>T85</passWord>
+            <code>EBA</code> 
+              				
+			<nominalPLDF>PLDF</nominalPLDF>
+			<nominalPLDF>PL ICA</nominalPLDF>
+			<nominalPLDF>A</nominalPLDF>
+			<nominalPLDF>02</nominalPLDF>
+			<nominalPLDF>Balance Sheet</nominalPLDF>
+			<nominalPLDF>Both</nominalPLDF>
+			<nominalPLDF>A</nominalPLDF>
+			<nominalPLDF>***</nominalPLDF>
+			<nominalPLDF>Both</nominalPLDF>
+			<nominalPLDF>0</nominalPLDF>
+	    						
+			<nominalPOPD>POPD</nominalPOPD>
+			<nominalPOPD>POP ICA</nominalPOPD>
+			<nominalPOPD>A</nominalPOPD>
+			<nominalPOPD>02</nominalPOPD>
+			<nominalPOPD>Balance Sheet</nominalPOPD>
+			<nominalPOPD>Both</nominalPOPD>
+			<nominalPOPD>A</nominalPOPD>
+			<nominalPOPD>***</nominalPOPD>
+			<nominalPOPD>Both</nominalPOPD>
+			<nominalPOPD>0</nominalPOPD>
+	    						
+			<nominalIMDF>IMDF</nominalIMDF>
+			<nominalIMDF>IM ICA Account</nominalIMDF>
+			<nominalIMDF>A</nominalIMDF>
+			<nominalIMDF>02</nominalIMDF>
+			<nominalIMDF>Balance Sheet</nominalIMDF>
+			<nominalIMDF>Both</nominalIMDF>
+			<nominalIMDF>A</nominalIMDF>
+			<nominalIMDF>***</nominalIMDF>
+			<nominalIMDF>Both</nominalIMDF>
+			<nominalIMDF>0</nominalIMDF>
+	    						
+			<nominalSTKE>STKE</nominalSTKE>
+			<nominalSTKE>IM Stock East</nominalSTKE>
+			<nominalSTKE>I</nominalSTKE>
+			<nominalSTKE>02</nominalSTKE>
+			<nominalSTKE>Balance Sheet</nominalSTKE>
+			<nominalSTKE>Both</nominalSTKE>
+			<nominalSTKE>A</nominalSTKE>
+			<nominalSTKE>***</nominalSTKE>
+			<nominalSTKE>Both</nominalSTKE>
+			<nominalSTKE>0</nominalSTKE>
+			
+			<nominalSTKS>STKS</nominalSTKS>
+			<nominalSTKS>IM Stock SOUTH</nominalSTKS>
+			<nominalSTKS>I</nominalSTKS>
+			<nominalSTKS>02</nominalSTKS>
+			<nominalSTKS>Balance Sheet</nominalSTKS>
+			<nominalSTKS>Both</nominalSTKS>
+			<nominalSTKS>A</nominalSTKS>
+			<nominalSTKS>***</nominalSTKS>
+			<nominalSTKS>Both</nominalSTKS>
+			<nominalSTKS>0</nominalSTKS>
+						
+			<nominalSTKW>STKW</nominalSTKW>
+			<nominalSTKW>IM Stock WEST</nominalSTKW>
+			<nominalSTKW>I</nominalSTKW>
+			<nominalSTKW>02</nominalSTKW>
+			<nominalSTKW>Balance Sheet</nominalSTKW>
+			<nominalSTKW>Both</nominalSTKW>
+			<nominalSTKW>A</nominalSTKW>
+			<nominalSTKW>***</nominalSTKW>
+			<nominalSTKW>Both</nominalSTKW>
+			<nominalSTKW>0</nominalSTKW>
+			
+			<nominalSTKN>STKN</nominalSTKN>
+			<nominalSTKN>IM Stock NORTH</nominalSTKN>
+			<nominalSTKN>I</nominalSTKN>
+			<nominalSTKN>02</nominalSTKN>
+			<nominalSTKN>Balance Sheet</nominalSTKN>
+			<nominalSTKN>Both</nominalSTKN>
+			<nominalSTKN>A</nominalSTKN>
+			<nominalSTKN>***</nominalSTKN>
+			<nominalSTKN>Both</nominalSTKN>
+			<nominalSTKN>0</nominalSTKN>	
+			
+			<nominalINTE>INTE</nominalINTE>
+			<nominalINTE>IM In-transit Store East</nominalINTE>
+			<nominalINTE>A</nominalINTE>
+			<nominalINTE>02</nominalINTE>
+			<nominalINTE>Balance Sheet</nominalINTE>
+			<nominalINTE>Both</nominalINTE>
+			<nominalINTE>A</nominalINTE>
+			<nominalINTE>***</nominalINTE>
+			<nominalINTE>Both</nominalINTE>
+			<nominalINTE>0</nominalINTE>
+								
+			<nominalINTW>INTW</nominalINTW>
+			<nominalINTW>IM In-transit Store West</nominalINTW>
+			<nominalINTW>A</nominalINTW>
+			<nominalINTW>02</nominalINTW>
+			<nominalINTW>Balance Sheet</nominalINTW>
+			<nominalINTW>Both</nominalINTW>
+			<nominalINTW>A</nominalINTW>
+			<nominalINTW>***</nominalINTW>
+			<nominalINTW>Both</nominalINTW>
+			<nominalINTW>0</nominalINTW>
+									
+			<nominalINTS>INTS</nominalINTS>
+			<nominalINTS>IM In-transit Store South</nominalINTS>
+			<nominalINTS>A</nominalINTS>
+			<nominalINTS>02</nominalINTS>
+			<nominalINTS>Balance Sheet</nominalINTS>
+			<nominalINTS>Both</nominalINTS>
+			<nominalINTS>A</nominalINTS>
+			<nominalINTS>***</nominalINTS>
+			<nominalINTS>Both</nominalINTS>
+			<nominalINTS>0</nominalINTS>
+			
+			<nominalINTN>INTN</nominalINTN>
+			<nominalINTN>IM In-transit Store North</nominalINTN>
+			<nominalINTN>A</nominalINTN>
+			<nominalINTN>02</nominalINTN>
+			<nominalINTN>Balance Sheet</nominalINTN>
+			<nominalINTN>Both</nominalINTN>
+			<nominalINTN>A</nominalINTN>
+			<nominalINTN>***</nominalINTN>
+			<nominalINTN>Both</nominalINTN>
+			<nominalINTN>0</nominalINTN>
+						
+			
+			
+			<nominalREVC>REVC</nominalREVC>
+			<nominalREVC>IM Revised Cost</nominalREVC>
+			<nominalREVC>I</nominalREVC>
+			<nominalREVC>02</nominalREVC>
+			<nominalREVC>Balance Sheet</nominalREVC>
+			<nominalREVC>Both</nominalREVC>
+			<nominalREVC>A</nominalREVC>
+			<nominalREVC>***</nominalREVC>
+			<nominalREVC>Both</nominalREVC>
+			<nominalREVC>0</nominalREVC>
+	    						
+			<nominalREVN>REVN</nominalREVN>
+			<nominalREVN>IM Revenue</nominalREVN>
+			<nominalREVN>I</nominalREVN>
+			<nominalREVN>02</nominalREVN>
+			<nominalREVN>Balance Sheet</nominalREVN>
+			<nominalREVN>Both</nominalREVN>
+			<nominalREVN>A</nominalREVN>
+			<nominalREVN>***</nominalREVN>
+			<nominalREVN>Both</nominalREVN>
+			<nominalREVN>0</nominalREVN>
+	    						
+			<nominalSUND>SUND</nominalSUND>
+			<nominalSUND>IM Sundry Debtors</nominalSUND>
+			<nominalSUND>I</nominalSUND>
+			<nominalSUND>02</nominalSUND>
+			<nominalSUND>Balance Sheet</nominalSUND>
+			<nominalSUND>Both</nominalSUND>
+			<nominalSUND>A</nominalSUND>
+			<nominalSUND>***</nominalSUND>
+			<nominalSUND>Both</nominalSUND>
+			<nominalSUND>0</nominalSUND>
+	    						
+			<nominalRSUP>RSUP</nominalRSUP>
+			<nominalRSUP>IM Return to Supplier</nominalRSUP>
+			<nominalRSUP>I</nominalRSUP>
+			<nominalRSUP>02</nominalRSUP>
+			<nominalRSUP>Balance Sheet</nominalRSUP>
+			<nominalRSUP>Both</nominalRSUP>
+			<nominalRSUP>A</nominalRSUP>
+			<nominalRSUP>***</nominalRSUP>
+			<nominalRSUP>Both</nominalRSUP>
+			<nominalRSUP>0</nominalRSUP>
+			
+			<nominalISSU>ISSU</nominalISSU>
+			<nominalISSU>IM Issue</nominalISSU>
+			<nominalISSU>I</nominalISSU>
+			<nominalISSU>02</nominalISSU>
+			<nominalISSU>Balance Sheet</nominalISSU>
+			<nominalISSU>Both</nominalISSU>
+			<nominalISSU>A</nominalISSU>
+			<nominalISSU>***</nominalISSU>
+			<nominalISSU>Both</nominalISSU>
+			<nominalISSU>0</nominalISSU>
+			
+			<nominalSTAD>STAD</nominalSTAD>
+			<nominalSTAD>IM Stock Adjustment</nominalSTAD>
+			<nominalSTAD>I</nominalSTAD>
+			<nominalSTAD>02</nominalSTAD>
+			<nominalSTAD>Balance Sheet</nominalSTAD>
+			<nominalSTAD>Both</nominalSTAD>
+			<nominalSTAD>A</nominalSTAD>
+			<nominalSTAD>***</nominalSTAD>
+			<nominalSTAD>Both</nominalSTAD>
+			<nominalSTAD>0</nominalSTAD>
+			
+			<nominalDISP>DISP</nominalDISP>
+			<nominalDISP>IM Stock Disposal</nominalDISP>
+			<nominalDISP>I</nominalDISP>
+			<nominalDISP>02</nominalDISP>
+			<nominalDISP>Balance Sheet</nominalDISP>
+			<nominalDISP>Both</nominalDISP>
+			<nominalDISP>A</nominalDISP>
+			<nominalDISP>***</nominalDISP>
+			<nominalDISP>Both</nominalDISP>
+			<nominalDISP>0</nominalDISP>
+			
+			<nominalRSTR>RSTR</nominalRSTR>
+			<nominalRSTR>IM Return to Store</nominalRSTR>
+			<nominalRSTR>I</nominalRSTR>
+			<nominalRSTR>02</nominalRSTR>
+			<nominalRSTR>Balance Sheet</nominalRSTR>
+			<nominalRSTR>Both</nominalRSTR>
+			<nominalRSTR>A</nominalRSTR>
+			<nominalRSTR>***</nominalRSTR>
+			<nominalRSTR>Both</nominalRSTR>
+			<nominalRSTR>0</nominalRSTR>
+			
+			<nominalDEN>DEN</nominalDEN>
+			<nominalDEN>Denon Account</nominalDEN>
+			<nominalDEN>T</nominalDEN>
+			<nominalDEN>04</nominalDEN>
+			<nominalDEN>Profit &amp; Loss</nominalDEN>
+			<nominalDEN>Both</nominalDEN>
+			<nominalDEN>A</nominalDEN>
+			<nominalDEN>***</nominalDEN>
+			<nominalDEN>both</nominalDEN>
+			<nominalDEN>0</nominalDEN>
+			
+			<nominalARCM>ARCM</nominalARCM>
+			<nominalARCM>Arcam Account</nominalARCM>
+			<nominalARCM>T</nominalARCM>
+			<nominalARCM>04</nominalARCM>
+			<nominalARCM>Profit &amp; Loss</nominalARCM>
+			<nominalARCM>Both</nominalARCM>
+			<nominalARCM>A</nominalARCM>
+			<nominalARCM>***</nominalARCM>
+			<nominalARCM>both</nominalARCM>
+			<nominalARCM>0</nominal
+      </Row>
+</Root>

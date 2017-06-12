@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Row >
+	    <userName>T35</userName>
+        <passWord>T35</passWord>
+        <currencyCode>DAJ</currencyCode>
+        <currencyCode>DAI</currencyCode>
+        
+        <documentCodeG1>G1</documentCodeG1>
+        <documentCodeG1>Generic Items Test Doc 4</documentCodeG1>
+        <documentCodeG1>Order</documentCodeG1>
+        <documentCodeG1>HEAD</documentCodeG1>
+        <documentCodeG1>DETL</documentCodeG1>
+        <documentCodeG1>HEAD</documentCodeG1>
+        <documentCodeG1>1</documentCodeG1>
+        <documentCodeG1>1</documentCodeG1>
+        <documentCodeG1>2</documentCodeG1>
+        <documentCodeG1>1</documentCodeG1>
+        <documentCodeG1>RQ</documentCodeG1>
+        <documentCodeG1>Generic Items</documentCodeG1>
+        <documentCodeG1>Company</documentCodeG1>
+        <documentCodeG1>9999999999999.99</documentCodeG1>
+        <documentCodeG1>0</documentCodeG1>
+        <documentCodeG1>NILL</documentCodeG1>
+        <documentCodeG1>1</documentCodeG1>
+        <documentCodeG1>1</documentCodeG1>
+        <documentCodeG1>NILL</documentCodeG1>
+        <documentCodeG1>ACC</documentCodeG1>
+             
+        <documentCodePM>PM</documentCodePM>
+        <documentCodePM>SPMR Type 3</documentCodePM>
+        <documentCodePM>Requisition</documentCodePM>
+        <documentCodePM>SPMR</documentCodePM>
+        <documentCodePM>SPMR</documentCodePM>
+        <documentCodePM>SPMR</documentCodePM>
+        <documentCodePM>0</documentCodePM>
+        <documentCodePM>0</documentCodePM>
+        <documentCodePM>0</documentCodePM>
+        <documentCodePM>0</documentCodePM>
+        <documentCodePM>RQ</documentCodePM>
+        <documentCodePM>Optional</documentCodePM>
+        <documentCodePM>Company</documentCodePM>
+        <documentCodePM>9999999999999.99</documentCodePM>
+        <documentCodePM>0</documentCodePM>
+        <documentCodePM>SPMR</documentCodePM>
+        <documentCodePM>0</documentCodePM>
+        <documentCodePM>0</documentCodePM>
+        <documentCodePM>NILL</documentCodePM>
+        <documentCodePM>NILL</documentCodePM>
+        
+        <documentCodePR>PR</documentCodePR>
+        <documentCodePR>Inv Purchase Req Code</documentCodePR>
+        <documentCodePR>Requisition</documentCodePR>
+        <documentCodePR>NILL</documentCodePR>
+        <documentCodePR>NILL</documentCodePR>
+        <documentCodePR>NILL</documentCodePR>
+        <documentCodePR>1</documentCodePR>
+        <documentCodePR>1</documentCodePR>
+        <documentCodePR>1</documentCodePR>
+        <documentCodePR>0</documentCodePR>
+        <documentCodePR>O1</documentCodePR>
+        <documentCodePR>Optional</documentCodePR>
+        <documentCodePR>Company</documentCodePR>
+        <documentCodePR>9999999999999.99</documentCodePR>
+        <documentCodePR>0</documentCodePR>
+        <documentCodePR>System Generated</documentCodePR>
+        <documentCodePR>0</documentCodePR>
+        <documentCodePR>0</documentCodePR>
+        <documentCodePR>NILL</documentCodePR>
+        <documentCodePR>NILL</documentCodePR>
+        
+        <documentCodeRE>RE</documentCodeRE>
+        <documentCodeRE>Stock Replen.Req. Manual Type 5</documentCodeRE>
+        <documentCodeRE>Requisition</documentCodeRE>
+        <documentCodeRE>REPL</documentCodeRE>
+        <documentCodeRE>REPL</documentCodeRE>
+        <documentCodeRE>REPL</documentCodeRE>
+        <documentCodeRE>0</documentCodeRE>
+        <documentCodeRE>0</documentCodeRE>
+        <documentCodeRE>0</documentCodeRE>
+        <documentCodeRE>0</documentCodeRE>
+        <documentCodeRE>RQ</documentCodeRE>
+        <documentCodeRE>Optional</documentCodeRE>
+        <documentCodeRE>Company</documentCodeRE>
+        <documentCodeRE>9999999999999.99</documentCodeRE>
+        <documentCodeRE>0</documentCodeRE>
+        <documentCodeRE>Repl Req</documentCodeRE>
+        <documentCodeRE>0</documentCodeRE>
+        <documentCodeRE>0</documentCodeRE>
+        <documentCodeRE>NILL</documentCodeRE>
+        <documentCodeRE>NILL</documentCodeRE>
+        
+
+    </Row>
+	
+</Root>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T87</userName>
+          	<passWord>T87</passWord>
+            <balanceCategoryCode>EAK</balanceCategoryCode>  
+            
+            <values>N</values>
+            <values>A</values>               
+            
+            <a09Category>N</a09Category>
+            <a09Category>A</a09Category>
+            <a09Category>09</a09Category>
+            <a09Category>CLOSEOUT</a09Category>
+            <a09Category>Asset</a09Category>
+            
+            <g01Category>N</g01Category>
+            <g01Category>G</g01Category>
+            <g01Category>01</g01Category>
+            <g01Category>PPV Control Category</g01Category>
+            <g01Category>Asset</g01Category>
+            
+            <i01Category>N</i01Category>
+            <i01Category>I</i01Category>
+            <i01Category>01</i01Category>
+            <i01Category>Inventory Liability</i01Category>
+            <i01Category>Liability</i01Category>
+            
+            <i02Category>N</i02Category>
+            <i02Category>I</i02Category>
+            <i02Category>02</i02Category>
+            <i02Category>Inventory Asset</i02Category>
+            <i02Category>Asset</i02Category>
+            
+            <t04Category>N</t04Category>
+            <t04Category>T</t04Category>
+            <t04Category>04</t04Category>
+            <t04Category>Purchasing Expenses</t04Category>
+            <t04Category>Expense</t04Category>
+            
+            <t05Category>N</t05Category>
+            <t05Category>T</t05Category>
+            <t05Category>05</t05Category>
+            <t05Category>PL Gain/Loss on Exchange</t05Category>
+            <t05Category>Expense</t05Category>
+            
+            <p03Category>N</p03Category>
+            <p03Category>P</p03Category>
+            <p03Category>03</p03Category>
+            <p03Category>Category P03 (N)</p03Category>
+            <p03Category>Expense</p03Category>
+            
+            <p04Category>N</p04Category>
+            <p04Category>P</p04Category>
+            <p04Category>04</p04Category>
+            <p04Category>Category P04 (N)</p04Category>
+            <p04Category>Expense</p04Category>
+            
+      </Row>
+</Root>

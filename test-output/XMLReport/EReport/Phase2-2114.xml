@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A043_Insert_Tax_CodesTest>
+<Verification1>21/07/2014 02:13:32 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:13:37 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:13:50 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:14:01 | Pass : New tax code PEpresent in the list</Verification4>
+<Verification5>21/07/2014 02:14:13 | Pass : Command line displayed</Verification5>
+<Verification6>21/07/2014 02:14:27 | Pass : Currency search page displayed</Verification6>
+<Verification7>21/07/2014 02:14:37 | Pass : New tax code PSpresent in the list</Verification7>
+<Verification8>21/07/2014 02:14:49 | Pass : Command line displayed</Verification8>
+<Verification9>21/07/2014 02:15:03 | Pass : Currency search page displayed</Verification9>
+<Verification10>21/07/2014 02:15:13 | Pass : New tax code PVpresent in the list</Verification10>
+<Verification11>21/07/2014 02:15:25 | Pass : Command line displayed</Verification11>
+<Verification12>21/07/2014 02:15:39 | Pass : Currency search page displayed</Verification12>
+<Verification13>21/07/2014 02:15:49 | Pass : New tax code PZpresent in the list</Verification13>
+<Verification14>21/07/2014 02:16:11 | Pass : Currency search page displayed</Verification14>
+<Verification15>21/07/2014 02:16:25 | Pass : New tax code PE displayed in the list</Verification15>
+<Verification16>21/07/2014 02:16:29 | Pass : New tax code PS displayed in the list</Verification16>
+<Verification17>21/07/2014 02:16:33 | Pass : New tax code PV displayed in the list</Verification17>
+<Verification18>21/07/2014 02:16:37 | Pass : New tax code PZ displayed in the list</Verification18>
+<Verification19>21/07/2014 02:16:50 | Pass : Command line displayed</Verification19>
+<Verification20>21/07/2014 02:17:01 | Pass : Currency search page displayed</Verification20>
+<Verification21>21/07/2014 02:18:59 | Pass : New tax code UKS displayed in the list</Verification21>
+<Verification22>21/07/2014 02:19:02 | Pass : New tax code UKE displayed in the list</Verification22>
+<Verification23>21/07/2014 02:19:05 | Pass : New tax code UKV displayed in the list</Verification23>
+<Verification24>21/07/2014 02:19:08 | Pass : New tax code UKZ displayed in the list</Verification24>
+</A043_Insert_Tax_CodesTest>
+<A044_TAX_Rates_by_Tax_CodesTest>
+<Verification1>21/07/2014 02:20:22 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:20:27 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:20:37 | Pass : Currency search page  displayed</Verification3>
+</A044_TAX_Rates_by_Tax_CodesTest>
+<A045_BACS_CalendarTest>
+<Verification1>21/07/2014 02:21:05 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:21:10 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:21:21 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:21:36 | Pass : calendar BACS03prensent in the list</Verification4>
+</A045_BACS_CalendarTest>
+<A046_Bank_Account_Names_for_PurchasingTest>
+<Verification1>21/07/2014 02:22:37 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:22:42 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:22:52 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:23:25 | Pass : New bank code  05-02-86 displayed in the list</Verification4>
+<Verification5>21/07/2014 02:23:40 | Pass : New bank code  20-34-41 displayed in the list</Verification5>
+<Verification6>21/07/2014 02:23:55 | Pass : New bank code  40-52-98 displayed in the list</Verification6>
+<Verification7>21/07/2014 02:24:10 | Pass : New bank code 05-02-86 displayed in the list</Verification7>
+<Verification8>21/07/2014 02:24:14 | Pass : New bank code 20-34-41 displayed in the list</Verification8>
+<Verification9>21/07/2014 02:24:18 | Pass : New bank code 40-52-98 displayed in the list</Verification9>
+</A046_Bank_Account_Names_for_PurchasingTest>
+<A047_Accounts_Payable_Batch_TypesTest>
+<Verification1>21/07/2014 02:25:20 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:25:25 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:25:38 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:26:10 | Pass : Command line displayed after creating AP batch types</Verification4>
+<Verification5>21/07/2014 02:26:10 | Pass : Command line displayed</Verification5>
+<Verification6>21/07/2014 02:26:21 | Pass : Currency search page displayed</Verification6>
+<Verification7>21/07/2014 02:26:53 | Pass : Command line displayed after creating AP batch types</Verification7>
+<Verification8>21/07/2014 02:26:53 | Pass : Command line displayed</Verification8>
+<Verification9>21/07/2014 02:27:04 | Pass : Currency search page displayed</Verification9>
+<Verification10>21/07/2014 02:27:37 | Pass : Command line displayed after creating AP batch types</Verification10>
+<Verification11>21/07/2014 02:27:37 | Pass : Command line displayed</Verification11>
+<Verification12>21/07/2014 02:27:52 | Pass : Currency search page displayed</Verification12>
+<Verification13>21/07/2014 02:28:27 | Pass : Command line displayed after creating AP batch types</Verification13>
+<Verification14>21/07/2014 02:28:27 | Pass : Command line displayed</Verification14>
+<Verification15>21/07/2014 02:28:39 | Pass : Currency search page displayed</Verification15>
+<Verification16>21/07/2014 02:29:11 | Pass : Command line displayed after creating AP batch types</Verification16>
+<Verification17>21/07/2014 02:29:11 | Pass : Command line displayed</Verification17>
+<Verification18>21/07/2014 02:29:23 | Pass : Currency search page displayed</Verification18>
+<Verification19>21/07/2014 02:29:55 | Pass : Command line displayed after creating AP batch types</Verification19>
+<Verification20>21/07/2014 02:29:55 | Pass : Command line displayed</Verification20>
+<Verification21>21/07/2014 02:30:07 | Pass : Currency search page displayed</Verification21>
+<Verification22>21/07/2014 02:30:39 | Pass : Command line displayed after creating AP batch types</Verification22>
+<Verification23>21/07/2014 02:30:50 | Pass : Currency search page displayed</Verification23>
+<Verification24>21/07/2014 02:31:15 | Pass : New Batch type of AP PDE1 displayed in the list</Verification24>
+<Verification25>21/07/2014 02:31:21 | Pass : New Batch type of AP PDE2 displayed in the list</Verification25>
+<Verification26>21/07/2014 02:31:27 | Pass : New Batch type of AP PDE3  displayed in the list</Verification26>
+<Verification27>21/07/2014 02:31:33 | Pass : New Batch type of AP PDE4  displayed in the list</Verification27>
+<Verification28>21/07/2014 02:31:38 | Pass : New Batch type of AP PDE5  displayed in the list</Verification28>
+<Verification29>21/07/2014 02:31:44 | Pass : New Batch type of AP PDE6  displayed in the list</Verification29>
+<Verification30>21/07/2014 02:31:47 | Pass : New Batch type of AP PDE7  displayed in the list</Verification30>
+</A047_Accounts_Payable_Batch_TypesTest>
+<A048_UOMTest>
+<Verification1>21/07/2014 02:32:51 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:32:56 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:33:07 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:33:26 | Pass : UOM code BOX7 present in the list</Verification4>
+<Verification5>21/07/2014 02:33:37 | Pass : UOM code EAC7 present in the list</Verification5>
+<Verification6>21/07/2014 02:33:48 | Pass : UOM code DAY7 present in the list</Verification6>
+<Verification7>21/07/2014 02:33:59 | Pass : UOM code YER7 present in the list</Verification7>
+<Verification8>21/07/2014 02:34:19 | Pass : UOM code BOX7 displayed in the list</Verification8>
+<Verification9>21/07/2014 02:34:25 | Pass : UOM code EAC7  displayed in the list</Verification9>
+<Verification10>21/07/2014 02:34:29 | Pass : UOM code DAY7 displayed in the list</Verification10>
+<Verification11>21/07/2014 02:34:34 | Pass : UOM code YER7  displayed in the list</Verification11>
+<Verification12>21/07/2014 02:34:47 | Pass : Command line displayed</Verification12>
+<Verification13>21/07/2014 02:34:57 | Pass : Currency search page displayed</Verification13>
+<Verification14>21/07/2014 02:35:19 | Pass : New UOM Relationship EAC7 displayed in the list</Verification14>
+<Verification15>21/07/2014 02:35:33 | Pass : New UOM Relationship DAY7 displayed in the list</Verification15>
+<Verification16>21/07/2014 02:35:52 | Pass : UOM code BOX7  displayed in the list</Verification16>
+<Verification17>21/07/2014 02:35:57 | Pass : UOM code YER7  displayed in the list</Verification17>
+</A048_UOMTest>
+<A049_Common_Purchasing_Company_ControlsTest>
+<Verification1>21/07/2014 02:36:59 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:37:23 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:37:38 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:38:36 | Pass : Currency search page displayed</Verification4>
+<Verification5>21/07/2014 02:38:47 | Pass : New purchasing company  05 displayed in the list</Verification5>
+</A049_Common_Purchasing_Company_ControlsTest>
+<A050_Accounts_Payable_Control_AccountsTest>
+<Verification1>21/07/2014 02:39:48 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:39:53 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:40:04 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:41:42 | Pass : New account payable control 02 displayed in the list</Verification4>
+</A050_Accounts_Payable_Control_AccountsTest>
+<A051A_Purchase_Ledger_Bank_CodesTest>
+<Verification1>21/07/2014 02:42:47 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:42:52 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:43:02 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:44:04 | Pass : New purchase ledger bank code 05 displayed in the list</Verification4>
+<Verification5>21/07/2014 02:44:16 | Pass : Command line displayed</Verification5>
+<Verification6>21/07/2014 02:44:31 | Pass : Currency search page displayed</Verification6>
+<Verification7>21/07/2014 02:45:43 | Pass : New ledger control BANKR updated</Verification7>
+<Verification8>21/07/2014 02:46:57 | Pass : New ledger control BANKR1 updated</Verification8>
+<Verification9>21/07/2014 02:48:11 | Pass : New ledger control BANKR2 updated</Verification9>
+</A051A_Purchase_Ledger_Bank_CodesTest>
+<A051_Purchase_Ledger_Bank_CodesTest>
+<Verification1>21/07/2014 02:49:11 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:49:16 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:49:27 | Pass : Currency search page displayed</Verification3>
+</A051_Purchase_Ledger_Bank_CodesTest>
+<A052_Tax_AccountsTest>
+<Verification1>21/07/2014 02:52:18 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:52:22 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:52:36 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:53:36 | Pass : New  Tax AccoUnt G displayed in the list</Verification4>
+</A052_Tax_AccountsTest>
+<A053_Category_CodeTest>
+<Verification1>21/07/2014 02:55:34 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:55:39 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:55:52 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:56:23 | Pass : Currency search page displayed</Verification4>
+<Verification5>21/07/2014 02:56:37 | Pass : New category code C1 displayed in the list</Verification5>
+</A053_Category_CodeTest>
+<A054_Discount_TermsTest>
+<Verification1>21/07/2014 02:57:38 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:57:43 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 02:57:56 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 02:58:31 | Pass : Currency search page displayed</Verification4>
+<Verification5>21/07/2014 02:58:45 | Pass : New discount term D2 displayed in the list</Verification5>
+</A054_Discount_TermsTest>
+<A055_Settlement_TermsTest>
+<Verification1>21/07/2014 02:59:47 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 02:59:52 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:00:04 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:00:37 | Pass : Command line displayed</Verification4>
+<Verification5>21/07/2014 03:00:49 | Pass : Currency search page displayed</Verification5>
+<Verification6>21/07/2014 03:01:31 | Pass : Currency search page displayed</Verification6>
+<Verification7>21/07/2014 03:01:44 | Pass : New settlement term S2 displayed in the list</Verification7>
+<Verification8>21/07/2014 03:01:46 | Pass : New settlement term S3 displayed in the list</Verification8>
+</A055_Settlement_TermsTest>
+<A056_AP_Ledger_ControlsTest>
+<Verification1>21/07/2014 03:02:49 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:02:53 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:03:05 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:04:09 | Pass : New bank account  BP  created</Verification4>
+<Verification5>21/07/2014 03:04:21 | Pass : Command line displayed</Verification5>
+<Verification6>21/07/2014 03:04:31 | Pass : Currency search page displayed</Verification6>
+<Verification7>21/07/2014 03:07:10 | Pass : New purchase ledger Company  05  created</Verification7>
+</A056_AP_Ledger_ControlsTest>
+<A056A_System_Assigned_Batch_Numbers_In_AP>
+<Verification1>21/07/2014 03:08:02 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:08:07 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:08:17 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:08:53 | Pass : Batch number in AP are PDE1 updated</Verification4>
+<Verification5>21/07/2014 03:09:34 | Pass : Batch number in AP are PDE2 updated</Verification5>
+<Verification6>21/07/2014 03:10:17 | Pass : Batch number in AP are PDE3 updated</Verification6>
+<Verification7>21/07/2014 03:11:04 | Pass : Batch number in AP are PDE4 updated</Verification7>
+<Verification8>21/07/2014 03:11:54 | Pass : Batch number in AP are PDE5 updated</Verification8>
+<Verification9>21/07/2014 03:12:44 | Pass : Batch number in AP are PDE6 updated</Verification9>
+</A056A_System_Assigned_Batch_Numbers_In_AP>
+<A057_Legend_ControlsTest>
+<Verification1>21/07/2014 03:13:41 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:13:46 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:13:56 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:14:25 | Pass : New legend control  3 displayed in the list</Verification4>
+<Verification5>21/07/2014 03:15:05 | Pass : New legend control 3 displayed in the list</Verification5>
+<Verification6>21/07/2014 03:15:08 | Pass : New legend control 3 displayed in the list</Verification6>
+</A057_Legend_ControlsTest>
+<A058_Payment_MethodsTest>
+<Verification1>21/07/2014 03:15:59 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:16:03 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:16:13 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:17:50 | Pass : New payment method 03 displayed in the list</Verification4>
+<Verification5>21/07/2014 03:17:52 | Pass : New payment method 04 displayed in the list</Verification5>
+</A058_Payment_MethodsTest>
+<A059_Bank_Payment_MethodTest>
+<Verification1>21/07/2014 03:18:42 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:18:47 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:18:57 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:20:15 | Pass : New bank payment method 01 displayed in the list</Verification4>
+<Verification5>21/07/2014 03:21:54 | Pass : New bank payment method 02 displayed in the list</Verification5>
+</A059_Bank_Payment_MethodTest>
+<A060_Payment_CodesTest>
+<Verification1>21/07/2014 03:22:34 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:22:39 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:22:49 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:26:36 | Pass : New payment code 01 displayed in the list</Verification4>
+<Verification5>21/07/2014 03:26:39 | Pass : New payment code 02 displayed in the list</Verification5>
+<Verification6>21/07/2014 03:26:46 | Pass : New payment code 03 not displayed in the list</Verification6>
+<Verification7>21/07/2014 03:26:54 | Pass : New payment code 04 not displayed in the list</Verification7>
+</A060_Payment_CodesTest>
+<A061_Purchasing_Management_LocationsTest>
+<Verification1>21/07/2014 03:27:44 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:27:49 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:28:00 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:31:04 | Pass : New purchasing management location POP HQ displayed in the list</Verification4>
+<Verification5>21/07/2014 03:31:07 | Pass : New purchasing management location EAST HQ displayed in the list</Verification5>
+<Verification6>21/07/2014 03:31:10 | Pass : New purchasing management location WEST HQ displayed in the list</Verification6>
+<Verification7>21/07/2014 03:31:14 | Pass : New purchasing management location SOUTH HQ displayed in the list</Verification7>
+<Verification8>21/07/2014 03:31:18 | Pass : New purchasing management location NORTH HQ displayed in the list</Verification8>
+</A061_Purchasing_Management_LocationsTest>
+<A062_Tax_Handling_CodesTest>
+<Verification1>21/07/2014 03:32:08 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:32:13 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:32:23 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:32:41 | Pass : Tax handling R7 present in the list</Verification4>
+<Verification5>21/07/2014 03:32:51 | Pass : Tax handling 09 present in the list</Verification5>
+<Verification6>21/07/2014 03:33:02 | Pass : Tax handling 02 present in the list</Verification6>
+<Verification7>21/07/2014 03:33:12 | Pass : Tax handling H3 present in the list</Verification7>
+</A062_Tax_Handling_CodesTest>
+<A063_Standard_TextTest>
+<Verification1>21/07/2014 03:34:59 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:35:04 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:35:14 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:37:46 | Pass : New Standard text QUOTE-ACCEPT displayed in the list</Verification4>
+<Verification5>21/07/2014 03:37:49 | Pass : New Standard text QUOTE-REJECT displayed in the list</Verification5>
+<Verification6>21/07/2014 03:37:52 | Pass : New Standard text QUOTE-REQUEST displayed in the list</Verification6>
+</A063_Standard_TextTest>
+<A064_PPV_Control_AccountTest>
+<Verification1>21/07/2014 03:38:43 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:38:47 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:38:57 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:39:54 | Pass : New PPV Control account  MM displayed in the list</Verification4>
+</A064_PPV_Control_AccountTest>
+<A065_CP_Company_ControlsTest>
+<Verification1>21/07/2014 03:40:44 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:40:48 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:40:58 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:41:45 | Pass : New purchasing company  05 displayed in the list</Verification4>
+</A065_CP_Company_ControlsTest>
+<A066_Accrual_Control_CodeTest>
+<Verification1>21/07/2014 03:42:35 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:42:39 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:42:50 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:43:41 | Pass : New accrual Control code  IC displayed in the list</Verification4>
+</A066_Accrual_Control_CodeTest>
+<A067_Purchasing_Management_Company_ControlsTest>
+<Verification1>21/07/2014 03:44:30 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:44:35 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:44:45 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:45:51 | Pass : New purchasing company 05 displayed in the list</Verification4>
+</A067_Purchasing_Management_Company_ControlsTest>
+<A068_Inspection_CodesTest>
+<Verification1>21/07/2014 03:47:51 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:47:56 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:48:06 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:48:48 | Pass : New inspection code  L1 displayed in the list</Verification4>
+</A068_Inspection_CodesTest>
+<A069_Disposal_CodeTest>
+<Verification1>21/07/2014 03:49:54 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:49:59 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:50:09 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:50:58 | Pass : New disposal code  D2 displayed in the list</Verification4>
+</A069_Disposal_CodeTest>
+<A070_Reason_CodesTest>
+<Verification1>21/07/2014 03:51:35 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:51:51 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:51:57 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:52:49 | Pass : New reason code  R2 displayed in the list</Verification4>
+</A070_Reason_CodesTest>
+<A071_Document_PrefixCodesTest>
+<Verification1>21/07/2014 03:56:03 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 03:56:07 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 03:56:18 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 03:56:55 | Pass : Currency search page displayed</Verification4>
+<Verification5>21/07/2014 03:57:32 | Pass : Currency search page displayed</Verification5>
+<Verification6>21/07/2014 03:58:08 | Pass : Currency search page displayed</Verification6>
+<Verification7>21/07/2014 03:58:46 | Pass : Currency search page displayed</Verification7>
+<Verification8>21/07/2014 03:58:58 | Pass : Document prefix code Order displayed in the list</Verification8>
+<Verification9>21/07/2014 03:59:00 | Pass : Document prefix code Contract displayed in the list</Verification9>
+<Verification10>21/07/2014 03:59:04 | Pass : Document prefix code Requisition displayed in the list</Verification10>
+<Verification11>21/07/2014 03:59:07 | Pass : Document prefix code GRN displayed in the list</Verification11>
+</A071_Document_PrefixCodesTest>
+<A072_Common_Purchasing_UsersTest>
+<Verification1>21/07/2014 04:00:02 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:00:07 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 04:00:18 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 04:00:46 | Pass : Command line displayed</Verification4>
+<Verification5>21/07/2014 04:00:57 | Pass : Currency search page displayed</Verification5>
+<Verification6>21/07/2014 04:01:23 | Pass : Command line displayed</Verification6>
+<Verification7>21/07/2014 04:01:34 | Pass : Currency search page displayed</Verification7>
+<Verification8>21/07/2014 04:02:06 | Pass : Command line displayed</Verification8>
+<Verification9>21/07/2014 04:02:17 | Pass : Currency search page displayed</Verification9>
+<Verification10>21/07/2014 04:02:44 | Pass : Command line displayed</Verification10>
+<Verification11>21/07/2014 04:02:55 | Pass : Currency search page displayed</Verification11>
+<Verification12>21/07/2014 04:03:33 | Pass : Currency search page displayed</Verification12>
+<Verification13>21/07/2014 04:03:52 | Pass : CP User QUERY displayed in the list</Verification13>
+<Verification14>21/07/2014 04:03:55 | Pass : CP User ACCEPT displayed in the list</Verification14>
+<Verification15>21/07/2014 04:03:58 | Pass : CP User BUYER displayed in the list</Verification15>
+<Verification16>21/07/2014 04:04:10 | Pass : CP User T66 displayed in the list</Verification16>
+<Verification17>21/07/2014 04:04:14 | Pass : CP User EXPED displayed in the list</Verification17>
+<Verification18>21/07/2014 04:04:18 | Pass : CP User GREC displayed in the list</Verification18>
+</A072_Common_Purchasing_UsersTest>
+<A073_Receipt_ControlTest>
+<Verification1>21/07/2014 04:05:07 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:05:12 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 04:05:22 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 04:06:29 | Pass : New receipt control  REC3 displayed in the list</Verification4>
+</A073_Receipt_ControlTest>
+<A074_Automatic_Banking_CodeTest>
+<Verification1>21/07/2014 04:07:21 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:07:26 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 04:07:36 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 04:08:30 | Pass : New automatic bank code  AP displayed in the list</Verification4>
+</A074_Automatic_Banking_CodeTest>
+<A075_Circulation_CodeTest>
+<Verification1>21/07/2014 04:09:26 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:09:30 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 04:09:42 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 04:10:22 | Pass : New company control  05 displayed in the list</Verification4>
+<Verification5>21/07/2014 04:10:47 | Pass : Currency search page displayed</Verification5>
+<Verification6>21/07/2014 04:11:56 | Pass : New mappings POP_ORDER_1 displayed in the list</Verification6>
+<Verification7>21/07/2014 04:13:17 | Pass : New mappings POP_REQUISITION_1 displayed in the list</Verification7>
+<Verification8>21/07/2014 04:14:43 | Pass : New mappings IM_STOCK_ADJ displayed in the list</Verification8>
+<Verification9>21/07/2014 04:16:16 | Pass : New mappings IM_BIN_TRANS displayed in the list</Verification9>
+<Verification10>21/07/2014 04:17:55 | Pass : New mappings IM_STOCK_DISP displayed in the list</Verification10>
+<Verification11>21/07/2014 04:19:41 | Pass : New mappings IM_STOCK_TAKE displayed in the list</Verification11>
+<Verification12>21/07/2014 04:21:35 | Pass : New mappings IM_MATERIAL_ISSUE displayed in the list</Verification12>
+</A075_Circulation_CodeTest>
+<A075A_Circulation_CodeTest>
+<Verification1>21/07/2014 04:23:17 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:23:21 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 04:23:31 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 04:27:29 | Pass : New circulation code O1 displayed in the list</Verification4>
+<Verification5>21/07/2014 04:27:32 | Pass : New circulation code RQ displayed in the list</Verification5>
+<Verification6>21/07/2014 04:27:35 | Pass : New circulation code A1 displayed in the list</Verification6>
+<Verification7>21/07/2014 04:27:38 | Pass : New circulation code B1 displayed in the list</Verification7>
+<Verification8>21/07/2014 04:27:41 | Pass : New circulation code D1 displayed in the list</Verification8>
+</A075A_Circulation_CodeTest>
+<A075B_Circulation_CodeTest>
+<Verification1>21/07/2014 04:28:33 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:28:38 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 04:28:48 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 04:32:32 | Pass : New circulation code K1 displayed in the list</Verification4>
+<Verification5>21/07/2014 04:32:36 | Pass : New circulation code M1 displayed in the list</Verification5>
+<Verification6>21/07/2014 04:32:43 | Fail : New circulation code P1 not displayed in the list</Verification6>
+<Verification7>21/07/2014 04:32:50 | Fail : New circulation code T1 not displayed in the list</Verification7>
+<Verification8>21/07/2014 04:32:57 | Fail : New circulation code RS not displayed in the list</Verification8>
+</A075B_Circulation_CodeTest>
+<A076_Document_CodesTest>
+<Verification1>21/07/2014 04:34:25 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:34:29 | Pass : Command line displayed</Verification2>
+</A076_Document_CodesTest>
+<A076A_Document_CodesTest>
+<Verification1>21/07/2014 04:34:58 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:35:03 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 04:35:14 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 04:37:07 | Pass : Command line displayed</Verification4>
+<Verification5>21/07/2014 04:37:19 | Pass : Currency search page displayed</Verification5>
+<Verification6>21/07/2014 04:38:15 | Pass : Command line displayed</Verification6>
+<Verification7>21/07/2014 04:38:26 | Pass : Currency search page displayed</Verification7>
+<Verification8>21/07/2014 04:39:32 | Pass : Command line displayed</Verification8>
+<Verification9>21/07/2014 04:39:44 | Pass : Currency search page displayed</Verification9>
+<Verification10>21/07/2014 04:40:58 | Pass : Command line displayed</Verification10>
+<Verification11>21/07/2014 04:41:08 | Pass : Currency search page displayed</Verification11>
+<Verification12>21/07/2014 04:41:21 | Pass : New document code PM displayed in the list</Verification12>
+<Verification13>21/07/2014 04:41:24 | Pass : New document code PR displayed in the list</Verification13>
+<Verification14>21/07/2014 04:41:27 | Pass : New document code RE displayed in the list</Verification14>
+<Verification15>21/07/2014 04:41:30 | Pass : New document code G1 displayed in the list</Verification15>
+</A076A_Document_CodesTest>
+<A076B_Document_CodesTest>
+<Verification1>21/07/2014 05:08:57 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:09:01 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:09:14 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 05:10:01 | Pass : Command line displayed</Verification4>
+<Verification5>21/07/2014 05:10:13 | Pass : Currency search page displayed</Verification5>
+<Verification6>21/07/2014 05:10:58 | Pass : Command line displayed</Verification6>
+<Verification7>21/07/2014 05:11:10 | Pass : Currency search page displayed</Verification7>
+<Verification8>21/07/2014 05:12:07 | Pass : Command line displayed</Verification8>
+<Verification9>21/07/2014 05:12:17 | Fail : Currency search page not displayed</Verification9>
+</A076B_Document_CodesTest>
+<A077_CP_Company_ControlsTest>
+<Verification1>21/07/2014 04:52:29 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:52:34 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 04:52:45 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 04:53:32 | Pass : New purchasing company  05 displayed in the list</Verification4>
+</A077_CP_Company_ControlsTest>
+<A078_Authorisation_Control_Codes_For_APTest>
+<Verification1>21/07/2014 04:54:25 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:54:29 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 04:54:39 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 04:56:42 | Pass : New authorisation controls code L0 displayed in the list</Verification4>
+<Verification5>21/07/2014 04:56:45 | Pass : New authorisation controls code L1 displayed in the list</Verification5>
+<Verification6>21/07/2014 04:56:48 | Pass : New authorisation controls code L2 displayed in the list</Verification6>
+</A078_Authorisation_Control_Codes_For_APTest>
+<A078A_Authorisation_Control_Codes_For_APTest>
+<Verification1>21/07/2014 04:57:37 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 04:57:42 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 04:57:52 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 04:59:56 | Pass : New authorisation controls code L3 displayed in the list</Verification4>
+<Verification5>21/07/2014 04:59:59 | Pass : New authorisation controls code L4 displayed in the list</Verification5>
+<Verification6>21/07/2014 05:00:02 | Pass : New authorisation controls code L5 displayed in the list</Verification6>
+</A078A_Authorisation_Control_Codes_For_APTest>
+<A079_Authorisation_GroupsTest>
+<Verification1>21/07/2014 05:01:02 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:01:07 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:01:18 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 05:02:03 | Pass : Authorisation Group  PM displayed in the list</Verification4>
+<Verification5>21/07/2014 05:02:16 | Pass : Command line displayed</Verification5>
+<Verification6>21/07/2014 05:02:26 | Pass : Currency search page displayed</Verification6>
+<Verification7>21/07/2014 05:03:11 | Pass : Authorisation Group  PM displayed in the list</Verification7>
+</A079_Authorisation_GroupsTest>
+<A080_Authorisation_Control_Codes_For_PMTest>
+<Verification1>21/07/2014 05:04:06 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:04:10 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:04:21 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 05:06:10 | Pass : New authorisation controls code L1 displayed in the list</Verification4>
+<Verification5>21/07/2014 05:06:13 | Pass : New authorisation controls code L2 displayed in the list</Verification5>
+</A080_Authorisation_Control_Codes_For_PMTest>
+<A081_Authorisation_Groupings_For_PMTest>
+<Verification1>21/07/2014 05:26:35 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:26:40 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:26:51 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 05:29:48 | Pass : New authorisation group POP HQ displayed in the list</Verification4>
+<Verification5>21/07/2014 05:29:51 | Pass : New authorisation group POP HQ displayed in the list</Verification5>
+<Verification6>21/07/2014 05:29:54 | Pass : New authorisation group POP HQ displayed in the list</Verification6>
+<Verification7>21/07/2014 05:29:57 | Pass : New authorisation group POP HQ displayed in the list</Verification7>
+<Verification8>21/07/2014 05:30:00 | Pass : New authorisation group POP HQ displayed in the list</Verification8>
+</A081_Authorisation_Groupings_For_PMTest>
+<A081A_Authorisation_Groupings_For_PMTest>
+<Verification1>21/07/2014 05:30:49 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:30:54 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:31:04 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 05:34:04 | Pass : New authorisation group POP HQ displayed in the list</Verification4>
+<Verification5>21/07/2014 05:34:07 | Pass : New authorisation group POP HQ displayed in the list</Verification5>
+<Verification6>21/07/2014 05:34:10 | Pass : New authorisation group POP HQ displayed in the list</Verification6>
+<Verification7>21/07/2014 05:34:15 | Pass : New authorisation group SOUTH HQ displayed in the list</Verification7>
+<Verification8>21/07/2014 05:34:21 | Pass : New authorisation group NORTH HQ displayed in the list</Verification8>
+</A081A_Authorisation_Groupings_For_PMTest>
+<A082_Authorisation_StructuresTest>
+<Verification1>21/07/2014 05:35:12 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:35:17 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:35:27 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 05:36:14 | Pass : Authorisation Group  S1 displayed in the list</Verification4>
+<Verification5>21/07/2014 05:36:26 | Pass : Command line displayed</Verification5>
+<Verification6>21/07/2014 05:36:35 | Pass : Currency search page displayed</Verification6>
+<Verification7>21/07/2014 05:37:22 | Pass : Authorisation Group  S1 displayed in the list</Verification7>
+</A082_Authorisation_StructuresTest>
+<A083_Structure_AuthorisersTest>
+<Verification1>21/07/2014 05:38:17 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:38:21 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:38:32 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 05:41:33 | Pass : New structure authorizers QUERY displayed in the list</Verification4>
+<Verification5>21/07/2014 05:41:36 | Pass : New structure authorizers MANAGER displayed in the list</Verification5>
+<Verification6>21/07/2014 05:41:39 | Pass : New structure authorizers ADMIN displayed in the list</Verification6>
+<Verification7>21/07/2014 05:41:43 | Pass : New structure authorizers EMPLOYEE displayed in the list</Verification7>
+<Verification8>21/07/2014 05:41:47 | Pass : New structure authorizers T63 displayed in the list</Verification8>
+</A083_Structure_AuthorisersTest>
+<A083A_Structure_AuthorisersTest>
+<Verification1>21/07/2014 05:42:40 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:42:45 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:42:45 | Pass : Command line displayed</Verification3>
+<Verification4>21/07/2014 05:42:56 | Pass : Currency search page displayed</Verification4>
+<Verification5>21/07/2014 05:46:19 | Pass : New structure authorizers T63 displayed in the list</Verification5>
+<Verification6>21/07/2014 05:46:22 | Pass : New structure authorizers MANAGER displayed in the list</Verification6>
+<Verification7>21/07/2014 05:46:25 | Pass : New structure authorizers ADMIN displayed in the list</Verification7>
+<Verification8>21/07/2014 05:46:28 | Pass : New structure authorizers QUERY displayed in the list</Verification8>
+<Verification9>21/07/2014 05:46:32 | Pass : New structure authorizers EMPLOYEE displayed in the list</Verification9>
+</A083A_Structure_AuthorisersTest>
+<A089_Amend_AP_Company_Controls_For_AuthorisationTest>
+<Verification1>21/07/2014 05:47:22 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:47:27 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:47:37 | Pass : Currency search page displayed</Verification3>
+</A089_Amend_AP_Company_Controls_For_AuthorisationTest>
+<A084_Authorisation_Value_Levels_DefinitionTest>
+<Verification1>21/07/2014 05:50:12 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:50:16 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:50:27 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 05:50:56 | Pass : New authorisation value levels LEV1 present in the list</Verification4>
+<Verification5>21/07/2014 05:51:27 | Pass : New authorisation value levels LEV2 present in the list</Verification5>
+<Verification6>21/07/2014 05:51:48 | Pass : New authorisation value levels LEV3 present in the list</Verification6>
+<Verification7>21/07/2014 05:52:06 | Pass : New authorisation value levels LEV4 present in the list</Verification7>
+</A084_Authorisation_Value_Levels_DefinitionTest>
+<A084_Authorisation_Value_Levels_DefinitionTest>
+<Verification1>21/07/2014 05:56:09 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 05:56:14 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 05:56:25 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 05:56:53 | Pass : New authorisation value levels LEV1 present in the list</Verification4>
+<Verification5>21/07/2014 05:57:03 | Pass : New authorisation value levels LEV2 present in the list</Verification5>
+<Verification6>21/07/2014 05:57:14 | Pass : New authorisation value levels LEV3 present in the list</Verification6>
+<Verification7>21/07/2014 05:57:24 | Pass : New authorisation value levels LEV4 present in the list</Verification7>
+<Verification8>21/07/2014 05:57:39 | Pass : New pm authorisation value levels LEV1 displayed in the list</Verification8>
+<Verification9>21/07/2014 05:57:42 | Pass : New pm authorisation value levels LEV2 displayed in the list</Verification9>
+<Verification10>21/07/2014 05:57:45 | Pass : New pm authorisation value levels LEV3 displayed in the list</Verification10>
+<Verification11>21/07/2014 05:57:48 | Pass : New pm authorisation value levels LEV4 displayed in the list</Verification11>
+<Verification12>21/07/2014 05:58:01 | Pass : Command line displayed</Verification12>
+<Verification13>21/07/2014 05:58:12 | Pass : Currency search page displayed</Verification13>
+<Verification14>21/07/2014 06:00:15 | Pass : New am authorisation value levels LEV1 displayed in the list</Verification14>
+<Verification15>21/07/2014 06:00:18 | Pass : New am authorisation value levels LEV2 displayed in the list</Verification15>
+<Verification16>21/07/2014 06:00:21 | Pass : New am authorisation value levels LEV3 displayed in the list</Verification16>
+<Verification17>21/07/2014 06:00:24 | Pass : New am authorisation value levels LEV4 displayed in the list</Verification17>
+</A084_Authorisation_Value_Levels_DefinitionTest>
+<A085_Authorisation_By_Value_LevelTest>
+<Verification1>21/07/2014 06:12:28 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 06:12:33 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 06:12:43 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 06:13:54 | Pass : New authorisers 1 displayed in the list</Verification4>
+<Verification5>21/07/2014 06:14:07 | Pass : New authorisers 2 displayed in the list</Verification5>
+<Verification6>21/07/2014 06:14:21 | Pass : New authorisers 2 displayed in the list</Verification6>
+<Verification7>21/07/2014 06:14:36 | Pass : New AP authorisers 1 displayed in the list</Verification7>
+<Verification8>21/07/2014 06:14:38 | Pass : New AP authorisers 1 displayed in the list</Verification8>
+<Verification9>21/07/2014 06:14:41 | Pass : New AP authorisers 2 displayed in the list</Verification9>
+<Verification10>21/07/2014 06:14:43 | Pass : New AP authorisers 2 displayed in the list</Verification10>
+<Verification11>21/07/2014 06:14:56 | Pass : Command line displayed</Verification11>
+<Verification12>21/07/2014 06:15:06 | Pass : Currency search page displayed</Verification12>
+<Verification13>21/07/2014 06:18:37 | Pass : New PM authorisers 1 displayed in the list</Verification13>
+<Verification14>21/07/2014 06:18:40 | Pass : New PM authorisers 1 displayed in the list</Verification14>
+<Verification15>21/07/2014 06:18:43 | Pass : New PM authorisers 2 displayed in the list</Verification15>
+<Verification16>21/07/2014 06:18:46 | Pass : New PM authorisers 2 displayed in the list</Verification16>
+</A085_Authorisation_By_Value_LevelTest>
+<A086_Authorisation_By_GL_ResponsibilityTest>
+<Verification1>21/07/2014 06:19:43 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 06:19:48 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 06:19:59 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 06:25:46 | Pass : New authorisation GL responsibility code HQ displayed in the list</Verification4>
+<Verification5>21/07/2014 06:25:49 | Pass : New authorisation GL responsibility code WEST displayed in the list</Verification5>
+<Verification6>21/07/2014 06:25:53 | Pass : New authorisation GL responsibility code SOUTH displayed in the list</Verification6>
+<Verification7>21/07/2014 06:25:57 | Pass : New authorisation GL responsibility code NORTH displayed in the list</Verification7>
+<Verification8>21/07/2014 06:26:01 | Pass : New authorisation GL responsibility code EAST displayed in the list</Verification8>
+</A086_Authorisation_By_GL_ResponsibilityTest>
+<A087_Authorisation_By_Level_Or_GL_ResponsibilityTest>
+<Verification1>21/07/2014 06:26:50 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 06:26:54 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 06:27:04 | Pass : Currency search page displayed</Verification3>
+</A087_Authorisation_By_Level_Or_GL_ResponsibilityTest>
+<A088_Authorisation_By_Val_Or_GL_ResponsibilityTest>
+<Verification1>21/07/2014 06:28:32 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 06:28:37 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 06:28:48 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 06:35:53 | Pass : New authorisation by VALUE or GL responsibility code HQ displayed in the list</Verification4>
+<Verification5>21/07/2014 06:35:57 | Pass : New authorisation by VALUE or GL responsibility code WEST displayed in the list</Verification5>
+<Verification6>21/07/2014 06:36:02 | Pass : New authorisation by VALUE or GL responsibility code SOUTH displayed in the list</Verification6>
+<Verification7>21/07/2014 06:36:07 | Pass : New authorisation by VALUE or GL responsibility code NORTH displayed in the list</Verification7>
+<Verification8>21/07/2014 06:36:13 | Pass : New authorisation by VALUE or GL responsibility code EAST displayed in the list</Verification8>
+</A088_Authorisation_By_Val_Or_GL_ResponsibilityTest>
+<A090_PM_Company_Controls_For_AuthorisationTest>
+<Verification1>21/07/2014 06:37:04 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 06:37:08 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 06:37:18 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 06:37:54 | Pass : Purchasing company  05  updated</Verification4>
+<Verification5>21/07/2014 06:38:17 | Pass : Currency search page displayed</Verification5>
+<Verification6>21/07/2014 06:38:35 | Pass : Document code  O3  displayed</Verification6>
+<Verification7>21/07/2014 06:39:00 | Pass : Document code O3 updated successfully</Verification7>
+</A090_PM_Company_Controls_For_AuthorisationTest>
+<A091_SuppliersTest>
+<Verification1>21/07/2014 06:39:50 | Pass : Login page displayed</Verification1>
+<Verification2>21/07/2014 06:39:55 | Pass : Command line displayed</Verification2>
+<Verification3>21/07/2014 06:40:09 | Pass : Currency search page displayed</Verification3>
+<Verification4>21/07/2014 06:44:30 | Pass : New supplier  SONY  created</Verification4>
+</A091_SuppliersTest>
+</TestCase>
+</SeleniumTestReport>

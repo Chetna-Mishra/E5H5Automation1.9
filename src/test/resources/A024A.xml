@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T85</userName>
+          	<passWord>T85</passWord>
+          	<batchCode>AKK</batchCode>
+          	
+			<batchTypeForBR1>BR1</batchTypeForBR1>
+			<batchTypeForBR1>Bank rec1</batchTypeForBR1>
+			<batchTypeForBR1>IM</batchTypeForBR1>
+			<batchTypeForBR1>Immediate</batchTypeForBR1>
+			<batchTypeForBR1>1</batchTypeForBR1>
+			<batchTypeForBR1>1</batchTypeForBR1>
+			<batchTypeForBR1>1</batchTypeForBR1>
+			<batchTypeForBR1>1</batchTypeForBR1>
+			<batchTypeForBR1>NILL</batchTypeForBR1>
+			<batchTypeForBR1>NILL</batchTypeForBR1>
+			
+			<batchTypeForBR2>BR2</batchTypeForBR2>
+			<batchTypeForBR2>Bank rec2</batchTypeForBR2>
+			<batchTypeForBR2>IM</batchTypeForBR2>
+			<batchTypeForBR2>Immediate</batchTypeForBR2>
+			<batchTypeForBR2>1</batchTypeForBR2>
+			<batchTypeForBR2>1</batchTypeForBR2>
+			<batchTypeForBR2>1</batchTypeForBR2>
+			<batchTypeForBR2>1</batchTypeForBR2>
+			<batchTypeForBR2>NILL</batchTypeForBR2>
+			<batchTypeForBR2>NILL</batchTypeForBR2>
+			
+			<batchTypeForBR3>BR3</batchTypeForBR3>
+			<batchTypeForBR3>Bank rec3</batchTypeForBR3>
+			<batchTypeForBR3>IM</batchTypeForBR3>
+			<batchTypeForBR3>Immediate</batchTypeForBR3>
+			<batchTypeForBR3>1</batchTypeForBR3>
+			<batchTypeForBR3>1</batchTypeForBR3>
+			<batchTypeForBR3>1</batchTypeForBR3>
+			<batchTypeForBR3>1</batchTypeForBR3>
+			<batchTypeForBR3>NILL</batchTypeForBR3>
+			<batchTypeForBR3>NILL</batchTypeForBR3>
+			
+			<imBatchTypeForAcc>ACC</imBatchTypeForAcc>
+			<imBatchTypeForAcc>Accruals PM/AP</imBatchTypeForAcc>
+			<imBatchTypeForAcc>IM</imBatchTypeForAcc>
+			<imBatchTypeForAcc>Immediate</imBatchTypeForAcc>
+			<imBatchTypeForAcc>0</imBatchTypeForAcc>
+			<imBatchTypeForAcc>1</imBatchTypeForAcc>
+			<imBatchTypeForAcc>1</imBatchTypeForAcc>
+			<imBatchTypeForAcc>1</imBatchTypeForAcc>
+			<imBatchTypeForAcc>1</imBatchTypeForAcc>
+			<imBatchTypeForAcc>NILL</imBatchTypeForAcc>
+			<imBatchTypeForAcc>NILL</imBatchTypeForAcc>
+			
+			<imBatchTypeForIMGL>IMGL</imBatchTypeForIMGL>
+			<imBatchTypeForIMGL>Inventory GL Default</imBatchTypeForIMGL>
+			<imBatchTypeForIMGL>IM</imBatchTypeForIMGL>
+			<imBatchTypeForIMGL>Immediate</imBatchTypeForIMGL>
+			<imBatchTypeForIMGL>0</imBatchTypeForIMGL>
+			<imBatchTypeForIMGL>1</imBatchTypeForIMGL>
+			<imBatchTypeForIMGL>1</imBatchTypeForIMGL>
+			<imBatchTypeForIMGL>1</imBatchTypeForIMGL>
+			<imBatchTypeForIMGL>1</imBatchTypeForIMGL>
+			<imBatchTypeForIMGL>NILL</imBatchTypeForIMGL>
+			<imBatchTypeForIMGL>NILL</imBatchTypeForIMGL>
+			
+			<imBatchTypeForIMG1>IMG1</imBatchTypeForIMG1>
+			<imBatchTypeForIMG1>Inventory GL SC Reval</imBatchTypeForIMG1>
+			<imBatchTypeForIMG1>IM</imBatchTypeForIMG1>
+			<imBatchTypeForIMG1>Immediate</imBatchTypeForIMG1>
+			<imBatchTypeForIMG1>1</imBatchTypeForIMG1>
+			<imBatchTypeForIMG1>1</imBatchTypeForIMG1>
+			<imBatchTypeForIMG1>1</imBatchTypeForIMG1>
+			<imBatchTypeForIMG1>1</imBatchTypeForIMG1>
+			<imBatchTypeForIMG1>1</imBatchTypeForIMG1>
+			<imBatchTypeForIMG1>NILL</imBatchTypeForIMG1>
+			<imBatchTypeForIMG1>NILL</imBatchTypeForIMG1>
+			
+			<imBatchTypeForIMG2>IMG2</imBatchTypeForIMG2>
+			<imBatchTypeForIMG2>Inventory W/O Reval</imBatchTypeForIMG2>
+			<imBatchTypeForIMG2>IM</imBatchTypeForIMG2>
+			<imBatchTypeForIMG2>Immediate</imBatchTypeForIMG2>
+			<imBatchTypeForIMG2>1</imBatchTypeForIMG2>
+			<imBatchTypeForIMG2>1</imBatchTypeForIMG2>
+			<imBatchTypeForIMG2>1</imBatchTypeForIMG2>
+			<imBatchTypeForIMG2>1</imBatchTypeForIMG2>
+			<imBatchTypeForIMG2>1</imBatchTypeForIMG2>
+			<imBatchTypeForIMG2>NILL</imBatchTypeForIMG2>
+			<imBatchTypeForIMG2>NILL</imBatchTypeForIMG2>
+			
+			<imBatchTypeForIMRT>IMRT</imBatchTypeForIMRT>
+			<imBatchTypeForIMRT>Receipts Type</imBatchTypeForIMRT>
+			<imBatchTypeForIMRT>IM</imBatchTypeForIMRT>
+			<imBatchTypeForIMRT>Immediate</imBatchTypeForIMRT>
+			<imBatchTypeForIMRT>1</imBatchTypeForIMRT>
+			<imBatchTypeForIMRT>1</imBatchTypeForIMRT>
+			<imBatchTypeForIMRT>1</imBatchTypeForIMRT>
+			<imBatchTypeForIMRT>1</imBatchTypeForIMRT>
+			<imBatchTypeForIMRT>1</imBatchTypeForIMRT>
+			<imBatchTypeForIMRT>NILL</imBatchTypeForIMRT>
+			<imBatchTypeForIMRT>NILL</imBatchTypeForIMRT>
+			
+			<imBatchTypeForIMMI>IMMI</imBatchTypeForIMMI>
+			<imBatchTypeForIMMI>Material Issues</imBatchTypeForIMMI>
+			<imBatchTypeForIMMI>IM</imBatchTypeForIMMI>
+			<imBatchTypeForIMMI>Immediate</imBatchTypeForIMMI>
+			<imBatchTypeForIMMI>0</imBatchTypeForIMMI>
+			<imBatchTypeForIMMI>1</imBatchTypeForIMMI>
+			<imBatchTypeForIMMI>1</imBatchTypeForIMMI>
+			<imBatchTypeForIMMI>1</imBatchTypeForIMMI>
+			<imBatchTypeForIMMI>1</imBatchTypeForIMMI>
+			<imBatchTypeForIMMI>NILL</imBatchTypeForIMMI>
+			<imBatchTypeForIMMI>NILL</imBatchTypeForIMMI>
+			
+      </Row>
+</Root>

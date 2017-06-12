@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T88</userName>
+          	<passWord>T88</passWord>
+            <code>EBA</code> 
+              				
+			<nominal6500>6500</nominal6500>
+			<nominal6500>Electricity Account</nominal6500>
+			<nominal6500>A</nominal6500>
+			<nominal6500>02</nominal6500>
+			<nominal6500>Balance Sheet</nominal6500>
+			<nominal6500>Both</nominal6500>
+			<nominal6500>A</nominal6500>
+			<nominal6500>UKP</nominal6500>
+			<nominal6500>Base</nominal6500>
+			<nominal6500>0</nominal6500>
+	    						
+			<nominalBANKR>BANKR</nominalBANKR>
+			<nominalBANKR>bank rec bank</nominalBANKR>
+			<nominalBANKR>A</nominalBANKR>
+			<nominalBANKR>02</nominalBANKR>
+			<nominalBANKR>Balance Sheet</nominalBANKR>
+			<nominalBANKR>Both</nominalBANKR>
+			<nominalBANKR>A</nominalBANKR>
+			<nominalBANKR>***</nominalBANKR>
+			<nominalBANKR>Both</nominalBANKR>
+			<nominalBANKR>0</nominalBANKR>
+	    						
+			<nominalBANKR1>BANKR1</nominalBANKR1>
+			<nominalBANKR1>bank rec bank</nominalBANKR1>
+			<nominalBANKR1>A</nominalBANKR1>
+			<nominalBANKR1>02</nominalBANKR1>
+			<nominalBANKR1>Balance Sheet</nominalBANKR1>
+			<nominalBANKR1>Both</nominalBANKR1>
+			<nominalBANKR1>A</nominalBANKR1>
+			<nominalBANKR1>***</nominalBANKR1>
+			<nominalBANKR1>Both</nominalBANKR1>
+			<nominalBANKR1>0</nominalBANKR1>
+	    						
+			<nominalBANKR2>BANKR2</nominalBANKR2>
+			<nominalBANKR2>bank rec bank</nominalBANKR2>
+			<nominalBANKR2>A</nominalBANKR2>
+			<nominalBANKR2>02</nominalBANKR2>
+			<nominalBANKR2>Balance Sheet</nominalBANKR2>
+			<nominalBANKR2>Both</nominalBANKR2>
+			<nominalBANKR2>A</nominalBANKR2>
+			<nominalBANKR2>***</nominalBANKR2>
+			<nominalBANKR2>Both</nominalBANKR2>
+			<nominalBANKR2>0</nominalBANKR2>
+            
+			<nominal2000>2000</nominal2000>
+			<nominal2000>Creditors Control</nominal2000>
+			<nominal2000>B</nominal2000>
+			<nominal2000>02</nominal2000>
+			<nominal2000>Balance Sheet</nominal2000>
+			<nominal2000>Both</nominal2000>
+			<nominal2000>A</nominal2000>
+			<nominal2000>***</nominal2000>
+			<nominal2000>Both</nominal2000>
+			<nominal2000>0</nominal2000>
+	    						
+			<nominal5000>5000</nominal5000>
+			<nominal5000>Discount Receivable</nominal5000>
+			<nominal5000>T</nominal5000>
+			<nominal5000>04</nominal5000>
+			<nominal5000>Profit &amp; Loss</nominal5000>
+			<nominal5000>Both</nominal5000>
+			<nominal5000>A</nominal5000>
+			<nominal5000>***</nominal5000>
+			<nominal5000>Both</nominal5000>
+			<nominal5000>0</nominal5000>
+	    						
+			<nominal5050>5050</nominal5050>
+			<nominal5050>Bank Charges</nominal5050>
+			<nominal5050>T</nominal5050>
+			<nominal5050>04</nominal5050>
+			<nominal5050>Profit &amp; Loss</nominal5050>
+			<nominal5050>Both</nominal5050>
+			<nominal5050>A</nominal5050>
+			<nominal5050>***</nominal5050>
+			<nominal5050>Both</nominal5050>
+			<nominal5050>0</nominal5050>
+	    					
+			<nominal2150>2150</nominal2150>
+			<nominal2150>VAT Suspense</nominal2150>
+			<nominal2150>B</nominal2150>
+			<nominal2150>03</nominal2150>
+			<nominal2150>Balance Sheet</nominal2150>
+			<nominal2150>Both</nominal2150>
+			<nominal2150>A</nominal2150>
+			<nominal2150>***</nominal2150>
+			<nominal2150>Both</nominal2150>
+			<nominal2150>0</nominal2150>	
+			
+			<nominalSTKR>STKR</nominalSTKR>
+			<nominalSTKR>IM Stock Revaluation</nominalSTKR>
+			<nominalSTKR>I</nominalSTKR>
+			<nominalSTKR>02</nominalSTKR>
+			<nominalSTKR>Balance Sheet</nominalSTKR>
+			<nominalSTKR>Both</nominalSTKR>
+			<nominalSTKR>A</nominalSTKR>
+			<nominalSTKR>***</nominalSTKR>
+			<nominalSTKR>Both</nominalSTKR>
+			<nominalSTKR>0</nominalSTKR>						
+
+      </Row>
+</Root>

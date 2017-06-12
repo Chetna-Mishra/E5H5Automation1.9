@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>TestNG:  suite2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>suite2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 28 09:45:43 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>1141 seconds (1141778 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A002_Currency_DescriptionTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A002_Currency_DescriptionTest<br>Parameters: [DataUnit [userName = T82], DataUnit [passWord = T82], DataUnit [code = AGA], DataUnit [eurCurrency = EUR], DataUnit [eurCurrency = Euro], DataUnit [eurCurrency = 2], DataUnit [eurCurrency = EURO], DataUnit [eurCurrency = EUROS], DataUnit [eurCurrency = EURO-CENT], DataUnit [eurCurrency = EUROCENTS], DataUnit [eurCurrency = EURO], DataUnit [eurCurrency = ], DataUnit [eurCurrency = ], DataUnit [eurCurrency = Hundredth], DataUnit [demCurrency = DEM], DataUnit [demCurrency = DEUTCHSMARK], DataUnit [demCurrency = 2], DataUnit [demCurrency = MARK], DataUnit [demCurrency = MARKS], DataUnit [demCurrency = PFENNING], DataUnit [demCurrency = PFENNINGS], DataUnit [demCurrency = Participating], DataUnit [demCurrency = 1.97738], DataUnit [demCurrency = 01 Jan 1998], DataUnit [demCurrency = Hundredth], DataUnit [ukpCurrency = UKP], DataUnit [ukpCurrency = UK PONDS], DataUnit [ukpCurrency = 2], DataUnit [ukpCurrency = POUND], DataUnit [ukpCurrency = POUNDS], DataUnit [ukpCurrency = PENNY], DataUnit [ukpCurrency = PENCE], DataUnit [ukpCurrency = Not Participating], DataUnit [ukpCurrency = 0], DataUnit [ukpCurrency = 0.00000], DataUnit [ukpCurrency = Hundredth], DataUnit [usdCurrency = USD], DataUnit [usdCurrency = US DOLLAR], DataUnit [usdCurrency = 2], DataUnit [usdCurrency = DOLLAR], DataUnit [usdCurrency = DOLLARS], DataUnit [usdCurrency = CENT], DataUnit [usdCurrency = CENTS], DataUnit [usdCurrency = Not Participating], DataUnit [usdCurrency = ], DataUnit [usdCurrency = ], DataUnit [usdCurrency = Hundredth], DataUnit [frfCurrency = FRF], DataUnit [frfCurrency = French Franc], DataUnit [frfCurrency = 2], DataUnit [frfCurrency = FRANC], DataUnit [frfCurrency = FRANCS], DataUnit [frfCurrency = CENTIME], DataUnit [frfCurrency = CENTIMES], DataUnit [frfCurrency = Participating], DataUnit [frfCurrency = 6.63186], DataUnit [frfCurrency = 01 Jan 1998], DataUnit [frfCurrency = Hundredth]]</td>
+<td></td>
+<td>168</td>
+<td>com.adv.qa.selenium.tests.currency.A002_Currency_DescriptionTest@438f3a6</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A003_Currency_Base_NonBase_RelationshipsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A003_Currency_Base_NonBase_RelationshipsTest<br>Parameters: [DataUnit [userName = T83], DataUnit [passWord = T83], DataUnit [code = AGC], DataUnit [ukpeurCurrency = UKP], DataUnit [ukpeurCurrency = EUR], DataUnit [ukpeurCurrency = Base to Non-Base], DataUnit [ukpeurCurrency = 1], DataUnit [ukpeurCurrency = 1.00], DataUnit [ukpeurCurrency = 1.00], DataUnit [eurukpCurrency = EUR], DataUnit [eurukpCurrency = UKP], DataUnit [eurukpCurrency = Base to Non-Base], DataUnit [eurukpCurrency = 1], DataUnit [eurukpCurrency = 1.0], DataUnit [eurukpCurrency = 1.0], DataUnit [usdukpCurrency = USD], DataUnit [usdukpCurrency = UKP], DataUnit [usdukpCurrency = NoneBase-Base], DataUnit [usdukpCurrency = 1], DataUnit [usdukpCurrency = 1.0], DataUnit [usdukpCurrency = 1.0], DataUnit [frfukpCuurency = FRF], DataUnit [frfukpCuurency = UKP], DataUnit [frfukpCuurency = NoneBase-Base], DataUnit [frfukpCuurency = 1], DataUnit [frfukpCuurency = 1.0], DataUnit [frfukpCuurency = 1.0], DataUnit [demukpCurrency = DEM], DataUnit [demukpCurrency = UKP], DataUnit [demukpCurrency = NoneBase-Base], DataUnit [demukpCurrency = 1], DataUnit [demukpCurrency = 1.0], DataUnit [demukpCurrency = 1.0], DataUnit [ukpfrfCurrency = UKP], DataUnit [ukpfrfCurrency = FRF], DataUnit [ukpfrfCurrency = Base to Non-Base], DataUnit [ukpfrfCurrency = 1], DataUnit [ukpfrfCurrency = 1.00], DataUnit [ukpfrfCurrency = 1.00], DataUnit [ukpdemCurrency = UKP], DataUnit [ukpdemCurrency = DEM], DataUnit [ukpdemCurrency = Base to Non-Base], DataUnit [ukpdemCurrency = 1], DataUnit [ukpdemCurrency = 1.0], DataUnit [ukpdemCurrency = 1.0]]</td>
+<td></td>
+<td>255</td>
+<td>com.adv.qa.selenium.tests.currency.A003_Currency_Base_NonBase_RelationshipsTest@37041974</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A004_Currency_Exchange_Rate_TypesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A004_Currency_Exchange_Rate_TypesTest<br>Parameters: [DataUnit [userName = T84], DataUnit [passWord = T84], DataUnit [code = AGG], DataUnit [ukpusdCurrency = UKP], DataUnit [ukpusdCurrency = USD], DataUnit [ukpusdCurrency = IM], DataUnit [ukpfrfCurrency = UKP], DataUnit [ukpfrfCurrency = FRF], DataUnit [ukpfrfCurrency = IM], DataUnit [ukpdemCurrency = UKP], DataUnit [ukpdemCurrency = DEM], DataUnit [ukpdemCurrency = IM], DataUnit [ukpeurCurrency = UKP], DataUnit [ukpeurCurrency = EUR], DataUnit [ukpeurCurrency = IM], DataUnit [eurukpCurrency = EUR], DataUnit [eurukpCurrency = UKP], DataUnit [eurukpCurrency = IM], DataUnit [demukpCurrency = DEM], DataUnit [demukpCurrency = UKP], DataUnit [demukpCurrency = IM], DataUnit [frfukpCurrency = FRF], DataUnit [frfukpCurrency = UKP], DataUnit [frfukpCurrency = IM]]</td>
+<td></td>
+<td>269</td>
+<td>com.adv.qa.selenium.tests.currency.A004_Currency_Exchange_Rate_TypesTest@3c13033a</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A005_Currency_Exchange_RatesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A005_Currency_Exchange_RatesTest<br>Parameters: [DataUnit [userName = T85], DataUnit [passWord = T85], DataUnit [code = AGI], DataUnit [value = UKP], DataUnit [ukpusdCurrency = UKP], DataUnit [ukpusdCurrency = USD], DataUnit [ukpusdCurrency = IM], DataUnit [ukpusdCurrency = 011297], DataUnit [ukpusdCurrency = 1.54], DataUnit [ukpusdCurrency = 1.0], DataUnit [ukpusdCurrency = 1.0], DataUnit [ukpfrfCurrency = UKP], DataUnit [ukpfrfCurrency = FRF], DataUnit [ukpfrfCurrency = IM], DataUnit [ukpfrfCurrency = 011297], DataUnit [ukpfrfCurrency = 8.280000], DataUnit [ukpfrfCurrency = 1.00], DataUnit [ukpfrfCurrency = 1.00], DataUnit [ukpdemCurrency = UKP], DataUnit [ukpdemCurrency = DEM], DataUnit [ukpdemCurrency = IM], DataUnit [ukpdemCurrency = 011297], DataUnit [ukpdemCurrency = 2.45], DataUnit [ukpdemCurrency = 1.0], DataUnit [ukpdemCurrency = 1.0], DataUnit [ukpeurCurrency = UKP], DataUnit [ukpeurCurrency = EUR], DataUnit [ukpeurCurrency = IM], DataUnit [ukpeurCurrency = 010198], DataUnit [ukpeurCurrency = 1.26087], DataUnit [ukpeurCurrency = 1.0], DataUnit [ukpeurCurrency = 1.0], DataUnit [eurukpCurrency = EUR], DataUnit [eurukpCurrency = UKP], DataUnit [eurukpCurrency = IM], DataUnit [eurukpCurrency = 010198], DataUnit [eurukpCurrency = 0.793103], DataUnit [eurukpCurrency = 1.0], DataUnit [eurukpCurrency = 1.0]]</td>
+<td></td>
+<td>363</td>
+<td>com.adv.qa.selenium.tests.currency.A005_Currency_Exchange_RatesTest@3b7fb05a</td></tr>
+</table><p>
+</body>
+</html>

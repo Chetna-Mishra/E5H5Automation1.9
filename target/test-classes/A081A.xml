@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<Row >
+	    <userName>T55</userName>
+        <passWord>T55</passWord>
+        <currencyCode>DDC</currencyCode>
+        
+        <authorisationGroupSix>POP HQ</authorisationGroupSix>
+        <authorisationGroupSix>R</authorisationGroupSix>
+        <authorisationGroupSix>RT</authorisationGroupSix>
+        <authorisationGroupSix>NILL</authorisationGroupSix>
+        <authorisationGroupSix>PM</authorisationGroupSix>
+        <authorisationGroupSix>L1</authorisationGroupSix>
+        <authorisationGroupSix>RT/POP HQ</authorisationGroupSix>
+        
+        <authorisationGroupSeven>POP HQ</authorisationGroupSeven>
+        <authorisationGroupSeven>R</authorisationGroupSeven>
+        <authorisationGroupSeven>SR</authorisationGroupSeven>
+        <authorisationGroupSeven>NILL</authorisationGroupSeven>
+        <authorisationGroupSeven>PM</authorisationGroupSeven>
+        <authorisationGroupSeven>L1</authorisationGroupSeven>
+        <authorisationGroupSeven>SR/POP HQ</authorisationGroupSeven>
+        
+        <authorisationGroupEight>POP HQ</authorisationGroupEight>
+        <authorisationGroupEight>R</authorisationGroupEight>
+        <authorisationGroupEight>TR</authorisationGroupEight>
+        <authorisationGroupEight>NILL</authorisationGroupEight>
+        <authorisationGroupEight>PM</authorisationGroupEight>
+        <authorisationGroupEight>L1</authorisationGroupEight>
+        <authorisationGroupEight>TR/POP HQ</authorisationGroupEight>
+        
+        <authorisationGroupSouth>SOUTH HQ</authorisationGroupSouth>
+        <authorisationGroupSouth>Order</authorisationGroupSouth>
+        <authorisationGroupSouth>O1</authorisationGroupSouth>
+        <authorisationGroupSouth>NILL</authorisationGroupSouth>
+        <authorisationGroupSouth>PM</authorisationGroupSouth>
+        <authorisationGroupSouth>L1</authorisationGroupSouth>
+        <authorisationGroupSouth>O1/SOUTH</authorisationGroupSouth>
+        
+        <authorisationGroupNorth>NORTH HQ</authorisationGroupNorth>
+        <authorisationGroupNorth>Order</authorisationGroupNorth>
+        <authorisationGroupNorth>O1</authorisationGroupNorth>
+        <authorisationGroupNorth>NILL</authorisationGroupNorth>
+        <authorisationGroupNorth>PM</authorisationGroupNorth>
+        <authorisationGroupNorth>L1</authorisationGroupNorth>
+        <authorisationGroupNorth>O1/NORTH</authorisationGroupNorth>
+     </Row>
+</Root>

@@ -1,0 +1,2157 @@
+<!DOCTYPE Root [ <!ATTLIST Row id ID #IMPLIED > ]>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+   <Row id="A001">
+        <userName>BA</userName>
+        <passWord>BA</passWord>
+        <code>AAB</code>   
+        <commandParameter>EDTSYSCONT ACT=AMEND</commandParameter>  
+    </Row>
+    
+    <Row id="A002">
+	    <userName>T82</userName>
+        <passWord>T82</passWord>
+		<code>AGA</code> 
+			
+		<ukpCurrency>UKP</ukpCurrency>
+		<ukpCurrency>UK PONDS</ukpCurrency>
+		<ukpCurrency>2</ukpCurrency>
+		<ukpCurrency>POUND</ukpCurrency>
+		<ukpCurrency>POUNDS</ukpCurrency>
+		<ukpCurrency>PENNY</ukpCurrency>
+		<ukpCurrency>PENCE</ukpCurrency>
+		<ukpCurrency>Not Participating</ukpCurrency>
+		<ukpCurrency>0</ukpCurrency>
+		<ukpCurrency>0.00000</ukpCurrency>
+		<ukpCurrency>Hundredth</ukpCurrency>
+			
+		<eurCurrency>EUR</eurCurrency>
+		<eurCurrency>Euro</eurCurrency>
+		<eurCurrency>2</eurCurrency>
+		<eurCurrency>EURO</eurCurrency>
+		<eurCurrency>EUROS</eurCurrency>
+		<eurCurrency>EURO-CENT</eurCurrency>
+		<eurCurrency>EUROCENTS</eurCurrency>
+		<eurCurrency>EURO</eurCurrency>
+		<eurCurrency></eurCurrency>
+		<eurCurrency></eurCurrency>
+		<eurCurrency>Hundredth</eurCurrency>
+			
+		<usdCurrency>USD</usdCurrency>
+		<usdCurrency>US DOLLAR</usdCurrency>
+		<usdCurrency>2</usdCurrency>
+		<usdCurrency>DOLLAR</usdCurrency>
+		<usdCurrency>DOLLARS</usdCurrency>
+		<usdCurrency>CENT</usdCurrency>
+		<usdCurrency>CENTS</usdCurrency>
+		<usdCurrency>Not Participating</usdCurrency>
+		<usdCurrency></usdCurrency>
+		<usdCurrency></usdCurrency>
+		<usdCurrency>Hundredth</usdCurrency> 
+		
+		<demCurrency>DEM</demCurrency>
+		<demCurrency>DEUTCHSMARK</demCurrency>
+		<demCurrency>2</demCurrency>
+		<demCurrency>MARK</demCurrency>
+		<demCurrency>MARKS</demCurrency>
+		<demCurrency>PFENNING</demCurrency>
+		<demCurrency>PFENNINGS</demCurrency>
+		<demCurrency>Participating</demCurrency>
+		<demCurrency>1.97738</demCurrency>
+		<demCurrency>01 Jan 1998</demCurrency>
+		<demCurrency>Hundredth</demCurrency>
+					
+		<frfCurrency>FRF</frfCurrency>
+		<frfCurrency>French Franc</frfCurrency>
+		<frfCurrency>2</frfCurrency>
+		<frfCurrency>FRANC</frfCurrency>
+		<frfCurrency>FRANCS</frfCurrency>
+		<frfCurrency>CENTIME</frfCurrency>
+		<frfCurrency>CENTIMES</frfCurrency>
+		<frfCurrency>Participating</frfCurrency>
+		<frfCurrency>6.63186</frfCurrency>
+		<frfCurrency>01 Jan 1998</frfCurrency>
+		<frfCurrency>Hundredth</frfCurrency>						
+    </Row>
+    
+    <Row id="A003">	
+	    <userName>T83</userName>
+        <passWord>T83</passWord>
+        <code>AGC</code>         
+				
+		<ukpusdCurrency>UKP</ukpusdCurrency>
+		<ukpusdCurrency>USD</ukpusdCurrency>
+		<ukpusdCurrency>Base to Non-Base</ukpusdCurrency>
+		<ukpusdCurrency>1</ukpusdCurrency>
+		<ukpusdCurrency>1.0</ukpusdCurrency>
+		<ukpusdCurrency>1.0</ukpusdCurrency>
+				
+		<frfukpCuurency>FRF</frfukpCuurency>
+		<frfukpCuurency>UKP</frfukpCuurency>
+		<frfukpCuurency>NoneBase-Base</frfukpCuurency>
+		<frfukpCuurency>1</frfukpCuurency>
+		<frfukpCuurency>1.0</frfukpCuurency>
+		<frfukpCuurency>1.0</frfukpCuurency>
+		
+		<demukpCurrency>DEM</demukpCurrency>
+		<demukpCurrency>UKP</demukpCurrency>
+		<demukpCurrency>NoneBase-Base</demukpCurrency>
+		<demukpCurrency>1</demukpCurrency>
+		<demukpCurrency>1.0</demukpCurrency>
+		<demukpCurrency>1.0</demukpCurrency>
+		    
+		<ukpfrfCurrency>UKP</ukpfrfCurrency>
+		<ukpfrfCurrency>FRF</ukpfrfCurrency>
+		<ukpfrfCurrency>Base to Non-Base</ukpfrfCurrency>
+		<ukpfrfCurrency>1</ukpfrfCurrency>
+		<ukpfrfCurrency>1.00</ukpfrfCurrency>
+		<ukpfrfCurrency>1.00</ukpfrfCurrency> 
+			    
+		<ukpdemCurrency>UKP</ukpdemCurrency>
+		<ukpdemCurrency>DEM</ukpdemCurrency>
+		<ukpdemCurrency>Base to Non-Base</ukpdemCurrency>
+		<ukpdemCurrency>1</ukpdemCurrency>
+		<ukpdemCurrency>1.0</ukpdemCurrency>
+		<ukpdemCurrency>1.0</ukpdemCurrency> 
+			    
+		<ukpeurCurrency>UKP</ukpeurCurrency>
+		<ukpeurCurrency>EUR</ukpeurCurrency>
+		<ukpeurCurrency>Base to Non-Base</ukpeurCurrency>
+		<ukpeurCurrency>1</ukpeurCurrency>
+		<ukpeurCurrency>1.00</ukpeurCurrency>
+		<ukpeurCurrency>1.00</ukpeurCurrency>
+						
+		<eurukpCurrency>EUR</eurukpCurrency>
+		<eurukpCurrency>UKP</eurukpCurrency>
+		<eurukpCurrency>Base to Non-Base</eurukpCurrency>
+		<eurukpCurrency>1</eurukpCurrency>
+		<eurukpCurrency>1.0</eurukpCurrency>
+		<eurukpCurrency>1.0</eurukpCurrency> 
+				
+		<usdukpCurrency>USD</usdukpCurrency>
+		<usdukpCurrency>UKP</usdukpCurrency>
+		<usdukpCurrency>NoneBase-Base</usdukpCurrency>
+		<usdukpCurrency>1</usdukpCurrency>
+		<usdukpCurrency>1.0</usdukpCurrency>
+		<usdukpCurrency>1.0</usdukpCurrency>		
+    </Row>
+    
+   	<Row id="A004">
+	    <userName>T84</userName>
+        <passWord>T84</passWord>
+        <code>AGG</code>         
+			
+ 		<ukpfrfCurrency>UKP</ukpfrfCurrency>
+		<ukpfrfCurrency>FRF</ukpfrfCurrency>
+		<ukpfrfCurrency>IM</ukpfrfCurrency>
+			
+		<ukpdemCurrency>UKP</ukpdemCurrency>
+		<ukpdemCurrency>DEM</ukpdemCurrency>
+		<ukpdemCurrency>IM</ukpdemCurrency>
+			
+		<ukpeurCurrency>UKP</ukpeurCurrency>
+		<ukpeurCurrency>EUR</ukpeurCurrency>
+		<ukpeurCurrency>IM</ukpeurCurrency>
+			
+		<eurukpCurrency>EUR</eurukpCurrency>
+		<eurukpCurrency>UKP</eurukpCurrency>
+		<eurukpCurrency>IM</eurukpCurrency>			
+						
+		<demukpCurrency>DEM</demukpCurrency>
+		<demukpCurrency>UKP</demukpCurrency>
+		<demukpCurrency>IM</demukpCurrency>
+			
+		<usdukpCurrency>USD</usdukpCurrency>
+		<usdukpCurrency>UKP</usdukpCurrency>
+		<usdukpCurrency>IM</usdukpCurrency>
+			
+		<ukpusdCurrency>UKP</ukpusdCurrency>
+		<ukpusdCurrency>USD</ukpusdCurrency>
+		<ukpusdCurrency>IM</ukpusdCurrency>
+			 
+		<frfukpCurrency>FRF</frfukpCurrency>
+		<frfukpCurrency>UKP</frfukpCurrency>
+		<frfukpCurrency>IM</frfukpCurrency>			
+     </Row>
+    
+	 <Row id="A005">
+	    <userName>T85</userName>
+        <passWord>T85</passWord>
+        <code>AGI</code>      
+        <value>UKP</value>   
+
+        <ukpfrfCurrency>UKP</ukpfrfCurrency>
+		<ukpfrfCurrency>FRF</ukpfrfCurrency>
+		<ukpfrfCurrency>IM</ukpfrfCurrency>
+		<ukpfrfCurrency>011297</ukpfrfCurrency>
+		<ukpfrfCurrency>8.280000</ukpfrfCurrency>
+		<ukpfrfCurrency>1.00</ukpfrfCurrency>
+		<ukpfrfCurrency>1.00</ukpfrfCurrency>
+			
+		<ukpdemCurrency>UKP</ukpdemCurrency>
+		<ukpdemCurrency>DEM</ukpdemCurrency>
+		<ukpdemCurrency>IM</ukpdemCurrency>
+		<ukpdemCurrency>011297</ukpdemCurrency>
+		<ukpdemCurrency>2.45</ukpdemCurrency>
+		<ukpdemCurrency>1.0</ukpdemCurrency>
+		<ukpdemCurrency>1.0</ukpdemCurrency>
+			
+		<ukpeurCurrency>UKP</ukpeurCurrency>
+		<ukpeurCurrency>EUR</ukpeurCurrency>
+		<ukpeurCurrency>IM</ukpeurCurrency>
+		<ukpeurCurrency>010198</ukpeurCurrency>
+		<ukpeurCurrency>1.26087</ukpeurCurrency>
+		<ukpeurCurrency>1.0</ukpeurCurrency>
+		<ukpeurCurrency>1.0</ukpeurCurrency>
+			
+		<eurukpCurrency>EUR</eurukpCurrency>
+		<eurukpCurrency>UKP</eurukpCurrency>
+		<eurukpCurrency>IM</eurukpCurrency>
+		<eurukpCurrency>010198</eurukpCurrency>
+		<eurukpCurrency>0.793103</eurukpCurrency>
+		<eurukpCurrency>1.0</eurukpCurrency>
+		<eurukpCurrency>1.0</eurukpCurrency>
+		 
+		<ukpusdCurrency>UKP</ukpusdCurrency>
+		<ukpusdCurrency>USD</ukpusdCurrency>
+		<ukpusdCurrency>IM</ukpusdCurrency>
+		<ukpusdCurrency>011297</ukpusdCurrency>
+		<ukpusdCurrency>1.54</ukpusdCurrency>
+		<ukpusdCurrency>1.0</ukpusdCurrency>
+		<ukpusdCurrency>1.0</ukpusdCurrency>		
+    </Row>
+    
+	<Row id="A006">
+    	<userName>T86</userName>
+        <passWord>T86</passWord>
+        <code>AAE</code>   
+        
+        <companyDetails>CO  BOBS BISCUIT FACTORY</companyDetails>
+        <companyDetails>CO  BOBS BISCUIT FACTORY</companyDetails>
+        <companyDetails>FIRST ADDRESS LINE</companyDetails>
+        <companyDetails>SECOND ADDRESS LINE</companyDetails>
+        <companyDetails>THIRD ADDRESS LINE</companyDetails>
+        <companyDetails>FOURTH ADDRESS LINE</companyDetails>   
+        <companyDetails>FIFTH ADDRESS LINE</companyDetails>
+        <companyDetails>SIXTH ADDRESS LINE</companyDetails>
+        <companyDetails>NE23 9NA</companyDetails>
+        <companyDetails>0191 444XXX</companyDetails>
+        <companyDetails>0191 402XXX</companyDetails>   
+        <companyDetails>UK</companyDetails>
+        <companyDetails>UKP</companyDetails>
+     </Row>
+      
+	 <Row id="A007">
+	    <userName>T87</userName>
+       	<passWord>T87</passWord>
+        <code>ANS</code>         
+        <deviceDetails>CMSE5H4</deviceDetails>
+        <deviceDetails>E5H5 TEST ENVIRONMENT GROUP</deviceDetails>
+        <deviceDetails>SYSOUT=A,</deviceDetails>
+        <deviceDetails>LRECL=133,</deviceDetails>
+        <deviceDetails>BLKSIZE=133,</deviceDetails>
+        <deviceDetails>RECFM=FBA,</deviceDetails>
+        <deviceDetails>DEST=(LOCAL,CMS123)</deviceDetails>			
+     </Row>
+
+	 <Row id="A008">
+	     <userName>T88</userName>
+         <passWord>T88</passWord>
+         <code>ANC</code>   
+		 <firstDestination>CMS110</firstDestination>
+		 <firstDestination>Output to Spool</firstDestination>
+		 <firstDestination>3</firstDestination>
+		 
+		 <secondDestination>CMS220</secondDestination>
+		 <secondDestination>Output to Spool</secondDestination>
+		 <secondDestination>3</secondDestination>			
+     </Row>
+
+	 <Row id="A009">
+	   	<userName>T89</userName>
+       	<passWord>T89</passWord>
+        <code>AOJ</code>   
+        <value>%</value>  
+            
+		<profileDetails>CMS110</profileDetails>
+		<profileDetails>CMS111 Distribution Profile</profileDetails>
+		<profileDetails>CMS110</profileDetails>  
+		<profileDetails>1</profileDetails>
+			
+		<profileDetails1>CMS20</profileDetails1>
+		<profileDetails1>CMS222 Distribution Profile</profileDetails1>
+		<profileDetails1>CMS220</profileDetails1>
+		<profileDetails1>1</profileDetails1>			
+     </Row>
+
+	 <Row id="A010">
+	    <userName>T90</userName>
+        <passWord>T90</passWord>
+        <code>AFA</code>   
+        <value>%</value> 
+                 
+		<environmentList>CMS330</environmentList>
+		<environmentList>Output to SPOOL</environmentList>
+		<environmentList>1439</environmentList>
+		<environmentList>0</environmentList>
+		<environmentList>5</environmentList>
+		<environmentList>2</environmentList>
+		<environmentList>CMS110</environmentList>
+			
+		<secondEnvironmentList>CMS220</secondEnvironmentList>
+		<secondEnvironmentList>Output to SPOOL</secondEnvironmentList>
+		<secondEnvironmentList>1439</secondEnvironmentList>
+		<secondEnvironmentList>0</secondEnvironmentList>
+		<secondEnvironmentList>2</secondEnvironmentList>
+		<secondEnvironmentList>2</secondEnvironmentList>
+		<secondEnvironmentList>CMS220</secondEnvironmentList>
+    </Row>
+      
+	<Row id="A011">
+	   <userName>T91</userName>
+       <passWord>T91</passWord>
+       <code>AFC</code>
+       <company>09</company>
+            
+       <firstUser>QUERY</firstUser> 
+       <firstUser>QUERY</firstUser>  
+       <firstUser>QMAIN</firstUser>  
+       <firstUser>T8</firstUser>  
+       <firstUser>STD</firstUser>  
+       <firstUser>STD</firstUser>  
+       <firstUser>STD</firstUser>    	
+       <firstUser>STD</firstUser> 
+       <firstUser>STD</firstUser> 
+       <firstUser>A1</firstUser>  
+       <firstUser>00</firstUser>	
+            
+       <secondUser>ADMIN</secondUser> 
+       <secondUser>QUERY</secondUser>  
+       <secondUser>Admin User</secondUser>  
+       <secondUser>T8</secondUser>  
+       <secondUser>STD</secondUser>  
+       <secondUser>STD</secondUser>  
+       <secondUser>STD</secondUser>    	
+       <secondUser>STD</secondUser>  
+       <secondUser>STD</secondUser>
+       <secondUser>A1</secondUser>  
+       <secondUser>00</secondUser>
+            
+       <thirdUser>MANAGER</thirdUser> 
+       <thirdUser>MANAGER</thirdUser>  
+       <thirdUser>QMAIN</thirdUser>  
+       <thirdUser>T8</thirdUser>  
+       <thirdUser>STD</thirdUser>  
+       <thirdUser>STD</thirdUser>  
+       <thirdUser>STD</thirdUser>    	
+       <thirdUser>STD</thirdUser>  
+       <thirdUser>STD</thirdUser> 
+       <thirdUser>A1</thirdUser>  
+       <thirdUser>00</thirdUser>
+            
+       <fourthUser>EMPLOYEE</fourthUser> 
+       <fourthUser>Employee</fourthUser>  
+       <fourthUser>QMAIN</fourthUser>  
+       <fourthUser>T8</fourthUser>  
+       <fourthUser>STD</fourthUser>  
+       <fourthUser>STD</fourthUser>  
+       <fourthUser>STD</fourthUser>    	
+       <fourthUser>STD</fourthUser>  
+       <fourthUser>STD</fourthUser> 
+       <fourthUser>A1</fourthUser>  
+       <fourthUser>00</fourthUser>
+            
+       <fifthUser>BM</fifthUser> 
+       <fifthUser>BM TEST</fifthUser>  
+       <fifthUser>QMAIN</fifthUser>  
+       <fifthUser>T8</fifthUser>  
+       <fifthUser>STD</fifthUser>  
+       <fifthUser>STD</fifthUser>  
+       <fifthUser>STD</fifthUser>    	
+       <fifthUser>STD</fifthUser>  
+       <fifthUser>STD</fifthUser> 
+       <fifthUser>A1</fifthUser>  
+       <fifthUser>00</fifthUser>
+            
+       <sixthUser>BM1</sixthUser> 
+       <sixthUser>BM1 TEST</sixthUser>  
+       <sixthUser>QMAIN</sixthUser>  
+       <sixthUser>T8</sixthUser>  
+       <sixthUser>STD</sixthUser>  
+       <sixthUser>STD</sixthUser>  
+       <sixthUser>STD</sixthUser>    	
+       <sixthUser>STD</sixthUser>  
+       <sixthUser>STD</sixthUser> 
+       <sixthUser>A1</sixthUser>  
+       <sixthUser>00</sixthUser>
+            
+       <userBuyer>BUYER</userBuyer> 
+       <userBuyer>BUYER</userBuyer>  
+       <userBuyer>QMAIN</userBuyer>  
+       <userBuyer>T8</userBuyer>  
+       <userBuyer>STD</userBuyer>  
+       <userBuyer>STD</userBuyer>  
+       <userBuyer>STD</userBuyer>    	
+       <userBuyer>STD</userBuyer>  
+       <userBuyer>STD</userBuyer> 
+       <userBuyer>A1</userBuyer>  
+       <userBuyer>00</userBuyer>
+            
+       <userEXPED>EXPED</userEXPED> 
+       <userEXPED>EXPED</userEXPED>  
+       <userEXPED>QMAIN</userEXPED>  
+       <userEXPED>T8</userEXPED>  
+       <userEXPED>STD</userEXPED>  
+       <userEXPED>STD</userEXPED>  
+       <userEXPED>STD</userEXPED>    	
+       <userEXPED>STD</userEXPED>  
+       <userEXPED>STD</userEXPED> 
+       <userEXPED>A1</userEXPED>  
+       <userEXPED>00</userEXPED>
+            
+       <userGREC>GREE</userGREC> 
+       <userGREC>GREC</userGREC>  
+       <userGREC>QMAIN</userGREC>  
+       <userGREC>T8</userGREC>  
+       <userGREC>STD</userGREC>  
+       <userGREC>STD</userGREC>  
+       <userGREC>STD</userGREC>    	
+       <userGREC>STD</userGREC>  
+       <userGREC>STD</userGREC> 
+       <userGREC>A1</userGREC>  
+       <userGREC>00</userGREC>            
+     </Row>
+	  	  
+	 <Row id="A012">
+	   <userName>T82</userName>
+       <passWord>T82</passWord>
+       <code>APC</code>         
+       <calendarActivity>DCDAY</calendarActivity>
+       <calendarActivity>CO IM DAILY</calendarActivity>
+       <calendarActivity>Daily</calendarActivity>
+       <calendarActivity>1</calendarActivity>
+       <calendarActivity>2</calendarActivity>
+       <calendarActivity>day</calendarActivity>
+       <calendarActivity>3</calendarActivity>
+       <calendarActivity>4</calendarActivity>	
+       <calendarActivity>5</calendarActivity>
+       <calendarActivity>6</calendarActivity>
+       <calendarActivity>7</calendarActivity>
+       
+       <calendarMonthActivity>DCMONTH</calendarMonthActivity>
+       <calendarMonthActivity>CO IM MONTHLY</calendarMonthActivity>
+       <calendarMonthActivity>Monthly</calendarMonthActivity>
+       <calendarMonthActivity>31</calendarMonthActivity>
+       <calendarMonthActivity>Monday</calendarMonthActivity>
+       <calendarMonthActivity>month</calendarMonthActivity>			
+    </Row>
+      
+	<Row id="A013">
+	   <userName>T84</userName>
+       <passWord>T84</passWord>
+       <code>API</code>         
+       <calendar>HCFISCAL</calendar>
+       <calendar>AC FISCAL CALENDAR</calendar>
+       <calendar>02</calendar>
+       <calendar>Sunday</calendar>
+       <calendar>LEVEL 0</calendar>
+	   <calendar>level 0</calendar>
+       <calendar>IMMNTH</calendar>
+      
+       <year96>1996</year96>
+       <year96>96</year96>
+       <year96>01-Jan-1996</year96>
+       <year96>31-Dec-1996</year96>
+         	
+       <year97>1997</year97>
+       <year97>97</year97>
+       <year97>01-Jan-1997</year97>
+       <year97>31-Dec-1997</year97>
+         	
+       <year98>1998</year98>
+       <year98>98</year98>
+       <year98>01-Jan-1998</year98>
+       <year98>31-Dec-1998</year98>
+         	
+       <year99>1999</year99>
+       <year99>99</year99>
+       <year99>01-Jan-1999</year99>
+       <year99>31-Dec-1999</year99>
+         	
+       <year2000>2000</year2000>
+       <year2000>2000</year2000>
+       <year2000>01-Jan-2000</year2000>
+       <year2000>31-Dec-2000</year2000>
+       
+       <year2001>2001</year2001>
+       <year2001>2001</year2001>
+       <year2001>01-Jan-2001</year2001>
+       <year2001>31-Dec-2001</year2001>
+       
+       <year2002>2002</year2002>
+       <year2002>2002</year2002>
+       <year2002>01-Jan-2002</year2002>
+       <year2002>31-Dec-2002</year2002>
+       
+       <year2003>2003</year2003>
+       <year2003>2003</year2003>
+       <year2003>01-Jan-2003</year2003>
+       <year2003>31-Dec-2003</year2003>
+       
+       <year2004>2004</year2004>
+       <year2004>2004</year2004>
+       <year2004>01-Jan-2004</year2004>
+       <year2004>31-Dec-2004</year2004>
+       
+       <year2005>2005</year2005>
+       <year2005>2005</year2005>
+       <year2005>01-Jan-2005</year2005>
+       <year2005>31-Dec-2005</year2005>
+       
+       <year2006>2006</year2006>
+       <year2006>2006</year2006>
+       <year2006>01-Jan-2006</year2006>
+       <year2006>31-Dec-2006</year2006>
+       
+       <year2007>2007</year2007>
+       <year2007>2007</year2007>
+       <year2007>01-Jan-2007</year2007>
+       <year2007>31-Dec-2007</year2007>
+       
+       <year2008>2008</year2008>
+       <year2008>2008</year2008>
+       <year2008>01-Jan-2008</year2008>
+       <year2008>31-Dec-2008</year2008>
+       
+       <year2009>2009</year2009>
+       <year2009>2009</year2009>
+       <year2009>01-Jan-2009</year2009>
+       <year2009>31-Dec-2009</year2009>
+       
+       <year2010>2010</year2010>
+       <year2010>2010</year2010>
+       <year2010>01-Jan-2010</year2010>
+       <year2010>31-Dec-2010</year2010>
+       
+       <year2011>2011</year2011>
+       <year2011>2011</year2011>
+       <year2011>01-Jan-2011</year2011>
+       <year2011>31-Dec-2011</year2011>
+       
+       <year2012>2012</year2012>
+       <year2012>2012</year2012>
+       <year2012>01-Jan-2012</year2012>
+       <year2012>31-Dec-2012</year2012>
+       
+       <year2013>2013</year2013>
+       <year2013>2013</year2013>
+       <year2013>01-Jan-2013</year2013>
+       <year2013>31-Dec-2013</year2013>
+       
+       <year2014>2014</year2014>
+       <year2014>2014</year2014>
+       <year2014>01-Jan-2014</year2014>
+       <year2014>31-Dec-2014</year2014>
+       
+       <year2015>2015</year2015>
+       <year2015>2015</year2015>
+       <year2015>01-Jan-2015</year2015>
+       <year2015>31-Dec-2015</year2015>
+       
+    </Row>
+	  	  
+	<Row id="A014">
+	   <userName>T86</userName>
+       <passWord>T86</passWord>
+       <code>AKA</code> 
+
+       <accountDefinition>A</accountDefinition>
+       
+       <accountCodeList>A</accountCodeList>
+       <accountCodeList>8</accountCodeList>
+       <accountCodeList>Account Code</accountCodeList>
+       <accountCodeList></accountCodeList>
+       <accountCodeList></accountCodeList>
+       <accountCodeList></accountCodeList>
+       <accountCodeList>Account</accountCodeList>
+       <accountCodeList>7</accountCodeList>
+            
+       <costList>B</costList>
+       <costList>4</costList>
+       <costList>Costcentre</costList>
+       <costList>A</costList>
+       <costList></costList>
+       <costList>Y</costList>
+       <costList>Cost</costList>
+       <costList>4</costList>
+            
+       <location>C</location>
+       <location>4</location>
+       <location>Location</location>
+       <location>A</location>
+       <location></location>
+       <location></location>
+       <location>Locn</location>
+       <location>4</location>
+            
+       <product>0</product>
+       <product>12</product>
+       <product>Product</product>
+       <product></product>
+       <product>Y</product>
+       <product>Y</product>
+       <product>Product</product>
+       <product>8</product>         
+    </Row>
+
+	<Row id="A015">
+	   <userName>T85</userName>
+       <passWord>T85</passWord>
+       <code>EAT</code>   
+             
+       <balanceSheetControl>N</balanceSheetControl>
+       <balanceSheetControl>Normal B/S (N)</balanceSheetControl>	
+    </Row>
+
+	<Row id="A016">
+	   <userName>T87</userName>
+       <passWord>T87</passWord>
+       <code>EAI</code>  
+
+       <value>N</value>    
+            
+       <aGroup>A</aGroup>
+       <aGroup>B/S Group A Expenses</aGroup>
+       <aGroup>0</aGroup>
+            
+       <bGroup>B</bGroup>
+       <bGroup>B/S Group B Purchasing</bGroup>
+       <bGroup>0</bGroup>
+            
+       <cGroup>C</cGroup>
+       <cGroup>B/S Group C Purchasing</cGroup>
+       <cGroup>0</cGroup>
+            
+       <tGroup>T</tGroup>
+       <tGroup>P/L Group T Purchasing</tGroup>
+       <tGroup>1</tGroup>              
+    </Row>
+
+	<Row id="A016A">
+	   <userName>T86</userName>
+       <passWord>T86</passWord>
+       <code>EAI</code> 
+       
+       <value>N</value>    
+            
+       <gGroup>G</gGroup>
+       <gGroup>B/S PPV(Purchase Price Variance)</gGroup>
+       <gGroup>0</gGroup>
+            
+       <pGroup>P</pGroup>
+       <pGroup>P/L  Group P</pGroup>
+       <pGroup>1</pGroup>
+            
+       <iGroup>I</iGroup>
+       <iGroup>B/S Group I Inventory</iGroup> 
+       <iGroup>0</iGroup>              
+    </Row>
+	
+	<Row id="A019">
+	   <userName>T89</userName>
+       <passWord>T89</passWord>
+       <code>EBD</code>   
+	   <value>B</value>
+
+	   <managementCode>DUM</managementCode>
+	   <managementCode>Dummy Costcentre for ICA BTZ</managementCode>
+	   <managementCode>Dummy Costcentre</managementCode>
+    </Row>
+
+	<Row id="A020">
+	   <userName>T86</userName>
+       <passWord>T86</passWord>
+       <code>EAC</code> 
+	   
+	   <ledgerControlList>IM</ledgerControlList>
+	   <ledgerControlList>GL Default Controls</ledgerControlList>
+       <ledgerControlList>3000</ledgerControlList>
+	   <ledgerControlList>DUM</ledgerControlList>
+       <ledgerControlList>2600</ledgerControlList>
+	   <ledgerControlList>DUM</ledgerControlList>
+	   <ledgerControlList>2500</ledgerControlList>
+	   <ledgerControlList>DUM</ledgerControlList>
+   </Row>
+      
+   <Row id="A021">
+	    <userName>T86</userName>
+        <passWord>T86</passWord>
+        <code>AKK</code> 
+              
+      	<batchTypeRval>RVAL</batchTypeRval>
+      	<batchTypeRval>Revaluation</batchTypeRval>
+      	<batchTypeRval>IM</batchTypeRval>
+      	<batchTypeRval>Delayed</batchTypeRval>
+		<batchTypeRval>1</batchTypeRval>
+		<batchTypeRval>1</batchTypeRval>		      	  
+		
+      	<batchTypeSumm>TRAN</batchTypeSumm>
+      	<batchTypeSumm>Transfer</batchTypeSumm>
+      	<batchTypeSumm>IM</batchTypeSumm>
+      	<batchTypeSumm>Delayed</batchTypeSumm>
+		<batchTypeSumm>1</batchTypeSumm>
+		<batchTypeSumm>1</batchTypeSumm>
+			
+		<batchTypeTran>SUMM</batchTypeTran>
+		<batchTypeTran>Summarisation</batchTypeTran>
+		<batchTypeTran>IM</batchTypeTran>			
+		<batchTypeTran>Delayed</batchTypeTran>
+		<batchTypeTran>0</batchTypeTran>
+		<batchTypeTran>0</batchTypeTran>
+    </Row>
+	  	  
+	<Row id="A023">
+	    <userName>T84</userName>
+        <passWord>T84</passWord>
+        <code>EAA</code>
+        
+     	<companyControl>02</companyControl>
+     	<companyControl>2003</companyControl>
+     	<companyControl>IM</companyControl>
+     	<companyControl>HCFISCAL</companyControl>
+     	<companyControl>2</companyControl>
+     	<companyControl>2</companyControl>
+     	<companyControl>SUMM</companyControl>
+     	<companyControl>7</companyControl>
+     	<companyControl>S1</companyControl>
+     	<companyControl>Offline Only</companyControl>
+     	<companyControl>Not In Use</companyControl>
+     	<companyControl>IM</companyControl>
+     	<companyControl>2.00</companyControl>
+     	<companyControl>5.00</companyControl>
+     	<companyControl>Warning</companyControl> 
+     	<companyControl>RVAL</companyControl> 		
+    </Row>
+
+	<Row id="A025">
+	    <userName>T87</userName>
+        <passWord>T87</passWord>
+        <code>EAO</code> 
+              
+   		<formulaForCal1>CAL1</formulaForCal1>
+   		<formulaForCal1>CP Actual Balance</formulaForCal1>
+   		<formulaForCal1>CP Act Bal</formulaForCal1>
+   		<formulaForCal1>1</formulaForCal1>
+   		<formulaForCal1>Sum Columns</formulaForCal1>
+   		<formulaForCal1>M(AB)</formulaForCal1>  		
+   		
+   		<formulaForCal2>CAL2</formulaForCal2>
+   		<formulaForCal2>YTD Actual Balance</formulaForCal2>
+   		<formulaForCal2>YTD Act Bal</formulaForCal2>
+   		<formulaForCal2>1</formulaForCal2>
+   		<formulaForCal2>Suppress All Totals</formulaForCal2>
+   		<formulaForCal2>B(AB)</formulaForCal2>	
+   			
+   		<formulaForBs1>BS1</formulaForBs1>
+   		<formulaForBs1>Stat  Balance</formulaForBs1>
+   		<formulaForBs1>STAT BAL</formulaForBs1>
+   		<formulaForBs1>0</formulaForBs1>
+   		<formulaForBs1></formulaForBs1>
+   		<formulaForBs1>B(AB)</formulaForBs1>
+   			 			
+   		<formulaForMs1>MS1</formulaForMs1>
+   		<formulaForMs1>Stat Movement QTY</formulaForMs1>
+   		<formulaForMs1>STAT MOV</formulaForMs1>
+   		<formulaForMs1>0</formulaForMs1>
+   		<formulaForMs1>Sum Columns</formulaForMs1>
+   		<formulaForMs1>M(S1)</formulaForMs1> 			
+    </Row>
+      
+	<Row id="A026">
+	    <userName>T56</userName>
+        <passWord>T56</passWord>
+        <code>EAE</code> 
+        
+		<layoutList>LAY1</layoutList>
+		<layoutList>Layout 1</layoutList>
+		<layoutList>Totals at Bottom</layoutList>
+		<layoutList>CAL1</layoutList>
+		<layoutList>CAL2</layoutList>
+		<layoutList>BS1</layoutList>
+		<layoutList>MS1</layoutList>
+    </Row>
+      
+	<Row id="A027">
+	    <userName>T89</userName>
+        <passWord>T89</passWord>
+        <code>ECA</code> 
+        
+        <structureList>00</structureList>
+		<structureList>ICA Structure</structureList>
+		<structureList>Y</structureList>
+    </Row>
+      
+	<Row id="A028">
+	    <userName>T85</userName>
+        <passWord>T85</passWord>
+        <code>ECC</code> 
+       
+        <controlList>00</controlList>
+		<controlList>2</controlList>
+		<controlList>SUSP</controlList>
+		<controlList>Mandatory</controlList>
+		<controlList>Immediate</controlList>
+		<controlList>LAY1</controlList>
+		<controlList>LAY1</controlList>
+		<controlList>2</controlList>
+    </Row>
+	  	  
+	<Row id="A031">
+	    <userName>T14</userName>
+        <passWord>T14</passWord>
+        <code>EAA</code> 
+		
+		<companyControl>LAY1</companyControl>
+		<companyControl>LAY1</companyControl>
+		<companyControl>00</companyControl>
+		<companyControl>B</companyControl>	
+		<companyControl>TRAN</companyControl>
+		<companyControl>REVV</companyControl>	
+		<companyControl>Layout 1</companyControl>
+		<companyControl>Layout 1</companyControl>
+		<companyControl>ICA Structure</companyControl>
+		<companyControl>Transfer</companyControl>
+		<companyControl>Reversal</companyControl>			
+    </Row>
+      
+	<Row id="A035">
+	    <userName>T85</userName>
+        <passWord>T85</passWord>
+        <code>Submit EP3</code> 
+        <process>EP3</process>
+        
+ 		<structureList>EPB</structureList>
+ 		<structureList>E5H5EP3</structureList>
+ 		<structureList>00</structureList>
+ 		<structureList>30 Apr 2014</structureList>
+    </Row>
+	  	  
+	<Row id="A036">
+	    <userName>T86</userName>
+        <passWord>T86</passWord>
+        <code>ECI</code> 			
+ 			
+		<icaNorth>NORTH</icaNorth>	
+		<icaNorth>NBTZ</icaNorth>
+		<icaNorth>IM</icaNorth>	
+			
+		<icaWest>WEST</icaWest>
+		<icaWest>WBTZ</icaWest>
+		<icaWest>IM</icaWest>
+			
+		<icaEast>EAST</icaEast>
+		<icaEast>EBTZ</icaEast>
+		<icaEast>IM</icaEast>
+			
+		<icaSouth>SOUTH</icaSouth>
+		<icaSouth>SBTZ</icaSouth>
+		<icaSouth>IM</icaSouth>
+    </Row>
+
+	<Row id="A037">
+	    <userName>T87</userName>
+        <passWord>T87</passWord>
+        <code>AKI</code> 
+        
+ 		<elements>********************</elements>
+ 		<elements>********************</elements>
+ 		<elements>GLICA</elements>
+ 		<elements>DUM</elements>
+    </Row>
+	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
+	<Row id="A038">
+	    <userName>T82</userName>
+        <passWord>T82</passWord>
+        <code>Submit EP2</code> 
+        <process>EP2</process>
+        
+        <processList>EPA</processList>
+ 		<processList>E5H5EP2</processList>
+ 		<processList>Y</processList>
+    </Row>
+	  	  
+	<Row id="A041">
+	    <userName>T82</userName>
+        <passWord>T82</passWord>
+        <ep4ProcessList>Submit EP4</ep4ProcessList> 
+        <ep4ProcessList>EAQ</ep4ProcessList>
+        <ep4ProcessList>EP4</ep4ProcessList>
+        <ep4ProcessList>E5H5EP4</ep4ProcessList>
+ 		<ep4ProcessList>PM</ep4ProcessList>
+ 			           
+ 		<ep5ProcessList>Submit EP5</ep5ProcessList> 
+        <ep5ProcessList>EPA</ep5ProcessList>
+        <ep5ProcessList>EP5</ep5ProcessList>
+        <ep5ProcessList>E5H5EP5</ep5ProcessList>		
+ 		<ep5ProcessList>30 Apr 2014</ep5ProcessList>
+    </Row>
+
+	<Row id="A042">
+	    <userName>T42</userName>
+        <passWord>T42</passWord>
+   		<code>EYB</code>
+   		
+   		<errorMessage>Cannot roll GL period across Year End, Use process EY1</errorMessage>
+    </Row>
+	  	  	  	  
+	  
+	<Row id="A044">
+	    <userName>T55</userName>
+        <passWord>T55</passWord>
+        <currencyCode>RAN</currencyCode>
+        <currencyCode>RAM</currencyCode>
+        
+	    <sType>UKS</sType>
+	    <sType>01 Jan 2000</sType>
+	    <sType>UK</sType>
+	    <sType>PS</sType>
+	    <sType>17.50</sType>
+	    <sType>RAM</sType>
+	   
+	    <zType>UKZ</zType>
+	    <zType>01 Jan 2000</zType>
+	    <zType>UK</zType>
+	    <zType>PZ</zType>
+	    <zType>0.00</zType>
+	    <zType>RAM</zType>
+	    
+	    <eType>UKE</eType>
+	    <eType>01 Jan 2000</eType>
+	    <eType>UK</eType>
+	    <eType>PE</eType>
+	    <eType>0.00</eType>
+	    <eType>RAM</eType>
+
+	    <vType>UKV</vType>
+	    <vType>01 Jan 2000</vType>
+	    <vType>UK</vType>
+	    <vType>PV</vType>
+	    <vType>0.00</vType>
+	    <vType>RAM</vType>
+	</Row>
+	
+	<Row id="A045">
+	     <userName>T45</userName>
+        <passWord>T45</passWord>
+        <currencyCode>APA</currencyCode>
+        
+        <calendar>BACS03</calendar>
+        <calendar>BACS Calendar IM</calendar>
+        <calendar>Friday</calendar>
+        <calendar>1996</calendar>
+        <calendar>ACMONTH</calendar>
+        <calendar>2001</calendar>
+        <calendar>2014</calendar>               
+	</Row>    
+	
+	<Row id="A046">
+	     <userName>T46</userName>
+        <passWord>T46</passWord>
+        <currencyCode>AKY</currencyCode>
+        <bankName>UK</bankName>
+        
+        <bankName1>UK</bankName1>
+        <bankName1>05-02-86</bankName1>
+        <bankName1>Yorkshire Bank</bankName1>
+        <bankName1>118-120 York Road</bankName1>
+        <bankName1>Hartlepool</bankName1>
+        <bankName1>Cleveland</bankName1>
+        <bankName1>TS24 9PL</bankName1>
+        
+        <bankName2>UK</bankName2>
+        <bankName2>20-34-41</bankName2>
+        <bankName2>Barclays Bank Hartlepool</bankName2>
+        <bankName2>110 York Road</bankName2>
+        <bankName2>Hartlepool</bankName2>
+        <bankName2>NILL</bankName2>
+        <bankName2>NILL</bankName2>
+        
+        <bankName3>UK</bankName3>
+        <bankName3>40-52-98</bankName3>
+        <bankName3>HSBC Hartlepool</bankName3>
+        <bankName3>123 York Road</bankName3>
+        <bankName3>Hartlepool</bankName3>
+        <bankName3>NILL</bankName3>
+        <bankName3>NILL</bankName3>       
+	</Row>
+	<Row id="A047">
+	    <userName>T47</userName>
+        <passWord>T47</passWord>
+        <currencyCode>AKL</currencyCode>
+        <currencyCode>AKK</currencyCode>
+        <company>09</company>
+        <company>%P%</company>
+        
+	    <batchTypePDE1>PDE1</batchTypePDE1>
+	    <batchTypePDE1>AP Default Batch Type</batchTypePDE1>
+	    <batchTypePDE1>IM</batchTypePDE1>
+	    <batchTypePDE1>Immediate</batchTypePDE1>
+	    <batchTypePDE1>0</batchTypePDE1>
+	    <batchTypePDE1>1</batchTypePDE1>
+	    <batchTypePDE1>1</batchTypePDE1>
+	    <batchTypePDE1>1</batchTypePDE1>
+	    <batchTypePDE1>NILL</batchTypePDE1>
+	    <batchTypePDE1>Warning</batchTypePDE1>
+	    
+
+	    <batchTypePDE2>PDE2</batchTypePDE2>
+	    <batchTypePDE2>Logged Transactions</batchTypePDE2>
+	    <batchTypePDE2>IM</batchTypePDE2>
+	    <batchTypePDE2>Immediate</batchTypePDE2>
+	    <batchTypePDE2>0</batchTypePDE2>
+	    <batchTypePDE2>1</batchTypePDE2>
+	    <batchTypePDE2>1</batchTypePDE2>
+	    <batchTypePDE2>1</batchTypePDE2>
+	    <batchTypePDE2>NILL</batchTypePDE2>
+	    <batchTypePDE2>Warning</batchTypePDE2>
+	    
+
+	    <batchTypePDE3>PDE3</batchTypePDE3>
+	    <batchTypePDE3>Entered Transactions</batchTypePDE3>
+	    <batchTypePDE3>IM</batchTypePDE3>
+	    <batchTypePDE3>Immediate</batchTypePDE3>
+	    <batchTypePDE3>0</batchTypePDE3>
+	    <batchTypePDE3>1</batchTypePDE3>
+	    <batchTypePDE3>1</batchTypePDE3>
+	    <batchTypePDE3>1</batchTypePDE3>
+	    <batchTypePDE3>NILL</batchTypePDE3>
+	    <batchTypePDE3>Warning</batchTypePDE3>
+	    
+
+	    <batchTypePDE4>PDE4</batchTypePDE4>
+	    <batchTypePDE4>Accepted Transactions</batchTypePDE4>
+	    <batchTypePDE4>IM</batchTypePDE4>
+	    <batchTypePDE4>Immediate</batchTypePDE4>
+	    <batchTypePDE4>0</batchTypePDE4>
+	    <batchTypePDE4>1</batchTypePDE4>
+	    <batchTypePDE4>1</batchTypePDE4>
+	    <batchTypePDE4>1</batchTypePDE4>
+	    <batchTypePDE4>NILL</batchTypePDE4>
+	    <batchTypePDE4>Warning</batchTypePDE4>
+	    
+
+	    <batchTypePDE5>PDE5</batchTypePDE5>
+	    <batchTypePDE5>Cancelled Transactions</batchTypePDE5>
+	    <batchTypePDE5>IM</batchTypePDE5>
+	    <batchTypePDE5>Immediate</batchTypePDE5>
+	    <batchTypePDE5>0</batchTypePDE5>
+	    <batchTypePDE5>1</batchTypePDE5>
+	    <batchTypePDE5>1</batchTypePDE5>
+	    <batchTypePDE5>1</batchTypePDE5>
+	    <batchTypePDE5>NILL</batchTypePDE5>
+	    <batchTypePDE5>Warning</batchTypePDE5>
+	    
+
+	    <batchTypePDE6>PDE6</batchTypePDE6>
+	    <batchTypePDE6>Payments</batchTypePDE6>
+	    <batchTypePDE6>IM</batchTypePDE6>
+	    <batchTypePDE6>Immediate</batchTypePDE6>
+	    <batchTypePDE6>0</batchTypePDE6>
+	    <batchTypePDE6>1</batchTypePDE6>
+	    <batchTypePDE6>1</batchTypePDE6>
+	    <batchTypePDE6>1</batchTypePDE6>	    
+	    <batchTypePDE6>NILL</batchTypePDE6>
+	    <batchTypePDE6>Warning</batchTypePDE6>
+
+	    <batchTypePDE7>PDE7</batchTypePDE7>
+	    <batchTypePDE7>VAT Analysis</batchTypePDE7>
+	    <batchTypePDE7>IM</batchTypePDE7>
+	    <batchTypePDE7>Immediate</batchTypePDE7>
+	    <batchTypePDE7>0</batchTypePDE7>
+	    <batchTypePDE7>1</batchTypePDE7>
+	    <batchTypePDE7>1</batchTypePDE7>
+	    <batchTypePDE7>1</batchTypePDE7>
+	    <batchTypePDE7>NILL</batchTypePDE7>	  
+	    <batchTypePDE7>Warning</batchTypePDE7>
+	      
+	</Row>
+	
+	<Row id="A048">
+	    <userName>T48</userName>
+        <passWord>T48</passWord>
+        <currencyCode>AKO</currencyCode>
+	    <currencyCode>AKM</currencyCode>
+	    
+	    <uomCodeBox>BOX7</uomCodeBox>
+	    <uomCodeBox>Box of 10 items</uomCodeBox>
+	    <uomCodeBox>1</uomCodeBox>
+	    
+	    <uomCodeEach>EAC7</uomCodeEach>
+	    <uomCodeEach>1 Item</uomCodeEach>
+	    <uomCodeEach></uomCodeEach>
+	    
+	    <uomCodeDays>DAY7</uomCodeDays>
+	    <uomCodeDays>DAY7</uomCodeDays>
+	    <uomCodeDays>1</uomCodeDays>
+	    
+	    <uomCodeYear>YER7</uomCodeYear>
+	    <uomCodeYear>Year</uomCodeYear>
+	    <uomCodeYear>1</uomCodeYear>
+	    
+	    <uomBaseForEach>BOX7</uomBaseForEach>
+	    <uomBaseForEach>EAC7</uomBaseForEach>    
+	    <uomBaseForEach>10.00000</uomBaseForEach>
+	    <uomBaseForEach>0.10000</uomBaseForEach>
+	    
+	    <uomBaseForDays>YER7</uomBaseForDays>
+	    <uomBaseForDays>DAY7</uomBaseForDays>	    
+	    <uomBaseForDays>0.00274</uomBaseForDays>
+	    <uomBaseForDays>365.00000</uomBaseForDays>
+	</Row>
+	    
+	<Row id="A049">
+	    <userName>T49</userName>
+        <passWord>T49</passWord>
+        <currencyCode>PAB</currencyCode>
+        <currencyCode>PAA</currencyCode>
+        
+		<purchasingCompany>IM</purchasingCompany>
+		<purchasingCompany>1</purchasingCompany>
+		<purchasingCompany>DAY7</purchasingCompany>
+		<purchasingCompany>WORKING</purchasingCompany>
+	</Row>
+	
+	<Row id="A050">
+	    <userName>T50</userName>
+        <passWord>T50</passWord>
+        <currencyCode>GAC</currencyCode>
+
+        <control>02</control>
+		<control>02 PL Control Accounts Code</control>
+		<control>2000</control>
+		<control>DUM</control>
+		<control>5000</control>
+		<control>DUM</control>
+		<control>5050</control>
+		<control>DUM</control>
+		<control>2160</control>
+		<control>DUM</control>
+		<control>1660</control>
+		<control>DUM</control>
+		<control>5100</control>
+		<control>DUM</control>
+		<control>SALC</control>
+		<control>DUM</control>
+		<control>SLDE</control>
+		<control>DUM</control>		
+	</Row>
+	
+	<Row id= "A051A">
+	    <userName>T51</userName>
+        <passWord>T51</passWord>
+        <currencyCode>E00</currencyCode>
+        <currencyCode>EBA</currencyCode>
+        
+        <bankControl>RS</bankControl>
+        <bankControl>BS</bankControl>
+        <bankControl>BR1</bankControl>
+        <bankControl>BR2</bankControl>
+        <bankControl>BR3</bankControl>
+        <bankControl>182</bankControl>
+        
+        <nominalBANKR>BANKR</nominalBANKR>
+        
+        <nominalBANKR1>BANKR1</nominalBANKR1>
+        
+        <nominalBANKR2>BANKR2</nominalBANKR2>
+        
+	</Row>
+	
+	<Row id= "A051">
+	    <userName>T50</userName>
+        <passWord>T50</passWord>
+        <currencyCode>GAG</currencyCode>
+        
+        <bankCodeBP>BP</bankCodeBP>
+        <bankCodeBP>1234</bankCodeBP>
+        <bankCodeBP>BANK ACCOUNT</bankCodeBP>
+        <bankCodeBP>UKP</bankCodeBP>
+        <bankCodeBP>05-02-86</bankCodeBP>
+        <bankCodeBP>BANKR</bankCodeBP>
+        <bankCodeBP>DUM</bankCodeBP>
+        
+        <bankCodeB1>B1</bankCodeB1>
+        <bankCodeB1>1234</bankCodeB1>
+        <bankCodeB1>BANK ACCOUNT</bankCodeB1>
+        <bankCodeB1>UKP</bankCodeB1>
+        <bankCodeB1>05-02-86</bankCodeB1>
+        <bankCodeB1>BANKR</bankCodeB1>
+        <bankCodeB1>DUM</bankCodeB1>
+        
+        <bankCodeH1>H1</bankCodeH1>
+        <bankCodeH1>1234</bankCodeH1>
+        <bankCodeH1>BANK ACCOUNT</bankCodeH1>
+        <bankCodeH1>UKP</bankCodeH1>
+        <bankCodeH1>05-02-86</bankCodeH1>
+        <bankCodeH1>BANKR</bankCodeH1>
+        <bankCodeH1>DUM</bankCodeH1>        
+
+	</Row>
+	
+	<Row id="A052">
+	     <userName>T52</userName>
+        <passWord>T52</passWord>
+        <currencyCode>RAS</currencyCode>
+
+        <system>G</system>
+        
+        <codeUKE>UKE</codeUKE>
+        <codeUKE>1500</codeUKE>
+        <codeUKE>DUM</codeUKE>
+        
+        <codeUKS>UKS</codeUKS>
+	    <codeUKS>1500</codeUKS>
+	    <codeUKS>DUM</codeUKS>
+	    
+	    <codeUKV>UKV</codeUKV>
+	    <codeUKV>1500</codeUKV>
+	    <codeUKV>DUM</codeUKV>
+	    
+	    <codeUKZ>UKZ</codeUKZ>
+	    <codeUKZ>1500</codeUKZ>
+	    <codeUKZ>DUM</codeUKZ>
+	</Row>
+	
+	<Row id="A053">
+	    <userName>T13</userName>
+        <passWord>T13</passWord>
+        <currencyCode>PAD</currencyCode>
+        <currencyCode>PAC</currencyCode>
+	  	
+        <category>C1</category>
+        <category>Hardware Supplier</category>
+        <category>0</category>
+        <category>1</category>  
+	</Row>
+	
+	<Row id="A054">
+	    <userName>T54</userName>
+        <passWord>T54</passWord>
+        <currencyCode>PAF</currencyCode>
+        <currencyCode>PAE</currencyCode>
+	  	
+       	<discount>D2</discount>
+       	<discount>Discount 5.00% within 30 days</discount>    
+       	<discount>1</discount>
+       	<discount>30</discount>
+       	<discount>5.00</discount>
+       	<discount>1</discount>
+	</Row>
+	
+    <Row id="A055">
+	    <userName>T55</userName>
+        <passWord>T55</passWord>
+        <currencyCode>PAH</currencyCode>
+        <currencyCode>PAG</currencyCode>
+        
+       	<settlementS1>S2</settlementS1>
+       	<settlementS1>1 Month after period end date</settlementS1>
+       	<settlementS1>0</settlementS1>
+       	<settlementS1>1</settlementS1>
+       	<settlementS1>1</settlementS1>
+       	<settlementS1>31</settlementS1>
+       	<settlementS1>1</settlementS1>
+       	<settlementS1>NILL</settlementS1>
+       	<settlementS1>0</settlementS1>
+       	<settlementS1>0</settlementS1>
+       	<settlementS1>1</settlementS1>
+       	    
+       	<settlementS2>S3</settlementS2>
+       	<settlementS2>Payment due date at end of month</settlementS2>
+       	<settlementS2>0</settlementS2>
+       	<settlementS2>1</settlementS2>
+       	<settlementS2>1</settlementS2>
+       	<settlementS2>31</settlementS2>
+       	<settlementS2>NILL</settlementS2>
+       	<settlementS2>NILL</settlementS2>
+       	<settlementS2>31</settlementS2>
+       	<settlementS2>1</settlementS2>
+       	<settlementS2>0</settlementS2>
+	</Row>
+	
+    <Row id="A056">
+	    <userName>T65</userName>
+        <passWord>T65</passWord>
+        <currencyCode>GAA</currencyCode>
+        
+        <companyControl>IM</companyControl>
+        <companyControl>UKS</companyControl>
+        <companyControl>0.00</companyControl>
+        <companyControl>0.00</companyControl>       
+        <companyControl>0</companyControl>
+        <companyControl>5</companyControl>
+        <companyControl>BP</companyControl>
+        <companyControl>0.00</companyControl>
+        <companyControl>3.00</companyControl>       
+        <companyControl>PL and GL</companyControl>
+        <companyControl>0</companyControl>
+        <companyControl>02</companyControl>
+        <companyControl>2</companyControl>
+        <companyControl>2003</companyControl>      
+        <companyControl>30</companyControl>
+        <companyControl>PDE1</companyControl>
+        <companyControl>PDE2</companyControl>
+        <companyControl>PDE3</companyControl>
+        <companyControl>PDE4</companyControl>        
+        <companyControl>PDE5</companyControl>
+        <companyControl>PDE7</companyControl>
+        <companyControl>PDE6</companyControl>
+        <companyControl>Not Allowed</companyControl>
+        <companyControl>% and Amount</companyControl>        
+        <companyControl>0.00</companyControl>
+        <companyControl>0.00</companyControl>
+        <companyControl>0.00</companyControl>
+        <companyControl>% And Amount</companyControl>
+        <companyControl>0.00</companyControl>        
+        <companyControl>0.00</companyControl>        
+    </Row>
+	
+    <Row id="A056A">
+	    <userName>T56</userName>
+        <passWord>T56</passWord>
+        <currencyCode>AKK</currencyCode>
+        
+        <apBatchTypePDE1>PDE1</apBatchTypePDE1>
+        <apBatchTypePDE1>E10001</apBatchTypePDE1>
+        
+        <apBatchTypePDE2>PDE2</apBatchTypePDE2>
+        <apBatchTypePDE2>E20001</apBatchTypePDE2>
+        
+        <apBatchTypePDE3>PDE3</apBatchTypePDE3>
+        <apBatchTypePDE3>E30001</apBatchTypePDE3>
+        
+        <apBatchTypePDE4>PDE4</apBatchTypePDE4>
+        <apBatchTypePDE4>E40001</apBatchTypePDE4>
+        
+        <apBatchTypePDE5>PDE5</apBatchTypePDE5>
+        <apBatchTypePDE5>E50001</apBatchTypePDE5>
+        
+        <apBatchTypePDE6>PDE6</apBatchTypePDE6>
+        <apBatchTypePDE6>E60001</apBatchTypePDE6>          
+    </Row>
+    
+	<Row id="A057">
+	    <userName>T57</userName>
+        <passWord>T57</passWord>
+        <currencyCode>GAE</currencyCode>
+        
+        <transaction0>3</transaction0>
+        <transaction0>00</transaction0>
+        <transaction0>BACS</transaction0>
+        <transaction0>BACS</transaction0>
+        
+        <transaction1>3</transaction1>
+        <transaction1>01</transaction1>
+        <transaction1>BACS</transaction1>
+        <transaction1>BACS</transaction1>	    
+	</Row>
+    
+	<Row id="A058">
+	    <userName>T58</userName>
+        <passWord>T58</passWord>
+        <currencyCode>GAI</currencyCode>
+	    
+        <payment01>01</payment01>
+        <payment01>UKP Cheques</payment01>
+        <payment01>UKP</payment01>
+        <payment01>Cheque</payment01>
+        <payment01>NILL</payment01>
+        <payment01>Invoice</payment01>
+        <payment01>0</payment01>
+        
+        <payment02>02</payment02>
+        <payment02>Funds Transfer</payment02>
+        <payment02>UKP</payment02>
+        <payment02>Cheque</payment02>
+        <payment02>NILL</payment02>
+        <payment02>Invoice</payment02>
+        <payment02>0</payment02>	    
+	</Row>
+	
+	<Row id="A059">
+	    <userName>T59</userName>
+        <passWord>T59</passWord>
+        <currencyCode>GAO</currencyCode>
+        
+        <payment01>BP</payment01>
+        <payment01>01</payment01>
+        <payment01>00</payment01>
+              
+        <payment02>BP</payment02>
+        <payment02>02</payment02>
+        <payment02>01</payment02>	    
+	</Row>
+	
+	<Row id="A060">
+	    <userName>T60</userName>
+        <passWord>T60</passWord>
+        <currencyCode>GAK</currencyCode>
+        
+        <payment01>01</payment01>
+        <payment01>Cheque</payment01>
+        <payment01>1</payment01>
+        <payment01>UKP</payment01>
+        <payment01>01</payment01>
+        <payment01>BP</payment01>
+        <payment01>0</payment01>
+        <payment01>STD</payment01>
+        <payment01>STD</payment01>
+              
+        <payment02>02</payment02>
+        <payment02>Funds Transfer</payment02>
+        <payment02>1</payment02>
+        <payment02>UKP</payment02>
+        <payment02>02</payment02>
+        <payment02>BP</payment02>
+        <payment02>0</payment02>
+        <payment02>STD</payment02>
+        <payment02>STD</payment02>
+        
+        <payment03>03</payment03>
+        <payment03>Automatic Cheque</payment03>
+        <payment03>1</payment03>
+        <payment03>UKP</payment03>
+        <payment03>01</payment03>
+        <payment03>BP</payment03>
+        <payment03>Y</payment03>
+        <payment03>STD</payment03>
+        <payment03>STD</payment03>
+            
+        <payment04>04</payment04>
+        <payment04>Manual Cheque</payment04>
+        <payment04>1</payment04>
+        <payment04>UKP</payment04>
+        <payment04>01</payment04>
+        <payment04>BP</payment04>
+        <payment04>0</payment04>
+        <payment04>STD</payment04>
+        <payment04>STD</payment04>
+	</Row>
+	
+	<Row id="A061">
+	    <userName>T61</userName>
+        <passWord>T61</passWord>
+        <currencyCode>AK2</currencyCode>
+
+	    <locationHQ>POP HQ</locationHQ>
+        <locationHQ>POP Head Quarters</locationHQ>
+        <locationHQ>236 Hartlepool Road</locationHQ>
+        <locationHQ>TS25 3HA</locationHQ>
+        <locationHQ>NILL</locationHQ>
+        <locationHQ>Not Used</locationHQ>
+                   
+        <locationEastHQ>EAST HQ</locationEastHQ>
+        <locationEastHQ>East Head Quarters</locationEastHQ>
+        <locationEastHQ>Road 1</locationEastHQ>
+        <locationEastHQ>NILL</locationEastHQ>
+        <locationEastHQ>NILL</locationEastHQ>
+        <locationEastHQ>Not Used</locationEastHQ>
+        
+        <locationWestHQ>WEST HQ</locationWestHQ>
+        <locationWestHQ>West Head Quarters</locationWestHQ>
+        <locationWestHQ>Road 1</locationWestHQ>
+        <locationWestHQ>NILL</locationWestHQ>
+        <locationWestHQ>NILL</locationWestHQ>
+        <locationWestHQ>Not Used</locationWestHQ>
+            
+        <locationSouthHQ>SOUTH HQ</locationSouthHQ>
+        <locationSouthHQ>South Head Quarters</locationSouthHQ>
+        <locationSouthHQ>Road 1</locationSouthHQ>
+        <locationSouthHQ>NILL</locationSouthHQ>
+        <locationSouthHQ>NILL</locationSouthHQ>
+        <locationSouthHQ>Not Used</locationSouthHQ>
+        
+        <locationNorthHQ>NORTH HQ</locationNorthHQ>
+        <locationNorthHQ>North Head Quarters</locationNorthHQ>
+        <locationNorthHQ>Road 1</locationNorthHQ>
+        <locationNorthHQ>NILL</locationNorthHQ>
+        <locationNorthHQ>NILL</locationNorthHQ>
+        <locationNorthHQ>Not Used</locationNorthHQ>   
+        
+        <locationWarehse>WAREHSE</locationWarehse>
+        <locationWarehse>Central Warehouse</locationWarehse>
+        <locationWarehse>Road 1</locationWarehse>
+        <locationWarehse>NILL</locationWarehse>
+        <locationWarehse>NILL</locationWarehse>
+        <locationWarehse>Not Used</locationWarehse>   
+        
+        <locationNorthITS>NorthITS</locationNorthITS>
+        <locationNorthITS>North In-transit store</locationNorthITS>
+        <locationNorthITS>Road 1</locationNorthITS>
+        <locationNorthITS>NILL</locationNorthITS>
+        <locationNorthITS>NILL</locationNorthITS>
+        <locationNorthITS>Not Used</locationNorthITS>   
+        
+        <locationSouthITS>SouthITS</locationSouthITS>
+        <locationSouthITS>South In-transit store</locationSouthITS>
+        <locationSouthITS>Road 1</locationSouthITS>
+        <locationSouthITS>NILL</locationSouthITS>
+        <locationSouthITS>NILL</locationSouthITS>
+        <locationSouthITS>Not Used</locationSouthITS>   
+        
+        <locationWestITS>WestITS</locationWestITS>
+        <locationWestITS>West In-transit store</locationWestITS>
+        <locationWestITS>Road 1</locationWestITS>
+        <locationWestITS>NILL</locationWestITS>
+        <locationWestITS>NILL</locationWestITS>
+        <locationWestITS>Not Used</locationWestITS>   
+        
+        <locationEastITS>EastITS</locationEastITS>
+        <locationEastITS>East In-transit store</locationEastITS>
+        <locationEastITS>Road 1</locationEastITS>
+        <locationEastITS>NILL</locationEastITS>
+        <locationEastITS>NILL</locationEastITS>
+        <locationEastITS>Not Used</locationEastITS>   
+        
+        <locationNorth>North</locationNorth>
+        <locationNorth>North store</locationNorth>
+        <locationNorth>Road 1</locationNorth>
+        <locationNorth>NILL</locationNorth>
+        <locationNorth>NILL</locationNorth>
+        <locationNorth>Not Used</locationNorth>   
+        
+        <locationSouth>South</locationSouth>
+        <locationSouth>South store</locationSouth>
+        <locationSouth>Road 1</locationSouth>
+        <locationSouth>NILL</locationSouth>
+        <locationSouth>NILL</locationSouth>
+        <locationSouth>Not Used</locationSouth>   
+ 
+        <locationWest>West</locationWest>
+        <locationWest>West store</locationWest>
+        <locationWest>Road 1</locationWest>
+        <locationWest>NILL</locationWest>
+        <locationWest>NILL</locationWest>
+        <locationWest>Not Used</locationWest>           
+        
+        <locationEast>East</locationEast>
+        <locationEast>East store</locationEast>
+        <locationEast>Road 1</locationEast>
+        <locationEast>NILL</locationEast>
+        <locationEast>NILL</locationEast>
+        <locationEast>Not Used</locationEast>                   
+        
+	</Row>
+	
+	<Row id="A062">
+	    <userName>T62</userName>
+        <passWord>T62</passWord>
+        <currencyCode>RAF</currencyCode>
+	    
+        <taxR1>R7</taxR1>
+        <taxR1>Recoverable Handling Code</taxR1>
+        <taxR1>0</taxR1>
+        <taxR1>1</taxR1>
+		<taxR1>0</taxR1>
+       
+		<tax02>09</tax02>
+		<tax02>Non-Rec Inc.Handling Code</tax02>
+		<tax02>1</tax02>
+		<tax02>0</tax02>
+		<tax02>0</tax02>
+        
+		<tax03>02</tax03>
+		<tax03>Non-Rec Exc.Handling Code </tax03>
+		<tax03>0</tax03>
+		<tax03>0</tax03>
+		<tax03>0</tax03>
+		
+		<taxH1>H3</taxH1>
+		<taxH1>H3 Default Handling Code</taxH1>
+		<taxH1>1</taxH1>
+		<taxH1>1</taxH1>
+		<taxH1>0</taxH1>		
+    </Row>
+      
+	<Row id="A063">
+	    <userName>T63</userName>
+        <passWord>T63</passWord>
+        <currencyCode>PXU</currencyCode>
+               
+        <standardAccept>QUOTE-ACCEPT</standardAccept>
+        <standardAccept>0</standardAccept>
+        <standardAccept>Quotation Acceptance</standardAccept>
+        <acceptLines>Your quotation response relating to the following</acceptLines>
+        <acceptLines>lines has been successful. A Buyer from our</acceptLines>
+        <acceptLines>Purchasing Department will be in touch within the</acceptLines>
+        <acceptLines>next two weeks to confirm the details and provide</acceptLines>
+        <acceptLines>you with our Contract Reference.</acceptLines>
+      
+        <standardReject>QUOTE-REJECT</standardReject>
+        <standardReject>0</standardReject>
+        <standardReject>Quotation Rejection</standardReject>
+        <rejectLines>I am sorry to have to inform you that your</rejectLines>
+        <rejectLines>response to our requirements for the following</rejectLines>
+        <rejectLines>items has not met the minimum requirements, and we</rejectLines>
+        <rejectLines>will therefore not be placing a contract with</rejectLines>
+        <rejectLines>yourselves for these goods.</rejectLines>
+        <rejectLines>If we have any further requests for quotations</rejectLines>
+        <rejectLines>then we shall contact you again.</rejectLines>
+               
+        <standardRequest>QUOTE-REQUEST</standardRequest>
+        <standardRequest>0</standardRequest>
+        <standardRequest>Quotation Request</standardRequest>
+        <requestLines>This is a request for you to provide a quotation</requestLines>
+        <requestLines>for the items which are shown below. The quotation</requestLines>
+        <requestLines>must be returned to the person named by the</requestLines>
+        <requestLines>specified date in order to be considered.</requestLines>
+        <requestLines>You will be notified via email within 14 days of</requestLines>
+        <requestLines>response date whether your bid has been successful</requestLines>          
+    </Row>   
+    
+	<Row id="A064">
+	    <userName>T64</userName>
+        <passWord>T64</passWord>
+        <currencyCode>PXM</currencyCode>
+        
+        <ppvAccount>MM</ppvAccount>
+        <ppvAccount>PPV Control Code - </ppvAccount>
+        <ppvAccount>3000</ppvAccount>
+        <ppvAccount>DUM</ppvAccount>
+        <ppvAccount>2500</ppvAccount>
+        <ppvAccount>DUM</ppvAccount>      
+    </Row>
+    
+	<Row id="A065">
+	    <userName>T65</userName>
+        <passWord>T65</passWord>
+        <currencyCode>PAA</currencyCode>
+        
+   		<purchasingCompany>MM</purchasingCompany>
+   		<purchasingCompany>30</purchasingCompany>
+   		<purchasingCompany>1</purchasingCompany>
+   		<purchasingCompany>10</purchasingCompany>
+   		<purchasingCompany>Manual</purchasingCompany>
+   		<purchasingCompany>1</purchasingCompany>  		
+    </Row>
+	
+	<Row id="A066">
+	    <userName>T66</userName>
+        <passWord>T66</passWord>
+        <currencyCode>DAA</currencyCode>
+        
+        <accrualCode>IC</accrualCode>
+        <accrualCode>PM Accrual Control Account Code</accrualCode>
+        <accrualCode>2600</accrualCode>
+        <accrualCode>DUM</accrualCode>       
+    </Row>  
+    
+    <Row id="A067">
+	    <userName>T67</userName>
+        <passWord>T67</passWord>
+        <currencyCode>DAG</currencyCode>
+   		
+   		<purchasingCompany>10</purchasingCompany>
+   		<purchasingCompany>1</purchasingCompany>
+   		<purchasingCompany>IC</purchasingCompany>
+   		<purchasingCompany>ACC</purchasingCompany>   		
+   		<purchasingCompany>2</purchasingCompany>
+   		<purchasingCompany>2003</purchasingCompany>
+   		<purchasingCompany>0</purchasingCompany>
+   		<purchasingCompany>No Prompt</purchasingCompany>
+   		<purchasingCompany>0</purchasingCompany> 		
+   		<purchasingCompany>3</purchasingCompany>
+   		<purchasingCompany>POP HQ</purchasingCompany>
+   		<purchasingCompany>POP HQ</purchasingCompany>
+   		<purchasingCompany>Prefix</purchasingCompany>
+   		<purchasingCompany>QUOTE-ACCEPT</purchasingCompany>   		
+   		<purchasingCompany>QUOTE-REJECT</purchasingCompany>
+   		<purchasingCompany>QUOTE-REQUEST</purchasingCompany>
+   		<purchasingCompany>30</purchasingCompany>
+   		<purchasingCompany>IM</purchasingCompany>		
+    </Row>
+    
+	<Row id="A068">
+	    <userName>T68</userName>
+        <passWord>T68</passWord>
+        <currencyCode>PXG</currencyCode>
+        
+        <inspectionCode>L1</inspectionCode>
+        <inspectionCode>1</inspectionCode>
+        <inspectionCode>0</inspectionCode>
+        <inspectionCode>Inspection Code I1</inspectionCode>
+        
+    </Row>  
+    
+	<Row id="A069">
+	    <userName>T69</userName>
+        <passWord>T69</passWord>
+        <currencyCode>PXF</currencyCode>
+        <currencyCode>PXE</currencyCode>
+
+        <disposalCode>D2</disposalCode>
+        <disposalCode>Disposal Code D2</disposalCode>
+    </Row>
+    
+	<Row id="A070">
+	    <userName>T80</userName>
+        <passWord>T80</passWord>
+        <currencyCode>PXQ</currencyCode>
+        
+        <reasonCode>R2</reasonCode>
+        <reasonCode>Reason Code R2</reasonCode>
+    </Row>
+    
+	<Row id="A071">
+	    <userName>T71</userName>
+        <passWord>T71</passWord>
+        <currencyCode>PXJ</currencyCode>
+        <currencyCode>PXI</currencyCode>
+        
+        <documentO>Order</documentO>
+        <documentO>O</documentO>
+        <documentO>Order Prefix Code (Order)</documentO>
+        <documentO>Manual</documentO>
+        <documentO>10</documentO>
+        
+        <documentC>Contract</documentC>
+        <documentC>C</documentC>
+        <documentC>Contract Prefix Code C</documentC>
+        <documentC>Manual</documentC>
+        <documentC>10</documentC>
+        
+        <documentR>Requisition</documentR>
+        <documentR>R</documentR>
+        <documentR>Requisition Prefix Code R</documentR>
+        <documentR>Manual</documentR>
+        <documentR>10</documentR>
+        
+        <documentG>GRN</documentG>
+        <documentG>G</documentG>
+        <documentG>GRN Prefix Code G</documentG>
+        <documentG>Manual</documentG>
+        <documentG>10</documentG>       
+   </Row>
+   
+	<Row id= "A072">
+	    <userName>T72</userName>
+        <passWord>T72</passWord>
+        <currencyCode>PX2</currencyCode>
+        <currencyCode>PX1</currencyCode>
+	    
+	    <cpUserQuery>QUERY</cpUserQuery>
+	    <cpUserQuery>1</cpUserQuery>
+	    <cpUserQuery>1</cpUserQuery>
+	    <cpUserQuery>1</cpUserQuery>
+	    <cpUserQuery>1</cpUserQuery>
+	    <cpUserQuery>QUERY</cpUserQuery>
+	    
+	    <cpUserAccept>ACCEPT</cpUserAccept>
+	    <cpUserAccept>0</cpUserAccept>
+	    <cpUserAccept>0</cpUserAccept>
+	    <cpUserAccept>1</cpUserAccept>
+	    <cpUserAccept>0</cpUserAccept>
+	    <cpUserAccept>QUERY</cpUserAccept>
+	    
+	    <cpUserBuyer>BUYER</cpUserBuyer>
+	    <cpUserBuyer>1</cpUserBuyer>
+	    <cpUserBuyer>0</cpUserBuyer>
+	    <cpUserBuyer>0</cpUserBuyer>
+	    <cpUserBuyer>0</cpUserBuyer>
+	    <cpUserBuyer>BUYER</cpUserBuyer>
+	    
+	    <cpUserExped>EXPED</cpUserExped>
+	    <cpUserExped>0</cpUserExped>
+	    <cpUserExped>1</cpUserExped>
+	    <cpUserExped>0</cpUserExped>
+	    <cpUserExped>0</cpUserExped>
+	    <cpUserExped>QUERY</cpUserExped>
+	    
+	    <cpUserGrec>GREC</cpUserGrec>
+	    <cpUserGrec>0</cpUserGrec>
+	    <cpUserGrec>1</cpUserGrec>
+	    <cpUserGrec>0</cpUserGrec>
+	    <cpUserGrec>0</cpUserGrec>
+	    <cpUserGrec>QUERY</cpUserGrec>
+
+	    <cpUserEMPLOYEE>EMPLOYEE</cpUserEMPLOYEE>
+	    <cpUserEMPLOYEE>0</cpUserEMPLOYEE>
+	    <cpUserEMPLOYEE>1</cpUserEMPLOYEE>
+	    <cpUserEMPLOYEE>0</cpUserEMPLOYEE>
+	    <cpUserEMPLOYEE>0</cpUserEMPLOYEE>
+	    <cpUserEMPLOYEE>QUERY</cpUserEMPLOYEE>	    
+	    	    
+	    <cpUserT66>T66</cpUserT66>
+	    <cpUserT66>1</cpUserT66>
+	    <cpUserT66>1</cpUserT66>
+	    <cpUserT66>1</cpUserT66>
+	    <cpUserT66>1</cpUserT66>
+	    <cpUserT66>T66</cpUserT66>
+	</Row>
+	
+	<Row id="A073">
+	    <userName>T73</userName>
+        <passWord>T73</passWord>
+        <currencyCode>PX3</currencyCode>
+	    
+        <receiptControl>REC3</receiptControl>
+        <receiptControl>Receipt Control REC1</receiptControl>
+        <receiptControl>Percent</receiptControl>
+        <receiptControl>10.00</receiptControl>
+        <receiptControl>10.00</receiptControl>
+	    <receiptControl>2</receiptControl>
+	</Row>
+	
+	<Row id="A074">
+	    <userName>T74</userName>
+        <passWord>T74</passWord>
+        <currencyCode>GAM</currencyCode>
+	    
+        <bankingCode>AP</bankingCode>
+        <bankingCode>123456</bankingCode>
+        <bankingCode>ABC BP</bankingCode>
+        <bankingCode>NILL</bankingCode>
+	    <bankingCode>BACS03</bankingCode>
+	    <bankingCode>1</bankingCode>
+	</Row>
+	
+	<Row id="A077">
+	    <userName>T77</userName>
+        <passWord>T77</passWord>
+        <currencyCode>PAA</currencyCode>
+	
+		<cpCompanyControl>SR</cpCompanyControl>
+		<cpCompanyControl>PR</cpCompanyControl>
+		<cpCompanyControl>RR</cpCompanyControl>
+		<cpCompanyControl>QUERY</cpCompanyControl>	
+	</Row>
+		
+	<Row id="A079">
+	    <userName>T79</userName>
+        <passWord>T79</passWord>
+        <currencyCode>DBC</currencyCode>
+        <currencyCode>GOC</currencyCode>
+        
+        <authorisationGroupForPM>PM</authorisationGroupForPM>
+        <authorisationGroupForPM>Authorisation Group for PM</authorisationGroupForPM>
+        
+        <authorisationGroupForAP>PM</authorisationGroupForAP>
+		<authorisationGroupForAP>Authorisation Group for AP</authorisationGroupForAP>    
+	</Row>
+	
+	<Row id="A080">
+	    <userName>T80</userName>
+        <passWord>T80</passWord>
+        <currencyCode>DBA</currencyCode>
+        
+		<authorisationCodeL1>L1</authorisationCodeL1>
+        <authorisationCodeL1>Level 1 Authorisation code for PM</authorisationCodeL1>
+        <authorisationCodeL1>User Assigned</authorisationCodeL1>
+        <authorisationCodeL1>Value</authorisationCodeL1>
+        <authorisationCodeL1>2</authorisationCodeL1>
+        <authorisationCodeL1>0.00</authorisationCodeL1>
+        <authorisationCodeL1>QUERY</authorisationCodeL1>
+        <authorisationCodeL1>1</authorisationCodeL1>
+        <authorisationCodeL1>1</authorisationCodeL1>
+        <authorisationCodeL1>1</authorisationCodeL1>
+        <authorisationCodeL1>1</authorisationCodeL1>
+        <authorisationCodeL1>0</authorisationCodeL1>
+        
+		<authorisationCodeL2>L2</authorisationCodeL2>
+        <authorisationCodeL2>Level 2 Authorisation code for PM</authorisationCodeL2>
+        <authorisationCodeL2>None</authorisationCodeL2>
+        <authorisationCodeL2>None</authorisationCodeL2>
+        <authorisationCodeL2>0</authorisationCodeL2>
+        <authorisationCodeL2>0.00</authorisationCodeL2>
+        <authorisationCodeL2>NILL</authorisationCodeL2>
+        <authorisationCodeL2>0</authorisationCodeL2>
+        <authorisationCodeL2>0</authorisationCodeL2>
+        <authorisationCodeL2>0</authorisationCodeL2>
+        <authorisationCodeL2>0</authorisationCodeL2>
+        <authorisationCodeL2>0</authorisationCodeL2>
+	</Row>
+
+	<Row id="A082">
+	    <userName>T45</userName>
+        <passWord>T45</passWord>
+        <currencyCode>GOP</currencyCode>
+        <currencyCode>DBP</currencyCode>
+        
+        <authorisationGroupForAP>S1</authorisationGroupForAP>
+		<authorisationGroupForAP>Authorisation Structure 1 for AP</authorisationGroupForAP>
+		   
+        <authorisationGroupForPM>S1</authorisationGroupForPM>
+        <authorisationGroupForPM>Authorisation Structure 1 for PM</authorisationGroupForPM>
+	</Row>
+	
+	<Row id="A084">
+	    <userName>T85</userName>
+        <passWord>T85</passWord>
+        <currencyCode>DBE</currencyCode>
+        <currencyCode>GOE</currencyCode>
+        
+        <pmLev1>LEV1</pmLev1>
+        <pmLev1>3000</pmLev1>
+        <pmLev1>Value Level 1 Up To 1000 Pounds</pmLev1>
+        
+        <pmLev2>LEV2</pmLev2>
+        <pmLev2>5000</pmLev2>
+        <pmLev2>Value Level 2 Up To 5000 Pounds</pmLev2>
+        
+        <pmLev3>LEV3</pmLev3>
+        <pmLev3>100000</pmLev3>
+        <pmLev3>Value Level 3 Up To 100000 Pounds</pmLev3>
+        
+        <pmLev4>LEV4</pmLev4>
+        <pmLev4>1000000</pmLev4>
+        <pmLev4>Value Level 4 Up To 1000000 Pounds</pmLev4>
+        
+        <apLev1>LEV1</apLev1>
+        <apLev1>3000</apLev1>
+        <apLev1>Value Level 1 Up To 1000 Pounds</apLev1>
+        
+        <apLev2>LEV2</apLev2>
+        <apLev2>5000</apLev2>
+        <apLev2>Value Level 2 Up To 5000 Pounds</apLev2>
+        
+        <apLev3>LEV3</apLev3>
+        <apLev3>100000</apLev3>
+        <apLev3>Value Level 3 Up To 100000 Pounds</apLev3>
+        
+        <apLev4>LEV4</apLev4>
+        <apLev4>1000000</apLev4>
+        <apLev4>Value Level 4 Up To 1000000 Pounds</apLev4>
+	</Row>    
+	
+	<Row id="A085">
+	    <userName>T68</userName>
+        <passWord>T68</passWord>
+        <currencyCode>GOG</currencyCode>
+        <currencyCode>DBG</currencyCode>
+        
+        <apLev1>PM</apLev1>
+        <apLev1>LEV1</apLev1>       
+        <apLev1>1</apLev1>
+        <apLev1>ADMIN</apLev1>
+        
+        <apLev2>PM</apLev2>
+        <apLev2>LEV2</apLev2>
+        <apLev2>1</apLev2>
+        <apLev2>ADMIN</apLev2>
+        
+        <apLev3>PM</apLev3>
+        <apLev3>LEV3</apLev3>
+        <apLev3>2</apLev3>
+        <apLev3>ADMIN</apLev3>
+        <apLev3>MANAGER</apLev3>
+        
+        <apLev4>PM</apLev4>
+        <apLev4>LEV4</apLev4>
+        <apLev4>2</apLev4>
+        <apLev4>MANAGER</apLev4>
+        <apLev4>T63</apLev4>
+        
+        <pmLev1>PM</pmLev1>
+        <pmLev1>LEV1</pmLev1>
+        <pmLev1>1</pmLev1>
+        <pmLev1>EMPLOYEE</pmLev1>
+        
+        <pmLev2>PM</pmLev2>
+        <pmLev2>LEV2</pmLev2>
+        <pmLev2>1</pmLev2>
+        <pmLev2>ADMIN</pmLev2>
+        
+        <pmLev3>PM</pmLev3>
+        <pmLev3>LEV3</pmLev3>
+        <pmLev3>2</pmLev3>
+        <pmLev3>ADMIN</pmLev3>
+        <pmLev3>MANAGER</pmLev3>
+        
+        <pmLev4>PM</pmLev4>
+        <pmLev4>LEV4</pmLev4>
+        <pmLev4>2</pmLev4>
+        <pmLev4>ADMIN</pmLev4>
+        <pmLev4>QUERY</pmLev4>       
+    </Row>
+    
+	<Row id="A086">
+	    <userName>T65</userName>
+        <passWord>T65</passWord>
+        <currencyCode>GOI</currencyCode>
+        
+        <authorisationHQ>PM</authorisationHQ>
+        <authorisationHQ>HQ</authorisationHQ>
+        <authorisationHQ>3</authorisationHQ>
+        <authorisationHQ>QUERY</authorisationHQ>
+        <authorisationHQ>MANAGER</authorisationHQ>
+        <authorisationHQ>ADMIN</authorisationHQ>
+        
+        <authorisationWest>PM</authorisationWest>
+        <authorisationWest>WEST</authorisationWest>
+        <authorisationWest>2</authorisationWest>
+        <authorisationWest>QUERY</authorisationWest>
+        <authorisationWest>ADMIN</authorisationWest>
+        
+        <authorisationSouth>PM</authorisationSouth>
+        <authorisationSouth>SOUTH</authorisationSouth>
+        <authorisationSouth>2</authorisationSouth>
+        <authorisationSouth>QUERY</authorisationSouth>
+        <authorisationSouth>ADMIN</authorisationSouth>
+        
+        <authorisationNorth>PM</authorisationNorth>
+        <authorisationNorth>NORTH</authorisationNorth>
+        <authorisationNorth>2</authorisationNorth>
+        <authorisationNorth>QUERY</authorisationNorth>
+        <authorisationNorth>ADMIN</authorisationNorth>
+        
+        <authorisationEast>PM</authorisationEast>
+        <authorisationEast>EAST</authorisationEast>
+        <authorisationEast>2</authorisationEast>
+        <authorisationEast>QUERY</authorisationEast>
+        <authorisationEast>ADMIN</authorisationEast>
+    </Row>    
+	
+   <Row id="A088">
+	    <userName>T65</userName>
+        <passWord>T65</passWord>
+        <currencyCode>GON</currencyCode>
+        
+        <authorisationHQ>PM</authorisationHQ>
+        <authorisationHQ>HQ</authorisationHQ>
+        <authorisationHQ>1</authorisationHQ>
+        <authorisationHQ>4</authorisationHQ>
+        <authorisationHQ>QUERY</authorisationHQ>
+        <authorisationHQ>1000000</authorisationHQ>
+        <authorisationHQ>EMPLOYEE</authorisationHQ>
+        <authorisationHQ>1000</authorisationHQ>
+        <authorisationHQ>ADMIN</authorisationHQ>
+        <authorisationHQ>5000</authorisationHQ>
+        <authorisationHQ>MANAGER</authorisationHQ>
+        <authorisationHQ>100000</authorisationHQ>
+        
+        <authorisationNorth>PM</authorisationNorth>
+        <authorisationNorth>NORTH</authorisationNorth>
+        <authorisationNorth>1</authorisationNorth>
+        <authorisationNorth>4</authorisationNorth>
+        <authorisationNorth>QUERY</authorisationNorth>
+        <authorisationNorth>1000000</authorisationNorth>
+        <authorisationNorth>EMPLOYEE</authorisationNorth>
+        <authorisationNorth>1000</authorisationNorth>
+        <authorisationNorth>ADMIN</authorisationNorth>
+        <authorisationNorth>5000</authorisationNorth>
+        <authorisationNorth>MANAGER</authorisationNorth>
+        <authorisationNorth>100000</authorisationNorth>
+        
+        <authorisationSouth>PM</authorisationSouth>
+        <authorisationSouth>SOUTH</authorisationSouth>
+        <authorisationSouth>1</authorisationSouth>
+        <authorisationSouth>4</authorisationSouth>
+        <authorisationSouth>QUERY</authorisationSouth>
+        <authorisationSouth>1000000</authorisationSouth>
+        <authorisationSouth>EMPLOYEE</authorisationSouth>
+        <authorisationSouth>1000</authorisationSouth>
+        <authorisationSouth>ADMIN</authorisationSouth>
+        <authorisationSouth>5000</authorisationSouth>
+        <authorisationSouth>MANAGER</authorisationSouth>
+        <authorisationSouth>100000</authorisationSouth>
+        
+        <authorisationEast>PM</authorisationEast>
+        <authorisationEast>EAST</authorisationEast>
+        <authorisationEast>1</authorisationEast>
+        <authorisationEast>4</authorisationEast>
+        <authorisationEast>QUERY</authorisationEast>
+        <authorisationEast>1000000</authorisationEast>
+        <authorisationEast>EMPLOYEE</authorisationEast>
+        <authorisationEast>1000</authorisationEast>
+        <authorisationEast>ADMIN</authorisationEast>
+        <authorisationEast>5000</authorisationEast>
+        <authorisationEast>MANAGER</authorisationEast>
+        <authorisationEast>100000</authorisationEast>
+        
+        <authorisationWest>PM</authorisationWest>
+        <authorisationWest>WEST</authorisationWest>
+        <authorisationWest>1</authorisationWest>
+        <authorisationWest>4</authorisationWest>
+        <authorisationWest>QUERY</authorisationWest>
+        <authorisationWest>1000000</authorisationWest>
+        <authorisationWest>EMPLOYEE</authorisationWest>
+        <authorisationWest>1000</authorisationWest>
+        <authorisationWest>ADMIN</authorisationWest>
+        <authorisationWest>5000</authorisationWest>
+        <authorisationWest>MANAGER</authorisationWest>
+        <authorisationWest>100000</authorisationWest>      
+    </Row>    
+    
+   
+    <Row id="A089">
+	    <userName>T65</userName>
+        <passWord>T65</passWord>
+        <currencyCode>GAA</currencyCode>
+        
+        <apCompanyControl>L1</apCompanyControl>
+        <apCompanyControl>S1</apCompanyControl>
+        <apCompanyControl>00</apCompanyControl>
+        <apCompanyControl>2</apCompanyControl>
+        <apCompanyControl>B</apCompanyControl>
+        <apCompanyControl>Cost Centre</apCompanyControl>      
+    </Row>
+    
+    <Row id="A090">
+	    <userName>T66</userName>
+        <passWord>T66</passWord>
+        <currencyCode>DAG</currencyCode>
+        <currencyCode>DAI</currencyCode>
+        
+        <pmCompanyControl>L1</pmCompanyControl>
+        <pmCompanyControl>00</pmCompanyControl>
+        <pmCompanyControl>S1</pmCompanyControl>
+        <pmCompanyControl>2</pmCompanyControl>
+        
+        <document03>O3</document03>
+        <document03>O</document03>
+        <document03>L2</document03>
+ 	</Row>
+ 	
+    <Row id="A091">
+        <userName>T67</userName>
+        <passWord>T67</passWord>
+        <currencyCode>PBA</currencyCode>
+        
+        <sonySupplier>SONY</sonySupplier>
+        <sonySupplier>Sony</sonySupplier>
+        <sonySupplier>Sony</sonySupplier>
+        <sonySupplier>UKP</sonySupplier>
+               
+        <sonySupplier>0</sonySupplier>
+        <sonySupplier>Any Street</sonySupplier>
+        <sonySupplier>Any District</sonySupplier>
+        <sonySupplier>Any Town</sonySupplier>
+        <sonySupplier>Any County</sonySupplier>
+        
+        <sonySupplier>SR8 4IP</sonySupplier>
+        <sonySupplier>(0191) 34764832</sonySupplier>
+        <sonySupplier>(0191) 84676437</sonySupplier>
+        <sonySupplier>(0191) 82372932</sonySupplier>
+        <sonySupplier>SP1</sonySupplier>
+        
+        <sonySupplier>C1</sonySupplier>
+        <sonySupplier>D2</sonySupplier>
+        <sonySupplier>S2</sonySupplier>
+        
+        <sonySupplier>UK</sonySupplier>
+        <sonySupplier>12345678</sonySupplier>
+        <sonySupplier>PE</sonySupplier>
+        
+        <sonySupplier>UKE</sonySupplier>
+        <sonySupplier>H1</sonySupplier>
+        <sonySupplier>Y</sonySupplier>
+        <sonySupplier>L0</sonySupplier>
+        <sonySupplier>Inactive</sonySupplier>
+        
+        <sonySupplier>Not Maintained</sonySupplier>
+        <sonySupplier>Standard</sonySupplier>
+        <sonySupplier>01</sonySupplier>
+        <sonySupplier>04</sonySupplier>    
+        
+    </Row>
+</Root>

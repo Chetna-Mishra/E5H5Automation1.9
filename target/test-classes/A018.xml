@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T13</userName>
+          	<passWord>T13</passWord>
+            <code>EBA</code> 
+            
+			<nominal2500>2500</nominal2500>
+			<nominal2500>Suspense Account</nominal2500>
+			<nominal2500>A</nominal2500>
+			<nominal2500>02</nominal2500>			
+			<nominal2500>Balance Sheet</nominal2500>
+			<nominal2500>Both</nominal2500>
+			<nominal2500>A</nominal2500>
+			<nominal2500>***</nominal2500>
+			<nominal2500>Both</nominal2500>
+			<nominal2500>0</nominal2500>
+	    		
+			<nominal2600>2600</nominal2600>
+			<nominal2600>Closeout Account</nominal2600>
+			<nominal2600>A</nominal2600>
+			<nominal2600>09</nominal2600>			
+			<nominal2600>Balance Sheet</nominal2600>
+			<nominal2600>Both</nominal2600>
+			<nominal2600>A</nominal2600>
+			<nominal2600>***</nominal2600>
+			<nominal2600>Both</nominal2600>	
+			<nominal2600>0</nominal2600>
+				
+			<nominal3000>3000</nominal3000>
+			<nominal3000>Rounding Account</nominal3000>
+			<nominal3000>A</nominal3000>
+			<nominal3000>02</nominal3000>			
+			<nominal3000>Balance Sheet</nominal3000>
+			<nominal3000>Both</nominal3000>
+			<nominal3000>A</nominal3000>
+			<nominal3000>***</nominal3000>
+			<nominal3000>Both</nominal3000>		
+			<nominal3000>0</nominal3000>
+
+			<nominal1500>1500</nominal1500>
+			<nominal1500>Bank Account</nominal1500>
+			<nominal1500>A</nominal1500>
+			<nominal1500>02</nominal1500>
+			<nominal1500>Balance Sheet</nominal1500>
+			<nominal1500>Both</nominal1500>
+			<nominal1500>A</nominal1500>
+			<nominal1500>***</nominal1500>
+			<nominal1500>Both</nominal1500>
+			<nominal1500>0</nominal1500>
+    						
+			<nominalGLICA>GLICA</nominalGLICA>
+			<nominalGLICA>GL ICA Account</nominalGLICA>
+			<nominalGLICA>A</nominalGLICA>
+			<nominalGLICA>02</nominalGLICA>
+			<nominalGLICA>Balance Sheet</nominalGLICA>
+			<nominalGLICA>Both</nominalGLICA>
+			<nominalGLICA>A</nominalGLICA>
+			<nominalGLICA>***</nominalGLICA>
+			<nominalGLICA>Both</nominalGLICA>
+			<nominalGLICA>0</nominalGLICA>
+	    						
+			<nominal1550>1550</nominal1550>
+			<nominal1550>Purchasing Bank Account</nominal1550>
+			<nominal1550>B</nominal1550>
+			<nominal1550>01</nominal1550>
+			<nominal1550>Balance Sheet</nominal1550>
+			<nominal1550>Both</nominal1550>
+			<nominal1550>A</nominal1550>
+			<nominal1550>***</nominal1550>
+			<nominal1550>Both</nominal1550>
+			<nominal1550>0</nominal1550>
+	    						
+			<nominal6300>6300</nominal6300>
+			<nominal6300>Rent Account</nominal6300>
+			<nominal6300>A</nominal6300>
+			<nominal6300>02</nominal6300>
+			<nominal6300>Balance Sheet</nominal6300>
+			<nominal6300>Both</nominal6300>
+			<nominal6300>A</nominal6300>
+			<nominal6300>UKP</nominal6300>
+			<nominal6300>Base</nominal6300>
+			<nominal6300>0</nominal6300>
+	    						
+			<nominal6400>6400</nominal6400>
+			<nominal6400>Business Rate Account</nominal6400>
+			<nominal6400>A</nominal6400>
+			<nominal6400>02</nominal6400>
+			<nominal6400>Balance Sheet</nominal6400>
+			<nominal6400>Both</nominal6400>
+			<nominal6400>A</nominal6400>
+			<nominal6400>UKP</nominal6400>
+			<nominal6400>Base</nominal6400>
+			<nominal6400>0</nominal6400>
+			
+			<nominalAKAI>AKAI</nominalAKAI>
+			<nominalAKAI>Akai Account</nominalAKAI>
+			<nominalAKAI>T</nominalAKAI>
+			<nominalAKAI>04</nominalAKAI>
+			<nominalAKAI>Profit &amp; Loss</nominalAKAI>
+			<nominalAKAI>Both</nominalAKAI>
+			<nominalAKAI>A</nominalAKAI>
+			<nominalAKAI>UKP</nominalAKAI>
+			<nominalAKAI>Base</nominalAKAI>
+			<nominalAKAI>0</nominalAKAI>
+			
+				    						
+      </Row>
+</Root>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+	      	<userName>T82</userName>
+          	<passWord>T82</passWord>
+          	<batchCode>AKK</batchCode>
+          	          	
+			<batchTypeForTran>TRN</batchTypeForTran>
+			<batchTypeForTran>Transfer</batchTypeForTran>
+			<batchTypeForTran>IM</batchTypeForTran>
+			<batchTypeForTran>Immediate</batchTypeForTran>
+			<batchTypeForTran>1</batchTypeForTran>
+			<batchTypeForTran>1</batchTypeForTran>
+			<batchTypeForTran>1</batchTypeForTran>
+			<batchTypeForTran>1</batchTypeForTran>
+			<batchTypeForTran>NILL</batchTypeForTran>
+			<batchTypeForTran>NILL</batchTypeForTran>
+			
+			<batchTypeForRev>REVV</batchTypeForRev>
+			<batchTypeForRev>Reversal</batchTypeForRev>
+			<batchTypeForRev>IM</batchTypeForRev>
+			<batchTypeForRev>Immediate</batchTypeForRev>
+			<batchTypeForRev>1</batchTypeForRev>
+			<batchTypeForRev>1</batchTypeForRev>
+			<batchTypeForRev>1</batchTypeForRev>
+			<batchTypeForRev>1</batchTypeForRev>
+			<batchTypeForRev>NILL</batchTypeForRev>
+			<batchTypeForRev>NILL</batchTypeForRev>
+			
+			<batchTypeForBase>BASE</batchTypeForBase>
+			<batchTypeForBase>Base Currency</batchTypeForBase>
+			<batchTypeForBase></batchTypeForBase>
+			<batchTypeForBase>Immediate</batchTypeForBase>
+			<batchTypeForBase>1</batchTypeForBase>
+			<batchTypeForBase>1</batchTypeForBase>
+			<batchTypeForBase>0</batchTypeForBase>
+			<batchTypeForBase>0</batchTypeForBase>
+			<batchTypeForBase>NILL</batchTypeForBase>
+			<batchTypeForBase>NILL</batchTypeForBase>
+			
+			<batchTypeForAccr>ACCR</batchTypeForAccr>
+			<batchTypeForAccr>Accruals</batchTypeForAccr>
+			<batchTypeForAccr>IM</batchTypeForAccr>
+			<batchTypeForAccr>Immediate</batchTypeForAccr>
+			<batchTypeForAccr>1</batchTypeForAccr>
+			<batchTypeForAccr>1</batchTypeForAccr>
+			<batchTypeForAccr>0</batchTypeForAccr>
+			<batchTypeForAccr>0</batchTypeForAccr>
+			<batchTypeForAccr>Warning</batchTypeForAccr>
+			<batchTypeForAccr>NILL</batchTypeForAccr>
+			
+			<batchTypeForForn>FORN</batchTypeForForn>
+			<batchTypeForForn>Foreign Currency</batchTypeForForn>
+			<batchTypeForForn>IM</batchTypeForForn>
+			<batchTypeForForn>Immediate</batchTypeForForn>
+			<batchTypeForForn>1</batchTypeForForn>
+			<batchTypeForForn>0</batchTypeForForn>
+			<batchTypeForForn>1</batchTypeForForn>
+			<batchTypeForForn>0</batchTypeForForn>
+			<batchTypeForForn>NILL</batchTypeForForn>
+			<batchTypeForForn>NILL</batchTypeForForn>
+			
+			<batchTypeForFrnb>FRNB</batchTypeForFrnb>
+			<batchTypeForFrnb>Base &amp; Foreign Curr</batchTypeForFrnb>
+			<batchTypeForFrnb>IM</batchTypeForFrnb>
+			<batchTypeForFrnb>Immediate</batchTypeForFrnb>
+			<batchTypeForFrnb>1</batchTypeForFrnb>
+			<batchTypeForFrnb>0</batchTypeForFrnb>
+			<batchTypeForFrnb>0</batchTypeForFrnb>
+			<batchTypeForFrnb>1</batchTypeForFrnb>
+			<batchTypeForFrnb>NILL</batchTypeForFrnb>
+			<batchTypeForFrnb>NILL</batchTypeForFrnb>
+			
+			<batchTypeForPlan>PLAN</batchTypeForPlan>
+			<batchTypeForPlan>Planning Postings</batchTypeForPlan>
+			<batchTypeForPlan>IM</batchTypeForPlan>
+			<batchTypeForPlan>Immediate</batchTypeForPlan>
+			<batchTypeForPlan>1</batchTypeForPlan>
+			<batchTypeForPlan>1</batchTypeForPlan>
+			<batchTypeForPlan>1</batchTypeForPlan>
+			<batchTypeForPlan>1</batchTypeForPlan>
+			<batchTypeForPlan>NILL</batchTypeForPlan>
+			<batchTypeForPlan>NILL</batchTypeForPlan>
+			
+			<batchTypeForRecc>RECC</batchTypeForRecc>
+			<batchTypeForRecc>Recurrals</batchTypeForRecc>
+			<batchTypeForRecc>IM</batchTypeForRecc>
+			<batchTypeForRecc>Immediate</batchTypeForRecc>
+			<batchTypeForRecc>1</batchTypeForRecc>
+			<batchTypeForRecc>1</batchTypeForRecc>
+			<batchTypeForRecc>0</batchTypeForRecc>
+			<batchTypeForRecc>0</batchTypeForRecc>
+			<batchTypeForRecc>NILL</batchTypeForRecc>
+			<batchTypeForRecc>Warning</batchTypeForRecc>
+			
+
+      </Row>
+</Root>

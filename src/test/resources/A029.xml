@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" time-out="800000" >
+	  <Row>
+	      	<userName>T86</userName>
+          	<passWord>T86</passWord>
+            <code>ECE</code>
+             
+            <values>00</values>
+            
+            <structureForHQ>00</structureForHQ>
+            <structureForHQ>HQ</structureForHQ>
+            <structureForHQ>Head Quarters</structureForHQ>
+            <structureForHQ></structureForHQ>
+            
+            <structureForNorth>00</structureForNorth>
+            <structureForNorth>NORTH</structureForNorth>
+            <structureForNorth>Northern Division</structureForNorth>
+            <structureForNorth>HQ</structureForNorth>
+            
+            <structureForSouth>00</structureForSouth>
+            <structureForSouth>SOUTH</structureForSouth>
+            <structureForSouth>Southern Division</structureForSouth>
+            <structureForSouth>HQ</structureForSouth>
+            
+            <structureForEast>00</structureForEast>
+            <structureForEast>EAST</structureForEast>
+            <structureForEast>Eastern Division</structureForEast>
+            <structureForEast>HQ</structureForEast>
+            
+            <structureForWest>00</structureForWest>
+            <structureForWest>WEST</structureForWest>
+            <structureForWest>Western Division</structureForWest>
+            <structureForWest>HQ</structureForWest>
+            
+            <structureForSusp>00</structureForSusp>
+            <structureForSusp>SUSP</structureForSusp>
+            <structureForSusp>Suspense</structureForSusp>
+            <structureForSusp>WEST</structureForSusp>
+            
+			<pathKeyList>00</pathKeyList>
+			<pathKeyList>2</pathKeyList>
+			<pathKeyList>DUM</pathKeyList>
+			<pathKeyList>Dummy Costcentre for ICA BTZ</pathKeyList>	
+			<pathKeyList>WEST</pathKeyList>
+      </Row>
+</Root>

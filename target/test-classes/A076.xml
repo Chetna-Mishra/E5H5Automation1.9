@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Row >
+	    <userName>T25</userName>
+        <passWord>T25</passWord>
+        <currencyCode>DAJ</currencyCode>
+        <currencyCode>DAI</currencyCode>
+        
+        <documentCodeO1>O1</documentCodeO1>
+        <documentCodeO1>O1 Normal Order</documentCodeO1>
+        <documentCodeO1>Order</documentCodeO1>
+        <documentCodeO1>NILL</documentCodeO1>
+        <documentCodeO1>NILL</documentCodeO1>
+        <documentCodeO1>NILL</documentCodeO1>
+        <documentCodeO1>1</documentCodeO1>
+        <documentCodeO1>1</documentCodeO1>
+        <documentCodeO1>1</documentCodeO1>
+        <documentCodeO1>1</documentCodeO1>
+        <documentCodeO1>O1</documentCodeO1>
+        <documentCodeO1>Optional</documentCodeO1>
+        <documentCodeO1>Company</documentCodeO1>
+        <documentCodeO1>9999999999.99</documentCodeO1>
+        <documentCodeO1>0</documentCodeO1>
+        <documentCodeO1>NILL</documentCodeO1>
+        <documentCodeO1>1</documentCodeO1>
+        <documentCodeO1>1</documentCodeO1>
+        <documentCodeO1>NILL</documentCodeO1>
+        <documentCodeO1>ACC</documentCodeO1>
+        
+        <documentCodeRI>RI</documentCodeRI>
+        <documentCodeRI>Return Order</documentCodeRI>
+        <documentCodeRI>Order</documentCodeRI>
+        <documentCodeRI>RTRNHEAD</documentCodeRI>
+        <documentCodeRI>RTRNDETL</documentCodeRI>
+        <documentCodeRI>RTRNFAST</documentCodeRI>
+        <documentCodeRI>1</documentCodeRI>
+        <documentCodeRI>1</documentCodeRI>
+        <documentCodeRI>0</documentCodeRI>
+        <documentCodeRI>0</documentCodeRI>
+        <documentCodeRI>O1</documentCodeRI>
+        <documentCodeRI>Mandatory</documentCodeRI>
+        <documentCodeRI>Company</documentCodeRI>
+        <documentCodeRI>9999999999999.99</documentCodeRI>
+        <documentCodeRI>1</documentCodeRI>
+        <documentCodeRI>NILL</documentCodeRI>
+        <documentCodeRI>1</documentCodeRI>
+        <documentCodeRI>1</documentCodeRI>
+        <documentCodeRI>Select All</documentCodeRI>
+        <documentCodeRI>ACC</documentCodeRI>
+       
+        <documentCodeO2>02</documentCodeO2>
+        <documentCodeO2>O2 Returns Order for SPMR</documentCodeO2>
+        <documentCodeO2>Order</documentCodeO2>
+        <documentCodeO2>HEAD</documentCodeO2>
+        <documentCodeO2>DETL</documentCodeO2>
+        <documentCodeO2>HEAD</documentCodeO2>
+        <documentCodeO2>1</documentCodeO2>
+        <documentCodeO2>1</documentCodeO2>
+        <documentCodeO2>0</documentCodeO2>
+        <documentCodeO2>1</documentCodeO2>
+        <documentCodeO2>O1</documentCodeO2>
+        <documentCodeO2>Mandatory</documentCodeO2>
+        <documentCodeO2>Company</documentCodeO2>
+        <documentCodeO2>9999999999999.99</documentCodeO2>
+        <documentCodeO2>1</documentCodeO2>
+        <documentCodeO2>NILL</documentCodeO2>
+        <documentCodeO2>1</documentCodeO2>
+        <documentCodeO2>1</documentCodeO2>
+        <documentCodeO2>NILL</documentCodeO2>
+        <documentCodeO2>ACC</documentCodeO2>
+              
+        <documentCodeO3>O3</documentCodeO3>
+        <documentCodeO3>O3 Normal Order with Auto Numbering</documentCodeO3>
+        <documentCodeO3>Order</documentCodeO3>
+        <documentCodeO3>HEAD</documentCodeO3>
+        <documentCodeO3>DETL</documentCodeO3>
+        <documentCodeO3>HEAD</documentCodeO3>
+        <documentCodeO3>1</documentCodeO3>
+        <documentCodeO3>1</documentCodeO3>
+        <documentCodeO3>2</documentCodeO3>
+        <documentCodeO3>1</documentCodeO3>
+        <documentCodeO3>RQ</documentCodeO3>
+        <documentCodeO3>Mandatory</documentCodeO3>
+        <documentCodeO3>Company</documentCodeO3>
+        <documentCodeO3>9999999999999.99</documentCodeO3>
+        <documentCodeO3>0</documentCodeO3>
+        <documentCodeO3>NILL</documentCodeO3>
+        <documentCodeO3>1</documentCodeO3>
+        <documentCodeO3>1</documentCodeO3>
+        <documentCodeO3>NILL</documentCodeO3>
+        <documentCodeO3>ACC</documentCodeO3>
+    
+    </Row>
+	
+</Root>
