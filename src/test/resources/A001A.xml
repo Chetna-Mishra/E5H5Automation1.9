@@ -3,7 +3,9 @@
       <Row>
           	<userName>T76</userName>
           	<passWord>T76</passWord>
-            <code>XDJ</code>   
+            <code>XDJ</code>
+	      
+	      
             <tableValue>TPB%</tableValue> 
             <entityValue>TPBSUPP</entityValue>    
             <url>http://192.168.31.62:37474/e5h5/app/map.do</url> 
